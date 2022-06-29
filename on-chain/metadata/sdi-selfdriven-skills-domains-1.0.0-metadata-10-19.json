@@ -1,0 +1,218 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "47a87fb5eba243dbadb69950d7cba43d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "47a87fb5-eba2-43db-adb6-9950d7cba43d",
+                    "identifiers": {
+                        "name": "Health-Physical-Education",
+                        "code": "11",
+                        "assetname": "3437613837666235656261323433646261646236393935306437636261343364"
+                    },
+                    "description": "Health-Physical-Education",
+                    "notes": "Skill Domain; Health-Physical-Education",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "03fa082c281d4477a40112ed5beb67ec": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "03fa082c-281d-4477-a401-12ed5beb67ec",
+                    "identifiers": {
+                        "name": "Civics-Citizenship",
+                        "code": "12",
+                        "assetname": "3033666130383263323831643434373761343031313265643562656236376563"
+                    },
+                    "description": "Civics-Citizenship",
+                    "notes": "Skill Domain; Civics-Citizenship",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "142a560efdd246c796b6ec48548c8848": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "142a560e-fdd2-46c7-96b6-ec48548c8848",
+                    "identifiers": {
+                        "name": "Economics-Business",
+                        "code": "13",
+                        "assetname": "3134326135363065666464323436633739366236656334383534386338383438"
+                    },
+                    "description": "Economics-Business",
+                    "notes": "Skill Domain; Economics-Business",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "cfa692d6854b4ccfb035e6de3b6be68c": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "cfa692d6-854b-4ccf-b035-e6de3b6be68c",
+                    "identifiers": {
+                        "name": "Geography",
+                        "code": "14",
+                        "assetname": "6366613639326436383534623463636662303335653664653362366265363863"
+                    },
+                    "description": "Geography",
+                    "notes": "Skill Domain; Geography",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "bbc78c66d1c14051bfaa6a249e7d0204": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "bbc78c66-d1c1-4051-bfaa-6a249e7d0204",
+                    "identifiers": {
+                        "name": "History",
+                        "code": "15",
+                        "assetname": "6262633738633636643163313430353162666161366132343965376430323034"
+                    },
+                    "description": "History",
+                    "notes": "Skill Domain; History",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "a08cf4a9b6b84485b42aaa74dad8f175": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "a08cf4a9-b6b8-4485-b42a-aa74dad8f175",
+                    "identifiers": {
+                        "name": "Languages",
+                        "code": "16",
+                        "assetname": "6130386366346139623662383434383562343261616137346461643866313735"
+                    },
+                    "description": "Languages",
+                    "notes": "Skill Domain; Languages",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "bc59eb75f6f54cf8b929e59d642c736f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "bc59eb75-f6f5-4cf8-b929-e59d642c736f",
+                    "identifiers": {
+                        "name": "Mathematics",
+                        "code": "17",
+                        "assetname": "6263353965623735663666353463663862393239653539643634326337333666"
+                    },
+                    "description": "Mathematics",
+                    "notes": "Skill Domain; Mathematics",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "c9d2c0d68fdd4418bb13feb3c75f3418": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "c9d2c0d6-8fdd-4418-bb13-feb3c75f3418",
+                    "identifiers": {
+                        "name": "Science",
+                        "code": "18",
+                        "assetname": "6339643263306436386664643434313862623133666562336337356633343138"
+                    },
+                    "description": "Science",
+                    "notes": "Skill Domain; Science",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "03236aeb06cd4d9c8f0e789f98f371ee": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "03236aeb-06cd-4d9c-8f0e-789f98f371ee",
+                    "identifiers": {
+                        "name": "Technologies",
+                        "code": "19",
+                        "assetname": "3033323336616562303663643464396338663065373839663938663337316565"
+                    },
+                    "description": "Technologies",
+                    "notes": "Skill Domain; Technologies",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "18974966a4c24d74928f5c71a7e8da7f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "18974966-a4c2-4d74-928f-5c71a7e8da7f",
+                    "identifiers": {
+                        "name": "Work-Studies",
+                        "code": "20",
+                        "assetname": "3138393734393636613463323464373439323866356337316137653864613766"
+                    },
+                    "description": "Work-Studies",
+                    "notes": "Skill Domain; Work-Studies",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

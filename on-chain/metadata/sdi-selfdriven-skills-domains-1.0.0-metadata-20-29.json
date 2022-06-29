@@ -1,0 +1,218 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "ce4161c7c06749e1b1dd7a465c8418c8": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "ce4161c7-c067-49e1-b1dd-7a465c8418c8",
+                    "identifiers": {
+                        "name": "Accounting & Finance",
+                        "code": "21",
+                        "assetname": "6365343136316337633036373439653162316464376134363563383431386338"
+                    },
+                    "description": "Accounting & Finance",
+                    "notes": "Skill Domain; Accounting & Finance",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "5339f4635138472a9b05d174132272fa": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "5339f463-5138-472a-9b05-d174132272fa",
+                    "identifiers": {
+                        "name": "Agricultural Science",
+                        "code": "22",
+                        "assetname": "3533333966343633353133383437326139623035643137343133323237326661"
+                    },
+                    "description": "Agricultural Science",
+                    "notes": "Skill Domain; Agricultural Science",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "e34d6d58694f4e4781ea83657a8bf616": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "e34d6d58-694f-4e47-81ea-83657a8bf616",
+                    "identifiers": {
+                        "name": "Animal Care",
+                        "code": "23",
+                        "assetname": "6533346436643538363934663465343738316561383336353761386266363136"
+                    },
+                    "description": "Animal Care",
+                    "notes": "Skill Domain; Animal Care",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "b400f56d90d94dec8f20b85031590f9f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b400f56d-90d9-4dec-8f20-b85031590f9f",
+                    "identifiers": {
+                        "name": "Animal Science",
+                        "code": "24",
+                        "assetname": "6234303066353664393064393464656338663230623835303331353930663966"
+                    },
+                    "description": "Animal Science",
+                    "notes": "Skill Domain; Animal Science",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "209e5e7f69e14b5c9be6a810f3aea385": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "209e5e7f-69e1-4b5c-9be6-a810f3aea385",
+                    "identifiers": {
+                        "name": "Architecture",
+                        "code": "25",
+                        "assetname": "3230396535653766363965313462356339626536613831306633616561333835"
+                    },
+                    "description": "Architecture",
+                    "notes": "Skill Domain; Architecture",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "ad55e90378904dcaa29460a99254af78": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "ad55e903-7890-4dca-a294-60a99254af78",
+                    "identifiers": {
+                        "name": "Aviation",
+                        "code": "26",
+                        "assetname": "6164353565393033373839303464636161323934363061393932353461663738"
+                    },
+                    "description": "Aviation",
+                    "notes": "Skill Domain; Aviation",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "c19ee751cd4b45ee9e8189eee19e1953": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "c19ee751-cd4b-45ee-9e81-89eee19e1953",
+                    "identifiers": {
+                        "name": "Building",
+                        "code": "27",
+                        "assetname": "6331396565373531636434623435656539653831383965656531396531393533"
+                    },
+                    "description": "Building",
+                    "notes": "Skill Domain; Building",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "b298ab0d1e844ede99bdb4666e0b5434": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b298ab0d-1e84-4ede-99bd-b4666e0b5434",
+                    "identifiers": {
+                        "name": "Business",
+                        "code": "28",
+                        "assetname": "6232393861623064316538343465646539396264623436363665306235343334"
+                    },
+                    "description": "Business",
+                    "notes": "Skill Domain; Business",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "33670503e8fe467db9abbd77e81daf84": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "33670503-e8fe-467d-b9ab-bd77e81daf84",
+                    "identifiers": {
+                        "name": "Communications",
+                        "code": "29",
+                        "assetname": "3333363730353033653866653436376462396162626437376538316461663834"
+                    },
+                    "description": "Communications",
+                    "notes": "Skill Domain; Communications",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "05629ed819e14444a104943da1685ae5": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "05629ed8-19e1-4444-a104-943da1685ae5",
+                    "identifiers": {
+                        "name": "Community Services",
+                        "code": "30",
+                        "assetname": "3035363239656438313965313434343461313034393433646131363835616535"
+                    },
+                    "description": "Community Services",
+                    "notes": "Skill Domain; Community Services",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

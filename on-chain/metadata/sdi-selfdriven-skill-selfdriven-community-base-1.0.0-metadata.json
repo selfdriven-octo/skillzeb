@@ -1,0 +1,37 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "49bd827425dc4f72b7627a0a0b435dbc": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "1f59abe4-ad7b-4f0b-9af8-794522e87b85",
+                        "name": "skill"
+                    },
+                    "sdi": "49bd8274-25dc-4f72-b762-7a0a0b435dbc",
+                    "name": "selfdriven Community Base",
+                    "reference": {
+                        "number": "00000000000000",
+                        "source": "00",
+                        "domain": "00",
+                        "skill": "000000",
+                        "level": "00",
+                        "capacity": "00"
+                    },
+                    "notes": "selfdriven Community Base",
+                    "url": [
+                        "https://",
+                        "identity.selfdriven.cloud/",
+                        "#skill/",
+                        "49bd8274-25dc-4f72-b762-7a0a0b435dbc"
+                    ],
+                    "image": ["ipfs://", "bafkreigz7afau3e5xz5fdrrlgbc6ohp6wazvzbizy4t4pgtf3owgrngtl4"]
+                }
+            }
+        }
+    }
+}
+
+
+
+

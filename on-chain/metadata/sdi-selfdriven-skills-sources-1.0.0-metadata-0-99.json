@@ -1,0 +1,176 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "f7b424c35e7e4d66b7527afbcc502411": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "f7b424c3-5e7e-4d66-b752-7afbcc502411",
+                    "identifiers": {
+                        "name": "selfdriven",
+                        "code": "00",
+                        "assetname": "6637623432346333356537653464363662373532376166626363353032343131"
+                    },
+                    "description": "selfdriven",
+                    "notes": "Skill Source; selfdriven",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "672cd868c7e946abb5ce45ff9ac009b2": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "672cd868-c7e9-46ab-b5ce-45ff9ac009b2",
+                    "identifiers": {
+                        "name": "selfdriven PBL",
+                        "code": "01",
+                        "assetname": "3637326364383638633765393436616262356365343566663961633030396232"
+                    },
+                    "description": "selfdriven PBL",
+                    "notes": "Skill Source; selfdriven PBL",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "5199cbb2e03541a88c961cb4a41bd252": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "5199cbb2-e035-41a8-8c96-1cb4a41bd252",
+                    "identifiers": {
+                        "name": "Australian National Curriculum",
+                        "code": "02",
+                        "assetname": "3531393963626232653033353431613838633936316362346134316264323532"
+                    },
+                    "description": "Australian National Curriculum",
+                    "notes": "Skill Source; Australian National Curriculum",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "47315710a9bd40a8afc25a9d1f4ee632": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "47315710-a9bd-40a8-afc2-5a9d1f4ee632",
+                    "identifiers": {
+                        "name": "training.gov.au",
+                        "code": "03",
+                        "assetname": "3437333135373130613962643430613861666332356139643166346565363332"
+                    },
+                    "description": "training.gov.au",
+                    "notes": "Skill Source; training.gov.au",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "dad41c6b229042b4a20002f1e62c53db": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "dad41c6b-2290-42b4-a200-02f1e62c53db",
+                    "identifiers": {
+                        "name": "College Handbook",
+                        "code": "04",
+                        "assetname": "6461643431633662323239303432623461323030303266316536326335336462"
+                    },
+                    "description": "College Handbook",
+                    "notes": "Skill Source; College Handbook",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "80f529a6e2814d87ab6f6f8db58c08a0": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "80f529a6-e281-4d87-ab6f-6f8db58c08a0",
+                    "identifiers": {
+                        "name": "University Handbook",
+                        "code": "05",
+                        "assetname": "3830663532396136653238313464383761623666366638646235386330386130"
+                    },
+                    "description": "University Handbook",
+                    "notes": "Skill Source; University Handbook",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "280f82af85b74142b5f65372da5b24aa": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "280f82af-85b7-4142-b5f6-5372da5b24aa",
+                    "identifiers": {
+                        "name": "Pathways",
+                        "code": "06",
+                        "assetname": "3238306638326166383562373431343262356636353337326461356232346161"
+                    },
+                    "description": "Pathways",
+                    "notes": "Skill Source; Pathways",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "bd17341714254dfcb64d0e045b422bd9": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                        "name": "type"
+                    },
+                    "sdi": "bd173417-1425-4dfc-b64d-0e045b422bd9",
+                    "identifiers": {
+                        "name": "Australian State Curriculum",
+                        "code": "07",
+                        "assetname": "6264313733343137313432353464666362363464306530343562343232626439"
+                    },
+                    "description": "Australian State Curriculum",
+                    "notes": "Skill Source; Australian State Curriculum",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

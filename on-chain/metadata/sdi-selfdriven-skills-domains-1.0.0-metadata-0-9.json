@@ -1,0 +1,218 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "a1f9a4e9893b40769f3ba3315673c310": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "a1f9a4e9-893b-4076-9f3b-a3315673c310",
+                    "identifiers": {
+                        "name": "Who Am I",
+                        "code": "01",
+                        "assetname": "6131663961346539383933623430373639663362613333313536373363333130"
+                    },
+                    "description": "Who Am I",
+                    "notes": "Skill Domain; Who Am I",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "cbf7a5c8c18543aaa3a1b6bcc99b4f6f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "cbf7a5c8-c185-43aa-a3a1-b6bcc99b4f6f",
+                    "identifiers": {
+                        "name": "Authentic Learning",
+                        "code": "02",
+                        "assetname": "6362663761356338633138353433616161336131623662636339396234663666"
+                    },
+                    "description": "Authentic Learning",
+                    "notes": "Skill Domain; Authentic Learning",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "8d2ea99893284cab9e30972445f99499": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "8d2ea998-9328-4cab-9e30-972445f99499",
+                    "identifiers": {
+                        "name": "Next Steps",
+                        "code": "03",
+                        "assetname": "3864326561393938393332383463616239653330393732343435663939343939"
+                    },
+                    "description": "Next Steps",
+                    "notes": "Skill Domain; Next Steps",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "a646f5d8528d41d297321571a4785e1d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "a646f5d8-528d-41d2-9732-1571a4785e1d",
+                    "identifiers": {
+                        "name": "Project Based Learning",
+                        "code": "04",
+                        "assetname": "6136343666356438353238643431643239373332313537316134373835653164"
+                    },
+                    "description": "Project Based Learning",
+                    "notes": "Skill Domain; Project Based Learning",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "7878daf348d7498cbea61a8e948070a4": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "7878daf3-48d7-498c-bea6-1a8e948070a4",
+                    "identifiers": {
+                        "name": "Physical Movement",
+                        "code": "05",
+                        "assetname": "3738373864616633343864373439386362656136316138653934383037306134"
+                    },
+                    "description": "Physical Movement",
+                    "notes": "Skill Domain; Physical Movement",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "c4180f3ab2ab49c1bc75d976b8d8d843": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "c4180f3a-b2ab-49c1-bc75-d976b8d8d843",
+                    "identifiers": {
+                        "name": "Physical Tactical",
+                        "code": "06",
+                        "assetname": "6334313830663361623261623439633162633735643937366238643864383433"
+                    },
+                    "description": "Physical Tactical",
+                    "notes": "Skill Domain; Physical Tactical",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "7782cbd7a4434d2489859b93b067e3f8": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "7782cbd7-a443-4d24-8985-9b93b067e3f8",
+                    "identifiers": {
+                        "name": "Physical Motivation",
+                        "code": "07",
+                        "assetname": "3737383263626437613434333464323438393835396239336230363765336638"
+                    },
+                    "description": "Physical Motivation",
+                    "notes": "Skill Domain; Physical Motivation",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "e6ca124498a34ec7951d4381c77a0ab9": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "e6ca1244-98a3-4ec7-951d-4381c77a0ab9",
+                    "identifiers": {
+                        "name": "Physical Social",
+                        "code": "08",
+                        "assetname": "6536636131323434393861333465633739353164343338316337376130616239"
+                    },
+                    "description": "Physical Social",
+                    "notes": "Skill Domain; Physical Social",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "48cfd06af46b407d9fa3ce7f1d7409af": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "48cfd06a-f46b-407d-9fa3-ce7f1d7409af",
+                    "identifiers": {
+                        "name": "Arts",
+                        "code": "09",
+                        "assetname": "3438636664303661663436623430376439666133636537663164373430396166"
+                    },
+                    "description": "Arts",
+                    "notes": "Skill Domain; Arts",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "b7186927a3ba4e5a86db3e148e4f4f6a": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b7186927-a3ba-4e5a-86db-3e148e4f4f6a",
+                    "identifiers": {
+                        "name": "English",
+                        "code": "10",
+                        "assetname": "6237313836393237613362613465356138366462336531343865346634663661"
+                    },
+                    "description": "English",
+                    "notes": "Skill Domain; English",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

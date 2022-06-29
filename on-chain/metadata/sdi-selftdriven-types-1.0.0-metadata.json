@@ -1,0 +1,192 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "4f9317924a4a4bf8a2aa3af8411babf1": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                    "identifiers": {
+                        "name": "type",
+                        "assetname": "3466393331373932346134613462663861326161336166383431316261626631"
+                    },
+                    "description": "Type of SDI type & metadata format.",
+                    "notes": "SDI type of Type (Identity Trust Starts Here)",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "ca904a6e2ed74fa693c4fdb8712e0074": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "ca904a6e-2ed7-4fa6-93c4-fdb8712e0074",
+                    "identifiers": {
+                        "name": "community-member",
+                        "assetname": "6361393034613665326564373466613639336334666462383731326530303734"
+                    },
+                    "description": "Community Member SDI type & metadata format.",
+                    "notes": "SDI type of Community Member",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "7994f6d402084f9cbb5146af5dea3a12": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "7994f6d4-0208-4f9c-bb51-46af5dea3a12",
+                    "identifiers": {
+                        "name": "community-organisation",
+                        "assetname": "3739393466366434303230383466396362623531343661663564656133613132"
+                    },
+                    "description": "Community Organisation SDI type & metadata format.",
+                    "notes": "SDI type of Community Organisation",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "1f59abe4ad7b4f0b9af8794522e87b85": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "1f59abe4-ad7b-4f0b-9af8-794522e87b85",
+                    "identifiers": {
+                        "name": "skill",
+                        "assetname": "3166353961626534616437623466306239616638373934353232653837623835"
+                    },
+                    "description": "Skill SDI type & metadata format.",
+                    "notes": "SDI type of Skill",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "ca3bd1a843f14ea49556232996a4b692": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "ca3bd1a8-43f1-4ea4-9556-232996a4b692",
+                    "identifiers": {
+                        "name": "project-template",
+                        "assetname": "6361336264316138343366313465613439353536323332393936613462363932"
+                    },
+                    "description": "Project Template SDI type & metadata format.",
+                    "notes": "SDI type of Project Template",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "b697bd6e77804a1592ebfc44c7068846": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "b697bd6e-7780-4a15-92eb-fc44c7068846",
+                    "identifiers": {
+                        "name": "skill-source",
+                        "assetname": "6236393762643665373738303461313539326562666334346337303638383436"
+                    },
+                    "description": "Skill Source SDI type & metadata format.",
+                    "notes": "SDI type of Skill Source",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "722f771dff0147aa9c961272d49aab5b": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                    "identifiers": {
+                        "name": "skill-domain",
+                        "assetname": "3732326637373164666630313437616139633936313237326434396161623562"
+                    },
+                    "description": "Skill Domain SDI type & metadata format.",
+                    "notes": "SDI type of Skill Domain",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "4b6448c4b01a4056bf6556ef96a372d9": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "4b6448c4b01a4056bf6556ef96a372d9",
+                    "identifiers": {
+                        "name": "skill-level",
+                        "assetname": "3462363434386334623031613430353662663635353665663936613337326439"
+                    },
+                    "description": "Skill Level SDI type & metadata format.",
+                    "notes": "SDI type of Skill Level",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "279b33e3826c4eb5b48561d20b4ccc7f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4f931792-4a4a-4bf8-a2aa-3af8411babf1",
+                        "name": "type"
+                    },
+                    "sdi": "279b33e3-826c-4eb5-b485-61d20b4ccc7f",
+                    "identifiers": {
+                        "name": "skill-capacity",
+                        "assetname": "3237396233336533383236633465623562343835363164323062346363633766"
+                    },
+                    "description": "Skill Capacity SDI type & metadata format.",
+                    "notes": "SDI type of Skill Capacity",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                }
+            }
+        }
+    }
+}
+
+
+
+

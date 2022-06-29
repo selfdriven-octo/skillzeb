@@ -1,0 +1,71 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "b7a6d40da95e4bf48bef0f77ffb589c5": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "279b33e3-826c-4eb5-b485-61d20b4ccc7f",
+                        "name": "type"
+                    },
+                    "sdi": "b7a6d40d-a95e-4bf4-8bef-0f77ffb589c5",
+                    "identifiers": {
+                        "name": "C",
+                        "code": "01",
+                        "assetname": "6237613664343064613935653462663438626566306637376666623538396335"
+                    },
+                    "description": "C",
+                    "notes": "Skill Capacities; C",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "77d260e6ba5849e2bc3fe7a7709f0216": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "279b33e3-826c-4eb5-b485-61d20b4ccc7f",
+                        "name": "type"
+                    },
+                    "sdi": "77d260e6-ba58-49e2-bc3f-e7a7709f0216",
+                    "identifiers": {
+                        "name": "K",
+                        "code": "02",
+                        "assetname": "3737643236306536626135383439653262633366653761373730396630323136"
+                    },
+                    "description": "K",
+                    "notes": "Skill Capacities; K",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "7d7666dbcc5f4dc196c95f7893fab549": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "279b33e3-826c-4eb5-b485-61d20b4ccc7f",
+                        "name": "type"
+                    },
+                    "sdi": "7d7666db-cc5f-4dc1-96c9-5f7893fab549",
+                    "identifiers": {
+                        "name": "N",
+                        "code": "03",
+                        "assetname": "3764373636366462636335663464633139366339356637383933666162353439"
+                    },
+                    "description": "N",
+                    "notes": "Skill Capacities; N",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

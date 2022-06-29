@@ -1,0 +1,218 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "b6572ca80ff0431493491ae6940faedf": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b6572ca8-0ff0-4314-9349-1ae6940faedf",
+                    "identifiers": {
+                        "name": "Computer Sciences",
+                        "code": "31",
+                        "assetname": "6236353732636138306666303433313439333439316165363934306661656466"
+                    },
+                    "description": "Computer Sciences",
+                    "notes": "Skill Domain; Computer Sciences",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "4831f66b7349495895c459c8890713e2": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "4831f66b-7349-4958-95c4-59c8890713e2",
+                    "identifiers": {
+                        "name": "Computing Technologies",
+                        "code": "32",
+                        "assetname": "3438333166363662373334393439353839356334353963383839303731336532"
+                    },
+                    "description": "Computing Technologies",
+                    "notes": "Skill Domain; Computing Technologies",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "d4cbc9fbb5f445208e965a4a664ef45a": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "d4cbc9fb-b5f4-4520-8e96-5a4a664ef45a",
+                    "identifiers": {
+                        "name": "Construction",
+                        "code": "33",
+                        "assetname": "6434636263396662623566343435323038653936356134613636346566343561"
+                    },
+                    "description": "Construction",
+                    "notes": "Skill Domain; Construction",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "a5f83c7d98114f10914de0f50211207d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "a5f83c7d-9811-4f10-914d-e0f50211207d",
+                    "identifiers": {
+                        "name": "Creative & Preforming Arts",
+                        "code": "34",
+                        "assetname": "6135663833633764393831313466313039313464653066353032313132303764"
+                    },
+                    "description": "Creative & Preforming Arts",
+                    "notes": "Skill Domain; Creative & Preforming Arts",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "e41fe9eba94b4def9f6decacebef7a62": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "e41fe9eb-a94b-4def-9f6d-ecacebef7a62",
+                    "identifiers": {
+                        "name": "Defense",
+                        "code": "35",
+                        "assetname": "6534316665396562613934623464656639663664656361636562656637613632"
+                    },
+                    "description": "Defense",
+                    "notes": "Skill Domain; Defense",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "494cbe38d285482a9126dd2a4d09a284": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "494cbe38-d285-482a-9126-dd2a4d09a284",
+                    "identifiers": {
+                        "name": "Design",
+                        "code": "36",
+                        "assetname": "3439346362653338643238353438326139313236646432613464303961323834"
+                    },
+                    "description": "Design",
+                    "notes": "Skill Domain; Design",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "eed69abb009349bfbf139b52f3fc39a0": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "eed69abb-0093-49bf-bf13-9b52f3fc39a0",
+                    "identifiers": {
+                        "name": "Economics",
+                        "code": "37",
+                        "assetname": "6565643639616262303039333439626662663133396235326633666333396130"
+                    },
+                    "description": "Economics",
+                    "notes": "Skill Domain; Economics",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "0cba1b4abdcd4e239725ec2c38583b4f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "0cba1b4a-bdcd-4e23-9725-ec2c38583b4f",
+                    "identifiers": {
+                        "name": "Education",
+                        "code": "38",
+                        "assetname": "3063626131623461626463643465323339373235656332633338353833623466"
+                    },
+                    "description": "Education",
+                    "notes": "Skill Domain; Education",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "7bc57af0f6b947409c517c5d99bcfb8f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "7bc57af0-f6b9-4740-9c51-7c5d99bcfb8f",
+                    "identifiers": {
+                        "name": "Engineering",
+                        "code": "39",
+                        "assetname": "3762633537616630663662393437343039633531376335643939626366623866"
+                    },
+                    "description": "Engineering",
+                    "notes": "Skill Domain; Engineering",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "a56c75603ac440f1b40f40a17d271610": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "a56c7560-3ac4-40f1-b40f-40a17d271610",
+                    "identifiers": {
+                        "name": "Environment",
+                        "code": "40",
+                        "assetname": "6135366337353630336163343430663162343066343061313764323731363130"
+                    },
+                    "description": "Environment",
+                    "notes": "Skill Domain; Environment",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "aae872470d7e4e31ac9d6d88fec1055b": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "aae87247-0d7e-4e31-ac9d-6d88fec1055b",
+                    "identifiers": {
+                        "name": "Level 1",
+                        "code": "01",
+                        "assetname": "6161653837323437306437653465333161633964366438386665633130353562"
+                    },
+                    "description": "Level 1",
+                    "notes": "Skill Levels; Level 1",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "46fbf14c542546aca283c27a7f371f27": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "46fbf14c-5425-46ac-a283-c27a7f371f27",
+                    "identifiers": {
+                        "name": "Level 2",
+                        "code": "02",
+                        "assetname": "3436666266313463353432353436616361323833633237613766333731663237"
+                    },
+                    "description": "Level 2",
+                    "notes": "Skill Levels; Level 2",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "661005bfd042457582e159f4c0e5a878": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "661005bf-d042-4575-82e1-59f4c0e5a878",
+                    "identifiers": {
+                        "name": "Level 3",
+                        "code": "03",
+                        "assetname": "3636313030356266643034323435373538326531353966346330653561383738"
+                    },
+                    "description": "Level 3",
+                    "notes": "Skill Levels; Level 3",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "04346d7e9e5743b290500201f1de84a2": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "04346d7e-9e57-43b2-9050-0201f1de84a2",
+                    "identifiers": {
+                        "name": "Level 4",
+                        "code": "04",
+                        "assetname": "3034333436643765396535373433623239303530303230316631646538346132"
+                    },
+                    "description": "Level 4",
+                    "notes": "Skill Levels; Level 4",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "b151b6dd7df24f87a6ca640213f654c0": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "b151b6dd-7df2-4f87-a6ca-640213f654c0",
+                    "identifiers": {
+                        "name": "Level 5",
+                        "code": "05",
+                        "assetname": "6231353162366464376466323466383761366361363430323133663635346330"
+                    },
+                    "description": "Level 5",
+                    "notes": "Skill Levels; Level 5",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "621fb8b7861042d1b8b2a1180b5e419b": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "621fb8b7-8610-42d1-b8b2-a1180b5e419b",
+                    "identifiers": {
+                        "name": "Level 6",
+                        "code": "06",
+                        "assetname": "3632316662386237383631303432643162386232613131383062356534313962"
+                    },
+                    "description": "Level 6",
+                    "notes": "Skill Levels; Level 6",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "7b912643e1194d3dae917ab6414a96cd": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "7b912643-e119-4d3d-ae91-7ab6414a96cd",
+                    "identifiers": {
+                        "name": "Level 7",
+                        "code": "07",
+                        "assetname": "3762393132363433653131393464336461653931376162363431346139366364"
+                    },
+                    "description": "Level 7",
+                    "notes": "Skill Levels; Level 7",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "d4691d2eff954dca807493d96964061f": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "d4691d2e-ff95-4dca-8074-93d96964061f",
+                    "identifiers": {
+                        "name": "Level 8",
+                        "code": "08",
+                        "assetname": "6434363931643265666639353464636138303734393364393639363430363166"
+                    },
+                    "description": "Level 8",
+                    "notes": "Skill Levels; Level 8",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "dc8674159e6c44e3acff3d215b614571": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "4b6448c4-b01a-4056-bf65-56ef96a372d9",
+                        "name": "type"
+                    },
+                    "sdi": "dc867415-9e6c-44e3-acff-3d215b614571",
+                    "identifiers": {
+                        "name": "Level 9",
+                        "code": "09",
+                        "assetname": "6463383637343135396536633434653361636666336432313562363134353731"
+                    },
+                    "description": "Level 9",
+                    "notes": "Skill Levels; Level 9",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

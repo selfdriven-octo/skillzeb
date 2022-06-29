@@ -1,0 +1,48 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "9efb26dcd2474ad7a8c0b3f4782338f7": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "7994f6d4-0208-4f9c-bb51-46af5dea3a12",
+                        "name": "community-organisation"
+                    },
+                    "sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7",
+                    "identifiers": {
+                        "name": "selfdriven Foundation"
+                    },
+                    "url": [
+                        "https://",
+                        "identity.selfdriven.cloud/",
+                        "#community-organisation/",
+                        "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                },
+                "bce5418c376c4a7c852088bfb23584d1": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "7994f6d4-0208-4f9c-bb51-46af5dea3a12",
+                        "name": "community-organisation"
+                    },
+                    "sdi": "bce5418c-376c-4a7c-8520-88bfb23584d1",
+                    "identifiers": {
+                        "name": "selfdriven Community"
+                    },
+                    "url": [
+                        "https://",
+                        "identity.selfdriven.cloud/",
+                        "#community-organisation/",
+                        "bce5418c-376c-4a7c-8520-88bfb23584d1"
+                    ],
+                    "image": ["ipfs://", "bafybeibaysqjhu63f3ecpneoq2plvbz5cefvq7fhp3f36cnndey3eexvae"]
+                }
+            }
+        }
+    }
+}
+
+
+
+

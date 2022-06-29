@@ -1,0 +1,134 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "29fbdd28d57c480b8a3d33f21bcdf096": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "29fbdd28-d57c-480b-8a3d-33f21bcdf096",
+                    "identifiers": {
+                        "name": "Retail",
+                        "code": "61",
+                        "assetname": "3239666264643238643537633438306238613364333366323162636466303936"
+                    },
+                    "description": "Retail",
+                    "notes": "Skill Domain; Retail",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "1b31a531b26544ceb2cd4aa30747401d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "1b31a531-b265-44ce-b2cd-4aa30747401d",
+                    "identifiers": {
+                        "name": "Social Context",
+                        "code": "62",
+                        "assetname": "3162333161353331623236353434636562326364346161333037343734303164"
+                    },
+                    "description": "Social Context",
+                    "notes": "Skill Domain; Social Context",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "8703f8d25d5d4f20a8d1366425eee326": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "8703f8d2-5d5d-4f20-a8d1-366425eee326",
+                    "identifiers": {
+                        "name": "Social Sciences",
+                        "code": "63",
+                        "assetname": "3837303366386432356435643466323061386431333636343235656565333236"
+                    },
+                    "description": "Social Sciences",
+                    "notes": "Skill Domain; Social Sciences",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "44adcb61120d42ef927e9c4284e5fc17": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "44adcb61-120d-42ef-927e-9c4284e5fc17",
+                    "identifiers": {
+                        "name": "Society & Culture",
+                        "code": "64",
+                        "assetname": "3434616463623631313230643432656639323765396334323834653566633137"
+                    },
+                    "description": "Society & Culture",
+                    "notes": "Skill Domain; Society & Culture",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "bed8bf6971b741d0aa333227feede065": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "bed8bf69-71b7-41d0-aa33-3227feede065",
+                    "identifiers": {
+                        "name": "Theology",
+                        "code": "65",
+                        "assetname": "6265643862663639373162373431643061613333333232376665656465303635"
+                    },
+                    "description": "Theology",
+                    "notes": "Skill Domain; Theology",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "c83b677af01e40f8a347f90bc9731c72": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "c83b677a-f01e-40f8-a347-f90bc9731c72",
+                    "identifiers": {
+                        "name": "Training Services",
+                        "code": "66",
+                        "assetname": "6338336236373761663031653430663861333437663930626339373331633732"
+                    },
+                    "description": "Training Services",
+                    "notes": "Skill Domain; Training Services",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}

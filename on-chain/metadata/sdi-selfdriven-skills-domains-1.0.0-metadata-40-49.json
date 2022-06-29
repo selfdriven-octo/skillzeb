@@ -1,0 +1,218 @@
+{
+    "115100105": {
+        "6dd60b94e766e94ea3886d7631990db6d468d202c42a482090ee3a17": {
+            "SDI": {
+                "b133251f6d69421da7d9ba7cd5d977ff": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b133251f-6d69-421d-a7d9-ba7cd5d977ff",
+                    "identifiers": {
+                        "name": "Food",
+                        "code": "41",
+                        "assetname": "6231333332353166366436393432316461376439626137636435643937376666"
+                    },
+                    "description": "Food",
+                    "notes": "Skill Domain; Food",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "d39d45b3507a4a41bdfe299eb4d80b9c": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "d39d45b3-507a-4a41-bdfe-299eb4d80b9c",
+                    "identifiers": {
+                        "name": "Health",
+                        "code": "42",
+                        "assetname": "6433396434356233353037613461343162646665323939656234643830623963"
+                    },
+                    "description": "Health",
+                    "notes": "Skill Domain; Health",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "41443266f5dd40508b5c493139984b57": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "41443266-f5dd-4050-8b5c-493139984b57",
+                    "identifiers": {
+                        "name": "Health Science",
+                        "code": "43",
+                        "assetname": "3431343433323636663564643430353038623563343933313339393834623537"
+                    },
+                    "description": "Health Science",
+                    "notes": "Skill Domain; Health Science",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "cf4ec77ebf964feeabfaa51f45505f1c": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "cf4ec77e-bf96-4fee-abfa-a51f45505f1c",
+                    "identifiers": {
+                        "name": "Human Services",
+                        "code": "44",
+                        "assetname": "6366346563373765626639363466656561626661613531663435353035663163"
+                    },
+                    "description": "Human Services",
+                    "notes": "Skill Domain; Human Services",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "b96892f4ae504063bb6268505113693d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "b96892f4-ae50-4063-bb62-68505113693d",
+                    "identifiers": {
+                        "name": "Human Sciences",
+                        "code": "45",
+                        "assetname": "6239363839326634616535303430363362623632363835303531313336393364"
+                    },
+                    "description": "Human Sciences",
+                    "notes": "Skill Domain; Human Sciences",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "998c14c43808483a85642c4b7bbfc42a": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "998c14c4-3808-483a-8564-2c4b7bbfc42a",
+                    "identifiers": {
+                        "name": "Humanities",
+                        "code": "46",
+                        "assetname": "3939386331346334333830383438336138353634326334623762626663343261"
+                    },
+                    "description": "Humanities",
+                    "notes": "Skill Domain; Humanities",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "11baad3028d848ccba4f1edf6f38d9fd": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "11baad30-28d8-48cc-ba4f-1edf6f38d9fd",
+                    "identifiers": {
+                        "name": "Information Sciences",
+                        "code": "47",
+                        "assetname": "3131626161643330323864383438636362613466316564663666333864396664"
+                    },
+                    "description": "Information Sciences",
+                    "notes": "Skill Domain; Information Sciences",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "86fdffcfd09a49aca401730d943f831d": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "86fdffcf-d09a-49ac-a401-730d943f831d",
+                    "identifiers": {
+                        "name": "Information Technology",
+                        "code": "48",
+                        "assetname": "3836666466666366643039613439616361343031373330643934336638333164"
+                    },
+                    "description": "Information Technology",
+                    "notes": "Skill Domain; Information Technology",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "91ed67c160a844a496cea12734bfe92a": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "91ed67c1-60a8-44a4-96ce-a12734bfe92a",
+                    "identifiers": {
+                        "name": "Infrastructure",
+                        "code": "49",
+                        "assetname": "3931656436376331363061383434613439366365613132373334626665393261"
+                    },
+                    "description": "Infrastructure",
+                    "notes": "Skill Domain; Infrastructure",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                },
+                "1170533bdbf94eb0a27ee94d64feaefd": {
+                    "zone": "shared",
+                    "type": {
+                        "sdi": "722f771d-ff01-47aa-9c96-1272d49aab5b",
+                        "name": "type"
+                    },
+                    "sdi": "1170533b-dbf9-4eb0-a27e-e94d64feaefd",
+                    "identifiers": {
+                        "name": "Law",
+                        "code": "50",
+                        "assetname": "3131373035333362646266393465623061323765653934643634666561656664"
+                    },
+                    "description": "Law",
+                    "notes": "Skill Domain; Law",
+                    "url": [
+                        "https://",
+                        "selfdriven.foundation/",
+                        "tokens/",
+                        "{sdi}"
+                    ]
+                }
+            }
+        }
+    }
+}
