@@ -1,0 +1,68 @@
+{
+    "selfdriven": {
+        "url": "https://www.selfdriven.foundation",
+        "originator": 
+        {
+            "name": "selfdriven Foundation",
+            "sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+        },
+        "licence": "CC0 1.0 Universal; Public Domain Dedication",
+        "skills": {
+            "sources": [
+                {
+                    "name": "skillzeb",
+                    "code": "00",
+                    "sdi": "f7b424c3-5e7e-4d66-b752-7afbcc502411"
+                },
+                {
+                    "name": "skillzeb PBL",
+                    "code": "01",
+                    "sdi": "672cd868-c7e9-46ab-b5ce-45ff9ac009b2"
+                },
+                {
+                    "name": "Federal Governance",
+                    "code": "02",
+                    "sdi": "5199cbb2-e035-41a8-8c96-1cb4a41bd252"
+                },
+                {
+                    "name": "Training Handbook",
+                    "code": "03",
+                    "sdi": "47315710-a9bd-40a8-afc2-5a9d1f4ee632"
+                },
+                {
+                    "name": "College Handbook",
+                    "code": "04",
+                    "sdi": "dad41c6b-2290-42b4-a200-02f1e62c53db"
+                },
+                {
+                    "name": "University Handbook",
+                    "code": "05",
+                    "sdi": "80f529a6-e281-4d87-ab6f-6f8db58c08a0"
+                },
+                {
+                    "name": "Pathways",
+                    "code": "06",
+                    "sdi": "280f82af-85b7-4142-b5f6-5372da5b24aa"
+                },
+                {
+                    "name": "State Governance",
+                    "code": "07",
+                    "sdi": "bd173417-1425-4dfc-b64d-0e045b422bd9"
+                },
+                {
+                    "name": "Defence",
+                    "code": "08",
+                    "sdi": "e9681778-716e-410c-a59f-9b83c6cc8110"
+                },
+                {
+                    "name": "Community",
+                    "code": "09",
+                    "sdi": "eb4d6fd0-b24c-49d2-a8ce-96ec6e0cf0db"
+                }
+            ]
+        }
+    }
+}
+
+
+

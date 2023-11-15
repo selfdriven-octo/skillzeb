@@ -1,0 +1,300 @@
+{
+	"template":
+	{
+		"nextsteps":
+		{
+			"name": "example",
+			"url": "https://slfdrvn.io/next-steps",
+			"urlCaption": "Example next-steps template prescribed skills",
+			"version":
+			{
+				"number": "0.0.1",
+				"date": "01 JAN 2023",
+				"notes": "Example"
+			},
+			"attributes":
+			[
+				{
+					"name": "teamwork",
+					"caption": "Teamwork",
+					"notes": "Collaboration & Teamwork",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-teams"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "collaboration"
+								},
+								{
+									"name": "teamwork"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "20"
+					}
+				},
+				{
+					"name": "skillbuilding",
+					"caption": "Skill Building",
+					"notes": "Achievements / Skills",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-dashboard-achievements"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "creativity"
+								},
+								{
+									"name": "meaning"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "empathy",
+					"caption": "Empathy",
+					"notes": "Altruism & Empathy",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-projects"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "altruism"
+								},
+								{
+									"name": "empathy"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "community",
+					"caption": "Community Involvement",
+					"notes": "Endorsements & SDC tokens earned.",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-dashboard-endorsements"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "engagement"
+								}
+							]
+						},
+						"tokens":
+						{
+							"name": "sdc",
+							"scope": "learner-next-tokens-community"
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "mentorship",
+					"caption": "Mentorship",
+					"notes": "Relationships as a mentor",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-dashboard-connections"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "influence"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "coaching",
+					"caption": "Coaching or Leading Teams",
+					"notes": "Teams coordinator role",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-community-teams"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "collaboration"
+								},
+								{
+									"name": "communication"
+								},
+								{
+									"name": "creativity"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "determination",
+					"caption": "Determination",
+					"notes": "Perseverance.  Projects completed.",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-projects"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "perseverance"
+								},
+								{
+									"name": "grit"
+								},
+								{
+									"name": "thinkwhy"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "selfawareness",
+					"caption": "Self-Awareness",
+					"notes": "Critical Reflection.  Reflections.",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-dashboard-reflections"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "criticalreflection"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "identifyingskills",
+					"caption": "Understanding of Self",
+					"notes": "Identifying Skills, Strengths & Weaknesses.",
+					"source":
+					{
+						"dashboard":
+						{
+							"name": "learner-me-dashboard-reflections"
+						},
+						"profile":
+						{
+							"attributes":
+							[
+								{
+									"name": "criticalreflection"
+								}
+							]
+						}
+					},
+					"sdn":
+					{
+						"tokens": "10"
+					}
+				}
+
+			],
+			"skills":
+			{
+				"required":
+				[
+					{
+						"uri": "00000000000000",
+						"name": "Year 11 Mathmatics",
+						"verfication":
+						{
+							"notes": "Certificate from Department of Education",
+							"evidence":
+							[
+								{
+									"description": "PDF or Image",
+									"methods": "document"
+								}
+							]
+						}
+					}
+				]
+			},
+			"language":
+			[
+				{
+					"type": "en",
+					"statement": "Statement"
+				}
+			]
+		}
+	}
+}

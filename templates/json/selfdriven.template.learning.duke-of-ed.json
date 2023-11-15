@@ -1,0 +1,64 @@
+ {
+	"template":
+	{
+		"learning":
+		{
+			"name": "learning-template-duke-of-ed-voluntary",
+			"caption": "....",
+			"version":
+			{
+				"number": "0.0.1",
+				"date": "01 MAR 2022",
+				"notes": "Initial set up"
+			},
+			"summary": "",
+			"description": "",
+			"orginator":
+			{
+				"name": "Duke Of Ed",
+				"sdi": ""
+			},
+			"validation":
+			{
+				"by":
+				[
+					{
+						"name": "{{orginator}}"
+					},
+					{
+						"name": "{{connected-learning-partners}}"
+					}
+				],
+				"minimum-validations": 2,
+				"notes": "",
+				"links":
+				[
+					{
+						"name": "validator-guides",
+						"caption": "Validator Guides",
+						"uri": ["https", "www.dukeofed.org/our-program/award-holders/life-after-the-award/your-skills"],
+						"format": "html"
+					}
+				]
+			},
+			"skills": {
+				"gained": [
+				{
+					"uri": "00010000040701",
+					"name": "Communication [7-C]",
+					"sdi": "2602b1fb-618d-46b2-b30e-9d2758f8d5b0",
+					"level": "07",
+					"capacity": "01",
+					"scope":
+					{
+						"categories": ["Voluntary Service", "Skill Development"]
+					},
+					"validation":
+					{
+						"notes": "Can communicate with peers."
+					}
+				}]
+			}
+		}
+	}
+}

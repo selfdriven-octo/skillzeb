@@ -1,0 +1,938 @@
+ {
+	"template":
+	{
+		"project":
+		{
+			"name": "selfdriven-pbl-major-project",
+			"title": "PBL; Major Project for Industrial Arts",
+			"url": "https://slfdrvn.io/templates",
+			"urlCaption": "About selfdriven Templates",
+			"version":
+			{
+				"number": "1.0.0",
+				"date": "01 AUG 2022",
+				"notes": "Initial set up"
+			},
+			"source":
+			{
+				"sharing": 
+				{
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "Template developed by THS in collaboration with selfdriven Labs.",
+				"url": "https://slfdrvn.io/improvement-cycle"
+			},
+			"sharing": 
+			{
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation."
+			},
+			"usage": "This is a template for completing a PBL major works project.",
+			"description": "Identify and investigate a specific need. Then create a system / product / environment / service as a solution to that identified need.",
+			"summary": "Your final product will contribute to the PBL Major Project Community Showcase Event as either an item for display, an item for sale, or there are specific opportunities to play a role in the overall administration and operation of the PBL community Event itself.",
+			"duration-days": 
+			{
+				"minimum": 80,
+				"maximum": 90
+			},
+			"outcomes":
+			[
+				{
+					"by": "learner",
+					"description": "Identify a need and create a suitable solution that utilises a design process."
+				},
+				{
+					"by": "learner",
+					"description": "Engage and collaborate with appropriate learning partners and stakeholders."
+				},
+				{
+					"by": "learner",
+					"description": "Develop the ability to exhibit their learning process."
+				}
+			],
+			"team": 
+			{
+				"notes": "Teams or Pairs",
+				"roles":
+				[
+					{
+						"name": "Designer / Creator",
+						"notes": "Product/system/environment/service"
+					},
+					{
+						"name": "Exhibitor / Manufacturer",
+						"notes": "Exhibitor - design, manufacture, sell products at showcase"
+					},
+					{
+						"name": "Operator",
+						"notes": "Limited places available. Create, organise, implement events/activities at showcase. Showcase management and organisation, e.g. Catering, Entertainment, HR, Administration, PR/Marketing, Documentary (film/capture projects development)"
+					}
+				]
+			},
+			"rules":
+			[
+				{
+					"by": "learner",
+					"subject": "Duration",
+					"description": "18 Weeks (Elapsed)."
+				},
+				{
+					"by": "learner",
+					"subject": "Critical Milestone",
+					"description": "Must be ready for community showcase."
+				},
+				{
+					"by": "learner",
+					"subject": "Team size",
+					"description": "Individual or pairs (larger groups must be teacher certified)."
+				},
+				{
+					"by": "learner",
+					"subject": "Not Negotiables",
+					"description": [
+						"<ul>",
+							"<li>Must address a need/opportunity/problem.</li>",
+							"<li>Must be guided by a driving question.</li>",
+							"<li>Must involve depth and inquiry.</li>",
+						"</ul>"
+					]
+				},
+
+				{
+					"by": "learner",
+					"subject": "Project Options",
+					"description": [
+						"<ul>",
+							"<li>Option A1: Designer / Creator (Product/system/environment/service).</li>",
+							"<li>Option A2: Exhibitor / Manufacturer (Exhibitor - design, manufacture, sell products at showcase).</li>",
+							"<li>Option B: Designer / Operator (Operator - create, organise, implement events/activities at showcase)</li>",
+							"<li>Showcase management and organisation, e.g:",
+								"<ul>",
+									"<li>Catering.</li>",
+									"<li>Entertainment.</li>",
+									"<li>HR.</li>",
+									"<li>Administration.</li>",
+									"<li>PR/Marketing.</li>",
+									"<li>Documentary (film/capture projects development).</li>",
+								"</ul>",
+							"</li>",
+						"</ul>"
+					]
+				},
+				{
+					"by": "learner",
+					"subject": "Documentation Requirements",
+					"description": [
+						"<ul>",
+							"<li>Completion process diary.</li>",
+							"<li>Optional: 3 minutes of multimedia support.</li>",
+						"</ul>"
+					]
+				}
+			],
+			"resources":
+			[
+				{
+					"subject": "Cascading Diagram",
+					"image-url": "/site/2136/pbl-4Cs-Cascade.jpg",
+					"for": ["learner", "learning-partner"]
+				},
+				{
+					"subject": "Project Path",
+					"image-url": "/site/2136/pbl-project-path.png",
+					"for": ["learner", "learning-partner"]
+				},
+				{
+					"subject": "Identification of Project Needs",
+					"description":
+					[
+						"<p>The first step in the project life cycle involves determining the needs of the project.</p>",
+						"<p>What is the problem that we are trying to resolve? Why are we starting this project?</p>",
+						"<p>The need could be identified as a result of a problem or an opportunity to improve.</p>",
+						"<p>The overall goal of the project will always be to improve or take advantage of a particular situation.</p>"
+					],
+					"image-url": "/site/2136/pbl-maslows-hierachy-of-needs.png",
+					"for": ["learner", "learning-partner"]
+				},
+				{
+					"subject": "Learning Dispositions Wheel",
+					"image-url": "/site/2136/pbl-dispositions-wheel.png",
+					"for": ["learner", "learning-partner"]
+				}
+			],
+			"milestones":
+			[
+				{
+					"reference": "1",
+					"subject": "Noticing",
+					"description": "What needs/problems/opportunities am I interested in exploring or addressing for my major project?",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Document Interest Areas",
+							"description": "Document four interest areas and why they are of interest to you.",
+							"by": "team",
+							"type": "listening"
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "Asking Why? Really Why?",
+					"description": "Why, who, what, how?",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Document Driving Question",
+							"by": "team",
+							"type": "interpret"
+						}
+					],
+					"support-items":
+					[
+						{
+							"subject": "What is the problem, need or opportunity?"
+						},
+						{
+							"subject": "Who are the students involved in exploring/addressing this problem, need or opportunity?"
+						},
+						{
+							"subject": "Why is this problem, need or opportunity significant to you?"
+						},
+						{
+							"subject": "Who will benefit from this project?"
+						},
+						{
+							"subject": "How will you achieve your purpose/ intended outcome of the project?"
+						}
+					],
+					"resources":
+					[
+						{
+							"subject": "What is a driving question?",
+							"description": "A driving question (DQ) is a PBL must-have! It is an open-ended inquiry that guides students' thinking and learning. This is what students should be working to answer or explore during PBL. Every project differs, so there is no perfect formula for creating a DQ. The DQ should provide clarity around the project's purpose, audience, and product.",
+							"image-url": "/site/2136/pbl-driving-questions-should.png"
+						},
+						{
+							"subject": "Driving questions should",
+							"description": "Connect with learning goals"
+						},
+						{
+							"subject": "Why do we need a driving question?",
+							"description": "A thought-provoking DQ is the catalyst for any PBL experience. This open-ended question should relate to a real-world problem or phenomena that students find interesting and important. Students will sustain inquiry as they strive to uncover topics and generate solutions. A well-written DQ will inspire students to seek information, solve problems, and pursue passions. Put students' new understandings to work with a compelling DQ."
+						},
+						{
+							"subject": "How do I create a powerful driving question?",
+							"description": "To help you construct a meaningful DQ, you can use the formula to get you started. The formula prompts you to include key elements of PBL. It is perfectly okay if your DQ is structured differently than the one below. What matters most is that you have brainstormed and identified the topic, purpose, audience, and product.",
+							"image-url": "/site/2136/pbl-driving-question-formula.png"
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Playing with Possibilities",
+					"description": "Delve deeper into your project and the possibilities that you could explore!",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Document Possibilities for enquiry",
+							"by": "team",
+							"type": "interpret"
+						}
+					],
+					"support-items":
+					[
+						{
+							"subject": "Play with possibilities to start mapping out and planning your project!"
+						},
+						{
+							"subject": "Key word is 'Playing' rather than 'developing' or 'building' or 'designing'."
+						},
+						{
+							"subject": "'Possibility' and 'Play' are critical to creativity, as new ideas can be generated."
+						},
+						{
+							"subject": "Q: What is 'playing with possibilities'?",
+							"description": "A: It is actively experimenting with a range of different styles, techniques, forms and innovations. It is experimenting for the sake and joy of experimenting. Playing with possibilities leads to a final outcome, but it does not answer it. It is a moment of freedom in which you let go of assumption or anxiety about what it is you're trying to create, and instead, simply work on being creative."
+						},
+						{
+							"subject": "Q: What is the iterative process model?",
+							"description": "A: The iterative process works by using cycles of feedback and improvements to create quality products and improve operational processes."
+						}
+					],
+					"resources":
+					[
+						{
+							"subject": "Saxon's Huskee Cup Example",
+							"image-url": "/site/2136/pbl-saxons-huskee-cup.png"
+						}
+					]
+				},
+				{
+					"reference": "4",
+					"subject": "Establish Success Criteria",
+					"description": "Now that you have created a Driving Question and have explored it by Playing with Possibilities you now need to determine what success in your project will look like.",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Create a series of statements that you can evaluate your project against later.",
+							"by": "team",
+							"type": "interpret"
+						}
+					],
+					"support-items":
+					[
+						{
+							"subject": "These statements need to be framed around <em>Must Should Could</em> statements for example;",
+							"description": [
+								 "<p>If your driving question is “How can I develop a paper plane glider” the success criteria could look like this:</p>",
+								  "<p>1/ In order for my project to be successful it must be a paper plane that glides for 30 seconds,</p>",
+								  "<p>2/ In order for my project to be successful the glider should follow a spiral flight path,</p>",
+								  "<p>3/ In order for my project to be successful the glider could be painted to match my favourite plane.</p>"
+							]
+						},
+						{
+							"subject": "There should be at least 3 statements from each of <em>Must Should Could</em> criteria."
+						}
+					],
+					"resources":
+					[
+						{
+							"subject": "Success Criteria Template",
+							"image-url": "/site/2136/pbl-establish-success-criteria.png"
+						}
+					]
+				},
+				{
+					"reference": "5",
+					"subject": "Selecting & Evaluating Responses",
+					"description": "Project Design: Overview & Planning.",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Document Project Design / Overview & Planning",
+							"by": "team",
+							"type": "implement"
+						}
+					],
+					"support-items":
+					[
+						{
+							"subject": "Project Summary (include student role, issue, problem or challenge, action taken, and purpose/beneficiary)."
+						},
+						{
+							"subject": "What is the driving question?"
+						},
+						{
+							"subject": "What is the outcome you are intending to achieve by the end of the project? - Products - Process - System."
+						}
+					],
+					"resources":
+					[
+						{
+							"subject": "Project Design / Overview & Planning Template",
+							"description": "Create a copy of this template and then link it you project.",
+							"url": "https://docs.google.com/document/d/1HSpM_hP-ACiYXwTpvmY2Qqs4SEqZno38aPtiw20Ci6o"
+						}
+					]
+				},
+				{
+					"reference": "6",
+					"subject": "Build / Execute",
+					"description": "This the part where you get to build your design!",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Create project build task",
+							"by": "team",
+							"type": "implement"
+						}
+					]
+				},
+				{
+					"reference": "7",
+					"subject": "Present & Review",
+					"description": "Present your outcome at the showcase.",
+					"duration-days": 
+					{
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks":
+					[
+						{
+							"subject": "Plan for the showcase.",
+							"by": "team",
+							"type": "implement"
+						}
+					]
+				}
+			],
+			"skills":
+			{
+				"capacities": [ "A", "C", "K", "N"],
+				"scope-contexts":
+				[
+					{
+						"name": "Level 0 (Baby Octo)",
+						"capacity": "A",
+						"image-uri": "/site/2134/artomics-selfdriven-art-s2-baby-octo.0.png",
+						"style": "color:#FF0000;",
+						"tokens":
+						{
+							"sdc": "0"
+						}
+					},
+					{
+						"name": "Level 1-15 (Cycling Octo)",
+						"capacity": "C",
+						"image-uri": "/site/2134/artomics-selfdriven-art-s2-cycling-octo.0.png",
+						"style": "color:#FE9900;",
+						"tokens":
+						{
+							"sdc": "50"
+						}
+					},
+					{
+						"name": "Level 16-34 (Flying Octo)",
+						"capacity": "K",
+						"image-uri": "/site/2134/artomics-selfdriven-art-s2-flying-octo.0.png",
+						"style": "color: #bbbc75;",
+						"tokens":
+						{
+							"sdc": "100"
+						}
+					},
+					{
+						"name": "Level 35+ (Rocket Octo)",
+						"capacity": "N",
+						"image-uri": "/site/2134/artomics-selfdriven-art-s2-rocket-octo.0.png",
+						"style": "color: #28a745;",
+						"tokens":
+						{
+							"sdc": "200"
+						}
+					}
+				],
+				"learner-proposed": "true",
+				"based-on-uri": "https://www.selfdriven.foundation/explorer",
+				"gained":
+				[
+					{
+						"scope":
+						{
+							"name": "Baby Octo; Curosity",
+							"contexts": ["Baby Octo"]
+						},
+						"uri": "00010000070700",
+						"name": "Curiosity [7-A]",
+						"sdi": "4b917028-8774-43cd-9cef-57f165995fb0",
+						"level": "07",
+						"capacity": "00",
+						"validation":
+						{
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Relies on external drivers for ideas.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Acknowledges that resources exist but requires deep learner-partner support - not self-driven.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Baby Octo; Grit",
+							"contexts": ["Level 0 (Baby Octo)"]
+						},
+						"uri": "00010000090700",
+						"name": "Grit [7-A]",
+						"sdi": "5c4b92ae-30ef-4345-8989-d72345748a77",
+						"level": "07",
+						"capacity": "00",
+						"validation":
+						{
+							"notes": "You are looking for grit attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Requires extensive support to identify and set goals for their learning. Little attempt is made at achieving goals.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Displays a limited ability to communicate , reflect, plan and implement actions that successful overcome difficulties.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Baby Octo; Make & Express Meaning",
+							"contexts": ["Level 0 (Baby Octo)"]
+						},
+						"uri": "00010000100700",
+						"name": "Make & Express Meaning [7-A]",
+						"sdi": "1bef092c-4c56-4c05-ab4c-6ca079aa2bf9",
+						"level": "07",
+						"capacity": "00",
+						"validation":
+						{
+							"notes": "You are looking for grit attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Attempts to craft an idea but is unaware of materials capable of making and expressing meaning. Teacher Assistance/scaffold required.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Student is unable to recognise meaningful information and/or formulate a driving question.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Baby Octo; Build Ideas",
+							"contexts": ["Level 0 (Baby Octo)"]
+						},
+						"uri": "00010000060700",
+						"name": "Build Ideas [7-A]",
+						"sdi": "45ff4d1c-7d15-4da1-aa70-0b81cbe4342c",
+						"level": "07",
+						"capacity": "00",
+						"validation":
+						{
+							"notes": "You are looking for <em>Build Ideas</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Limited interest in the exploration of new ideas or possibilities.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Uses only typical sources of information (website, book, article).",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Does not offer new ideas during discussions and is unaware of the different perspectives that exist.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Cycling Octo",
+							"contexts": ["Level 1-15 (Cycling Octo)"]
+						},
+						"uri": "00010000070701",
+						"name": "Curiosity [7-C]",
+						"sdi": "88881fcb-f996-432c-84cc-c694f619d684",
+						"level": "07",
+						"capacity": "01",
+						"validation":
+						{
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Considers some ideas but does not explore beyond the superficial.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "General awareness of resources that exist but requires teacher encouragement to generate agency access to them.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Cycling Octo",
+							"contexts": ["Level 1-15 (Cycling Octo)"]
+						},
+						"uri": "00010000090701",
+						"name": "Grit [7-C]",
+						"sdi": "4a2f1429-770a-4aab-938d-1a3bb8ebc426",
+						"level": "07",
+						"capacity": "01",
+						"validation":
+						{
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Attempts and/or displays some ability to identify, set and achieve goals for their learning.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Sometimes effectively communicates, reflects, plans and implements actions that successful overcome difficulties",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Cycling Octo",
+							"contexts": ["Level 1-15 (Cycling Octo)"]
+						},
+						"uri": "00010000100701",
+						"name": "Make & Express Meaning [7-C]",
+						"sdi": "a613bcd7-8eda-4fc0-bc25-06ca235e56e1",
+						"level": "07",
+						"capacity": "01",
+						"validation":
+						{
+							"notes": "You are looking for <em>Make & Express</em> Meaning attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Stays within existing frameworks; does not use idea-generating techniques to develop new ideas for product(s).",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Selects one idea without evaluating the quality of ideas.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Does not ask new questions or elaborate on the selected idea.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Reproduces existing ideas; does not imagine new ones.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Does not consider or use feedback and critique to revise product.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Cycling Octo",
+							"contexts": ["Level 1-15 (Cycling Octo)"]
+						},
+						"uri": "00010000060701",
+						"name": "Build Ideas [7-C]",
+						"sdi": "44ea5753-0e66-48ae-8d54-711f2a7fe294",
+						"level": "07",
+						"capacity": "01",
+						"validation":
+						{
+							"notes": "You are looking for <em>Build Ideas</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Developing confidence to explore ideas beyond the familiar but requires assistance to do so.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Finds one or two sources of information that are not typical.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Offers new ideas during discussions, but stays within narrow perspectives and requires assistance to go beyond it.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Flying Octo; Curiosity",
+							"contexts": ["Level 16-34 (Flying Octo)"]
+						},
+						"uri": "00010000070702",
+						"name": "Curiosity [7-K]",
+						"sdi": "6b5fcce6-f7c7-49a1-ac7b-aa9c5083f281",
+						"level": "07",
+						"capacity": "02",
+						"validation":
+						{
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Explores ideas but within a narrow depth of field.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Explores and evaluates a range of experimental or draft ideas.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Flying Octo; Grit",
+							"contexts": ["Level 16-34 (Flying Octo)"]
+						},
+						"uri": "00010000090702",
+						"name": "Grit [7-K]",
+						"sdi": "02ecc975-1231-4d13-ac1b-99dbd6549c4e",
+						"level": "07",
+						"capacity": "02",
+						"validation":
+						{
+							"notes": "You are looking for <em>Grit</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Displays a well developed ability to identify, set and achieve goals for their learning.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Strong ability to effectively communicate, reflect, plan and implement actions that successful overcome difficulties.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Flying Octo; Make & Express Meaning",
+							"contexts": ["Level 16-34 (Flying Octo)"]
+						},
+						"uri": "00010000100702",
+						"name": "Make & Express Meaning [7-K]",
+						"sdi": "9f5a61b9-1647-498c-bb66-eb7637d5003a",
+						"level": "07",
+						"capacity": "02",
+						"validation":
+						{
+							"notes": "You are looking for <em>Make & Express Meaning</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Develops some original ideas for product(s), but could develop more with better use of idea-generating techniques.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Evaluates ideas, but not thoroughly before selecting one.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Asks a few new questions but may make only minor changes to the selected idea.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Shows some imagination when shaping ideas into a product, but may stay within conventional boundaries.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Considers and may use some feedback and critique to revise a product, but does not seek it out.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Flying Octo; Build Ideas",
+							"contexts": ["Level 16-34 (Flying Octo)"]
+						},
+						"uri": "00010000060702",
+						"name": "Build Ideas [7-K]",
+						"sdi": "d92168ed-ee50-415d-ad3f-2697e3a39142",
+						"level": "07",
+						"capacity": "02",
+						"validation":
+						{
+							"notes": "You are looking for <em>Build Ideas</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Demonstrates playfulness and persistence when exploring beyond the boundaries of known potential possibilities.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "In addition to typical sources, finds unusual ways or places to get information (adult expert, community member, business or organization, literature).",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Promotes divergent and creative perspectives during discussions.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Rocket Octo; Curiosity",
+							"contexts": ["Level 35+ (Rocket Octo)"]
+						},
+						"uri": "00010000070703",
+						"name": "Curiosity [7-N]",
+						"sdi": "c3ad9038-f7df-4e4a-bdc1-ae44e80e2f9d",
+						"level": "07",
+						"capacity": "03",
+						"validation":
+						{
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Explores and evaluates a range of experimental or draft ideas.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Explores and evaluates a substantial range of experimental or draft ideas.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Rocket Octo; Grit",
+							"contexts": ["Level 35+ (Rocket Octo)"]
+						},
+						"uri": "00010000090703",
+						"name": "Grit [7-N]",
+						"sdi": "6c88ba3e-cc6f-46ba-a4ad-2fc19d9f9850",
+						"level": "07",
+						"capacity": "03",
+						"validation":
+						{
+							"notes": "You are looking for <em>Grit</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Displays an outstanding ability to identify, set and achieve goals for their learning.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Exceptional ability to effectively communicate, reflect, plan and implement actions that successfully overcome difficulties.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Rocket Octo; Make & Express Meaning",
+							"contexts": ["Level 35+ (Rocket Octo)"]
+						},
+						"uri": "00010000100703",
+						"name": "Make & Express Meaning [7-N]",
+						"sdi": "86bead1b-d402-486c-b901-74b547534075",
+						"level": "07",
+						"capacity": "03",
+						"validation":
+						{
+							"notes": "You are looking for <em>Make & Express Meaning</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Uses idea-generating techniques to develop several original ideas for product(s).",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Carefully evaluates the quality of ideas and selects the best one to shape into a product.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Asks new questions, takes different perspectives to elaborate and improve on the selected idea.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Uses ingenuity and imagination, going outside conventional boundaries, when shaping ideas into a product.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Seeks out and uses feedback and critique to revise product to better meet the needs of the intended audience.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					},
+					{
+						"scope":
+						{
+							"name": "Rocket Octo; Build Ideas",
+							"contexts": ["Level 35+ (Rocket Octo)"]
+						},
+						"uri": "00010000060703",
+						"name": "Build Ideas [7-N]",
+						"sdi": "a8a3e870-1387-4f2e-8b6a-de2f092361d4",
+						"level": "07",
+						"capacity": "03",
+						"validation":
+						{
+							"notes": "You are looking for <em>Build Ideas</em> attributes when playing.",
+							"evidence":
+							[
+								{
+									"description": "Seeks out and embraces ambiguity and uncertainty to deeply investigate the unexpected and unknown.",
+									"methods": ["observation"]
+								},
+								{
+									"description": "Challenges established perspectives and searches for new understanding to offer insightful points of view.",
+									"methods": ["observation"]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
