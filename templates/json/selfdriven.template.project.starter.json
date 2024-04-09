@@ -94,71 +94,98 @@
 					"tasks":
 					[
 						{
+							"reference": "1-1",
 							"subject": "",
-							"by": "individual"
-						},
-						{
-							"subject": "",
-							"by": "team"
+							"by": "individual|team",
+							"description": "",
+							"duration-days": {
+								"maximum": 7
+							},
+							"percentagecomplete": "true",
+							"resources": [
+							{
+								"subject": "",
+								"url": ""
+							}],
+							"support-items":[
+							{
+								"for": "learner|learning-partner",
+								"description": ""
+							}],
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": ""
+								},
+								{
+									"by": "learner",
+									"method": "attachment",
+									"type": "mandatory",
+									"description": ""
+								},
+								{
+									"by": "learner",
+									"method": "on-chain",
+									"controller": "cardano-policy",
+									"type": "mandatory",
+									"description": ""
+								},
+								{
+									"by": "learner",
+									"method": "structured",
+									"type": "mandatory",
+									"description": "",
+									"hint": "",
+									"controller": "random",
+									"structure": {
+										"options": [
+											{
+												"name": "option-1",
+												"sequence": "",
+												"points": 1,
+												"caption": "Option 1"
+											},
+											{
+												"name": "option-2",
+												"sequence": "",
+												"points": 0,
+												"caption": "Option 2"
+											}
+										],
+										"controllers": [
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 1
+												},
+												"status": "complete"
+											},
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 0
+												},
+												"status": "in-progress"
+											}
+										]
+									}
+								}
+							]
 						}
 					]
 				}
 			],
 			"skills":
 			{
-				"scope-contexts":
-				[
-					{
-						"name": "Baby Octo",
-						"capacity": "A",
-						"image-uri": "/site/2134/artomics-selfdriven-art-s2-baby-octo.0.png",
-						"style": "color:#FF0000;",
-						"tokens":
-						{
-							"sdc": "0"
-						}
-					},
-					{
-						"name": "Cycling Octo",
-						"capacity": "C",
-						"image-uri": "/site/2134/artomics-selfdriven-art-s2-cycling-octo.0.png",
-						"style": "color:#FE9900;",
-						"tokens":
-						{
-							"sdc": "50"
-						}
-					},
-					{
-						"name": "Flying Octo",
-						"capacity": "K",
-						"image-uri": "/site/2134/artomics-selfdriven-art-s2-flying-octo.0.png",
-						"style": "color: #bbbc75;",
-						"tokens":
-						{
-							"sdc": "100"
-						}
-					},
-					{
-						"name": "Rocket Octo",
-						"capacity": "N",
-						"image-uri": "/site/2134/artomics-selfdriven-art-s2-rocket-octo.0.png",
-						"style": "color: #28a745;",
-						"tokens":
-						{
-							"sdc": "200"
-						}
-					}
-				],
 				"learner-proposed": "true",
-				"based-on-uri": "https://skillzeb.io/explorer",
+				"based-on-uri": "https://skillzeb.io/skillset-explorer",
 				"gained":
 				[
 					{
-						"scope":
-						{
-							"name": "Baby Octo; Curosity",
-							"contexts": ["Baby Octo"]
-						},
 						"uri": "00010000070700",
 						"name": "Curiosity [7-A]",
 						"sdi": "4b917028-8774-43cd-9cef-57f165995fb0",
