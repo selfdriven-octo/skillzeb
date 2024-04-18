@@ -67,15 +67,15 @@
 				},
 				{
 					"name": "project-duke-of-ed",
-					"title": "Duke of Ed",
-					"summary": "Learning Template for Duke of Ed program.  i.e. Skill levels etc",
+					"title": "Duke of Ed Project Starter",
+					"summary": "Learning Template for Duke of Ed program. i.e. Skill levels etc",
 					"url": "/skillzeb.template.project.duke-of-ed.json",
 					"type": "project",
 					"sdt": "4fa5d38c-15ac-46ba-87c5-dd69eb288fef"
 				},
 				{
 					"name": "learning-cardano-build-setting-up-a-stake-pool",
-					"title": "Cardano Build; Setting Up a Stake Pool",
+					"title": "Setting Up a Cardano Stake Pool",
 					"summary": "At the end of this learning project, a learner will be able to set up a Cardano stake pool.",
 					"url": "/skillzeb.template.learning.cardano-build-setting-up-a-stake-pool.json",
 					"type": "project",
@@ -83,7 +83,7 @@
 				},
 				{
 					"name": "learning-cardano-build-aiken",
-					"title": "Developing on Cardano with Aiken",
+					"title": "Building on Cardano with Aiken",
 					"summary": "A project to learn how to develop validator contracts on Cardano using Aiken.",
 					"url": "/skillzeb.template.project.cardano-build-aiken.json",
 					"type": "learning",
@@ -99,7 +99,7 @@
 				},
 				{
 					"name": "project-pblworks-making-space-change",
-					"title": "PBLworks; Making Space for Change",
+					"title": "PBLworks Making Space for Change",
 					"summary": "Students are charged with the task of creating an environmentally sustainable redesign for a community space, such as a park, library, public square, empty lot, or community center. Students visit the space; research the local context, needs, resources, and constraints; and investigate principles of environmentally sustainable design. They engage in critique and revision processes that involve local community members and then present their solutions to key stakeholders",
 					"url": "/skillzeb.template.project.pblworks-making-space-for-change.json",
 					"type": "project",
@@ -107,7 +107,7 @@
 				},
 				{
 					"name": "project-pblworks-ultimate-design-challenge",
-					"title": "PBLworks; Ultimate Design Challenge",
+					"title": "PBLworks Ultimate Design Challenge",
 					"summary": "Product packaging often uses materials and processes that negatively affect the Earth. In your role as design engineers, use the engineering-design process and geometric modeling to redesign a product's packaging to render it more sustainable. Explore volume, surface area, and dimensions of complex shapes to develop prototypes that meet the product's packaging design constraints while limiting the packaging material used and/or waste generated.",
 					"url": "/skillzeb.template.project.pblworks-ultimate-design-challenge.json",
 					"type": "project",
@@ -115,9 +115,9 @@
 				},
 				{
 					"name": "learning-mav100-reseller",
-					"title": "MAV100; Reseller",
+					"title": "MAV100 Reseller",
 					"summary": "Theoretical, technical, and social dimensions of becoming a MAV100 reseller.",
-					"url": "/skillzeb.template.learning.mav100.reseller.2.json",
+					"url": "/skillzeb.template.learning.mav100.reseller.json",
 					"type": "learning",
 					"sdt": ""
 				}

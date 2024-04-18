@@ -11,6 +11,7 @@
             "capacities": [
                 {
                     "name": "A",
+					"caption": "Aware",
                     "code": "00",
                     "notes": "Aware; Is aware of the skill.",
                     "sdi": "1d990bfc-2232-4423-bee9-e7f13f4eb2d6"
@@ -18,18 +19,21 @@
                 {
                     "name": "C",
                     "code": "01",
+					"caption": "Capable",
                     "notes": "Capable; Has a demonstrable understanding of the skill.",
                     "sdi": "b7a6d40d-a95e-4bf4-8bef-0f77ffb589c5"
                 },
                 {
                     "name": "K",
                     "code": "02",
+					"caption": "Knowledgeable",
                     "notes": "Knowledgeable; Is knowledgeable about the skill.  A specialise / raven based on effort (Cognitive).",
                     "sdi": "77d260e6-ba58-49e2-bc3f-e7a7709f0216"
                 },
                 {
                     "name": "N",
                     "code": "03",
+					"caption": "Natural",
                     "notes": "Natural; Is a natural at this skill with little cognitive effort (Limbic).",
                     "sdi": "7d7666db-cc5f-4dc1-96c9-5f7893fab549"
                 }
