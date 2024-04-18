@@ -1,0 +1,337 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-commonlands-agent",
+			"title": "Commonlands Agent",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "01MAR2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands. Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Commonlands, including its core values, mission and guiding principles."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimchain™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimrank™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimlock™️."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "Claimchain",
+					"description": "Our permissionless product for NGOs, governments and development organizations to build foundational community-verified economic identities tied to land.",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://commonlands.org/claimchain"
+				},
+				{
+					"subject": "Claimrank",
+					"description": "Our trust metric / credit ranking system used by businesses and institutions for lending due diligence and risk analysis. Claimrank connects the community’s social capital and credit history into a product businesses and lenders can use to easily make decisions on where to invest and who to invest in",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimrank"
+				},
+				{
+					"subject": "Claimlock",
+					"description": "Our secure contract collateralization product for lenders, businesses & peer-to-peer contracting to secure agreements in informal markets with digital, tamperproof, community-verified Commonlands Certificates.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimlock"
+				},
+				{
+					"subject": "Commonlands Knowledge Base",
+					"description": "Advice and answers from from Commonlands HQ including App Tutorials and Frequently Asked Questions.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.zendesk.com/hc/en-us"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"description": "The first module describes the basics for working with and using Commonlands products.",
+					"tasks": [
+						{
+							"reference": "1.1",
+							"subject": "What is Commonlands?",
+							"description": "Describing Commonlands.",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Commonlands",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542583577111-What-is-Commonlands"
+								},
+								{
+									"subject": "Video: Commonlands Explainer",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								}
+							],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "1-2",
+							"subject": "What are the uses for Commonlands?",
+							"description": "Giving examples of use cases for Commonlands.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "1-3",
+							"subject": "What is a Commonlands Land Certificate?",
+							"description": "Describing the Commonlands Land Certificate.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "1-4",
+							"subject": "Types of Disputes",
+							"description": "Describe the types of disputes and what they mean.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						}
+					],
+					"subject": "Getting Started"
+				},
+				{
+					"reference": "2",
+					"subject": "Commonlands App",
+					"description": "The second module gives an overview about how to use the Commonlands app.",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "5-1",
+							"subject": "Download",
+							"description": "Downloading the app on one's device.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "1-2",
+							"subject": "Account",
+							"description": "Creating an account.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "Plot",
+							"description": "Creating a plot.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-4",
+							"subject": "Connecting",
+							"description": "Connecting to one's neighbors.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "4-5",
+							"subject": "Invitations",
+							"description": "Accepting neighbor invitations.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "5-6",
+							"subject": "Verification",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "6-7",
+							"subject": "Sharing",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "7-8",
+							"subject": "Contracts",
+							"description": "Creating and managing contracts.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Commonlands Solutions",
+					"description": "The final module describes in-depth the Commonlands solutions",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "6-1",
+							"subject": "Claimrank",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "1-2",
+							"subject": "Claimrank",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "Claimlock",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-4",
+							"subject": "Use Cases.",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "",
+									"type": "",
+									"description": ""
+								}
+							],
+							"supportitems": []
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"uri": "09680000400001",
+						"name": "Community Agent",
+						"sdi": "a3623815-cb75-4d75-acee-314f986051ca",
+						"level": "00",
+						"capacity": "01",
+						"validation": {
+							"notes": "Do they have an understanding of the Commonlands project and what it means to be an agent.",
+							"evidence": [
+								{
+									"description": "Answered all the task reflections correctly.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

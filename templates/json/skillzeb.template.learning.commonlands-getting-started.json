@@ -1,0 +1,245 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-commonlands-getting-started",
+			"title": "Commonlands Getting Started",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "14JAN2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands.  Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Understand the value of commonlands."
+				},
+				{
+					"by": "learner",
+					"description": "How to use it."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "",
+					"description": [
+						""
+					],
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					]
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "App & Identity",
+					"description": "Steps 1 to 4",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "1-1",
+							"subject": "Step 1",
+							"description": "Download the Commonlands App from the Google Play Store.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "Play Store",
+									"url": "https://x"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "1-2",
+							"subject": "Step 2",
+							"description": "Sign up and create an account with your phone number. You must have a SIM card, but you can use any Android smartphone even if it is not yours.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "x",
+									"url": "https://x"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "Plots",
+					"description": "Steps 5 to 10",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "Step 5",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "x",
+									"url": "https://x"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Claimchains",
+					"description": "Steps 11 to 14",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "Step 11",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "x",
+									"url": "https://x"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				},
+				{
+					"reference": "4",
+					"subject": "Contracts & Lending",
+					"description": "Steps 15 to 18",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "4-1",
+							"subject": "Step 15",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "x",
+									"url": "https://x"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"scope": {
+							"name": "Baby Octo; Curosity",
+							"contexts": [
+								"Baby Octo"
+							]
+						},
+						"uri": "090200000?0001",
+						"name": "WorldMobile Intro [0-C]",
+						"sdi": "...",
+						"level": "07",
+						"capacity": "00",
+						"validation": {
+							"notes": "Do they have a based understanding of the WorldMobile project.",
+							"evidence": [
+								{
+									"description": "Can answer 5 basic questions.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

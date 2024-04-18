@@ -1,0 +1,132 @@
+{
+    "template": {
+        "definition": {
+			"type": "community",
+            "name": "community-starter",
+			"title": "Community Starter",
+            "version": {
+                "number": "0.0.1",
+                "name": "jul-2022",
+                "notes": "Initial set up"
+            },
+            "source": {
+                "sharing": {
+                    "type": "Creative Commons CC0",
+                    "description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+                },
+                "name": "",
+                "notes": "",
+                "url": ""
+            },
+            "sharing": {
+                "type": "Creative Commons CC0",
+                "description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+                "notes": "Created by"
+            },
+            "usage": "Starter template for a community/ecosystem",
+            "summary": "Starter template for a community/ecosystem.  i.e. the Constitution.",
+            "description": "",
+            "approved-by": [
+                {
+                    "sdi": ""
+                }
+            ],
+            "sdt": "",
+            "notes": "",
+            "social-contracts": {
+                "core": ""
+            },
+            "governance": {
+                "resources": [
+                    {
+                        "name": "overview",
+                        "url": ""
+                    },
+                    {
+                        "name": "team",
+                        "url": ""
+                    },
+                    {
+                        "type": "constitution-document",
+                        "name": "constitution-0.0.1.pdf",
+                        "url": "ipfs://",
+                        "hash": {
+                            "type:": "sha-256",
+                            "value": ""
+                        },
+                        "sdd": ""
+                    }
+                ],
+                "rules": {
+                    "changes": [
+                        {
+                            "actions": [
+                                "change-this-template"
+                            ],
+                            "token": "x",
+                            "minimum-percentage-of-total": "75",
+                            "multiplier": "1",
+                            "skills": [
+                                {
+                                    "type": "must-have",
+                                    "sdi": "53809c58-8826-4c41-950a-ecb8ede2e810",
+                                    "name": "Community Foundation Member (Governance)",
+                                    "issued-by": {
+                                        "sdi": "",
+                                        "name": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "team": [
+                    {
+                        "role": "representative",
+                        "entity-type": "machine",
+                        "sdi": ""
+                    },
+                    {
+                        "role": "initiator",
+                        "entity-type": "human",
+                        "sdi": ""
+                    }
+                ],
+                "tokenonmics": [
+                    {
+                        "sdf": {
+                            "total": "0"
+                        }
+                    }
+                ]
+            },
+            "tokenonmics": [
+                {
+                    "x": {
+                        "total": "0"
+                    }
+                }
+            ],
+            "team": [
+                {
+                    "role": "representative",
+                    "entity-type": "machine",
+                    "sdi": ""
+                },
+                {
+                    "role": "initiator",
+                    "entity-type": "human",
+                    "sdi": ""
+                }
+            ],
+            "entity-types": [
+                "human",
+                "machine"
+            ],
+            "standards": [
+                "UNDHR",
+                "UNDR"
+            ]
+        }
+    }
+}

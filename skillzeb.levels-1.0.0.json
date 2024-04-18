@@ -1,0 +1,321 @@
+{
+    "skillzeb": {
+        "url": "https://skillzeb.io",
+        "originator": {
+            "name": "selfdriven Foundation",
+            "sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+        },
+        "licence": "CC0 1.0 Universal; Public Domain Dedication",
+        "version": "1.0.0",
+        "skills": {
+            "levels": [
+                {
+                    "name": "Level 1",
+                    "code": "01",
+                    "sdi": "aae87247-0d7e-4e31-ac9d-6d88fec1055b",
+                    "notes": {
+                        "usage": [
+                            "Preschool / Kindergarten",
+                            "Understanding of Self"
+                        ],
+                        "categories": [
+                            "Introduction to Learning"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 2",
+                    "code": "02",
+                    "sdi": "46fbf14c-5425-46ac-a283-c27a7f371f27",
+                    "notes": {
+                        "usage": [
+                            "Year 1/2",
+                            "Understanding of Self"
+                        ],
+                        "phases": [
+                            "Introduction to Learning"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 3",
+                    "code": "03",
+                    "sdi": "661005bf-d042-4575-82e1-59f4c0e5a878",
+                    "notes": {
+                        "usage": [
+                            "Year 3/4",
+                            "Understanding of Self"
+                        ],
+                        "phases": [
+                            "Introduction to Learning"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 4",
+                    "code": "04",
+                    "sdi": "04346d7e-9e57-43b2-9050-0201f1de84a2",
+                    "notes": {
+                        "usage": [
+                            "Year 5/6",
+                            "Understanding of Self"
+                        ],
+                        "phases": [
+                            "Introduction to Learning"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 5",
+                    "code": "05",
+                    "sdi": "b151b6dd-7df2-4f87-a6ca-640213f654c0",
+                    "notes": {
+                        "usage": [
+                            "Year 7",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 6",
+                    "code": "06",
+                    "sdi": "621fb8b7-8610-42d1-b8b2-a1180b5e419b",
+                    "notes": {
+                        "usage": [
+                            "Year 8",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 7",
+                    "code": "07",
+                    "sdi": "7b912643-e119-4d3d-ae91-7ab6414a96cd",
+                    "notes": {
+                        "usage": [
+                            "Year 9",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 8",
+                    "code": "08",
+                    "sdi": "d4691d2e-ff95-4dca-8074-93d96964061f",
+                    "notes": {
+                        "usage": [
+                            "Year 10",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 9",
+                    "code": "09",
+                    "sdi": "dc867415-9e6c-44e3-acff-3d215b614571",
+                    "notes": {
+                        "usage": [
+                            "Year 11",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 10",
+                    "code": "10",
+                    "sdi": "b492be0b-5440-4fe8-af79-aa341ad4e69c",
+                    "notes": {
+                        "usage": [
+                            "Year 12",
+                            "Middle School",
+                            "High School"
+                        ],
+                        "categories": [
+                            "Consolidation"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 11",
+                    "code": "11",
+                    "sdi": "2cc7df59-9795-430b-b9e3-3b759f35e18c",
+                    "notes": {
+                        "usage": [
+                            "Cert I",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 12",
+                    "code": "12",
+                    "sdi": "7fb8c0a2-07f9-46ce-8336-01e1ceaceb03",
+                    "notes": {
+                        "usage": [
+                            "Cert II",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 13",
+                    "code": "13",
+                    "sdi": "87fcc77a-e1f0-402d-8dc9-c1a2aa67c5bc",
+                    "notes": {
+                        "usage": [
+                            "Cert III",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 14",
+                    "code": "14",
+                    "sdi": "b24762a5-dd0c-409f-bd26-e569fc0ce4a8",
+                    "notes": {
+                        "usage": [
+                            "Cert IV",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 15",
+                    "code": "15",
+                    "sdi": "d59c9dff-d872-479e-81cd-615c1636529d",
+                    "notes": {
+                        "usage": [
+                            "Diploma",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 16",
+                    "code": "16",
+                    "sdi": "b5963f8c-12ad-4122-b6f8-887fa5d1ab87",
+                    "notes": {
+                        "usage": [
+                            "Associate Degree, Advanced Diploma",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 17",
+                    "code": "17",
+                    "sdi": "659e209e-d90d-4af6-94b2-79b44807f8e6",
+                    "notes": {
+                        "usage": [
+                            "Bachelor Degree",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 18",
+                    "code": "18",
+                    "sdi": "e23e0375-a898-4308-90fa-07f45646cbf3",
+                    "notes": {
+                        "usage": [
+                            "Graduate Diploma, Graduate Certificate, Bachelor Honours Degree",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 19",
+                    "code": "19",
+                    "sdi": "65cd07fe-f1db-40ee-966f-c32226eb0543",
+                    "notes": {
+                        "usage": [
+                            "Masters Degree",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                },
+                {
+                    "name": "Level 20",
+                    "code": "20",
+                    "sdi": "917e49a5-2bcf-4a0e-9559-8a1a87175e3e",
+                    "notes": {
+                        "usage": [
+                            "Doctoral Degree",
+                            "Technical Focused",
+                            "Training",
+                            "University"
+                        ],
+                        "categories": [
+                            "Focused"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

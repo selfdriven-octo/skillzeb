@@ -1,0 +1,127 @@
+{
+	"template": {
+		"definition": {
+			"type": "project",
+			"name": "project-starter",
+			"title": "Project Starter",
+			"url": "",
+			"urlCaption": "",
+			"version": {
+				"number": "",
+				"date": "",
+				"notes": ""
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "",
+				"notes": "",
+				"url": ""
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation"
+			},
+			"usage": "",
+			"description": "",
+			"summary": "",
+			"duration-days": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": ""
+				},
+				{
+					"by": "learning-partner",
+					"description": ""
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "",
+					"description": [
+						""
+					],
+					"image-url": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					]
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "",
+					"description": "",
+					"duration-days": {
+						"minimum": 0,
+						"maximum": 0
+					},
+					"tasks": [
+						{
+							"subject": "",
+							"by": "individual"
+						},
+						{
+							"subject": "",
+							"by": "team"
+						}
+					]
+				}
+			],
+			"skills": {
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io",
+				"gained": [
+					{
+						"uri": "00010000070700",
+						"name": "Curiosity [7-A]",
+						"sdi": "4b917028-8774-43cd-9cef-57f165995fb0",
+						"level": "07",
+						"capacity": "00",
+						"validation": {
+							"notes": "You are looking for curiosity attributes when playing.",
+							"evidence": [
+								{
+									"description": "Relies on external drivers for ideas.",
+									"methods": [
+										"observation"
+									]
+								},
+								{
+									"description": "Acknowledges that resources exist but requires deep learner-partner support - not self-driven.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

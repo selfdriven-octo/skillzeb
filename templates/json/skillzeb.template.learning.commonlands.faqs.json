@@ -1,0 +1,659 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-commonlands-fags",
+			"title": "Commonlands FAQs",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "14JAN2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands. Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Understand the value of commonlands."
+				},
+				{
+					"by": "learner",
+					"description": "How to use it."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "",
+					"description": [
+						""
+					],
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					]
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "Why",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "1-1",
+							"subject": "Why should I use Commonlands?",
+							"description": "Why should I use Commonlands?",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542565763223-Why-should-I-use-Commonlands"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "1-2",
+							"subject": "Why does my community need to connect 150 plots to unlock our land certificates?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "1-3",
+							"subject": "Why is my plot pending?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "1-4",
+							"subject": "Why can't I connect to my neighbor's plot?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "1-5",
+							"subject": "Why do I need to take pictures of my boundary markers?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "What",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "What is Commonlands?",
+							"description": "What is Commonlands?",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "Video",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542583577111-What-is-Commonlands"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-2",
+							"subject": "What can I do with my Commonlands Land Certificate?",
+							"description": "What can I do with my Commonlands Land Certificate?",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542623507863-What-can-I-do-with-my-Commonlands-Land-Certificate"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-3",
+							"subject": "Are Commonlands Land Certificates the same as a legal title?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542618399255-Are-Commonlands-Land-Certificates-the-same-as-a-legal-title"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-4",
+							"subject": "Are Commonlands Land Certificates the same as a legal title?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-5",
+							"subject": "What if I do not have a smartphone, how can I create a Commonlands plot?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-6",
+							"subject": "I am concerned about privacy. Who can see my personal information like phone number, profile picture, etc?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-7",
+							"subject": "What is Claimchain?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-8",
+							"subject": "Can I invite other members of my community to join Commonlands?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-9",
+							"subject": "What is Claimrank?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-10",
+							"subject": "Types of Disputes on Commonlands and What They Mean?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-11",
+							"subject": "What is an Ownership Dispute?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-12",
+							"subject": "What is a Boundary Dispute?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-13",
+							"subject": "There is a disputing plot located on my property and I do not know who created it. What should I do and how does this impact my land claim?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-14",
+							"subject": "Somebody else has claimed my plot, what do I do?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-15",
+							"subject": "My neighbor's plot is not accurately placed on the map, but the marker photos they uploaded are correct. What should I do?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "2-16",
+							"subject": "What happens if a dispute remains unresolved?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							",percentagecomplete": "false"
+						},
+						{
+							"reference": "2-17",
+							"subject": "Is Commonlands available for iOS devices?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14051078401559-Is-Commonlands-available-for-iOS-devices"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "How",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "How do I get started with Commonlands?",
+							"description": "How do I get started with Commonlands?",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14051078494999-How-do-I-get-started-with-Commonlands"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-2",
+							"subject": "I do not get cellular reception at my property, can I still use Commonlands?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-3",
+							"subject": "How do we connect plots?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-4",
+							"subject": "How do I find my neighbor’s proposed boundary marker using their pin placement and photographs?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-5",
+							"subject": "How to accurately place your plot on a map and document your boundary markers.",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-6",
+							"subject": "How do I report malicious activity?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-7",
+							"subject": "How does Commonlands protect against false claims?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						},
+						{
+							"reference": "3-8",
+							"subject": "How do I claim land for communal lands or other shared spaces?",
+							"description": "",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "More",
+									"url": ""
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "false"
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"scope": {
+							"name": "Baby Octo; Curosity",
+							"contexts": [
+								"Baby Octo"
+							]
+						},
+						"uri": "090200000?0001",
+						"name": "WorldMobile Intro [0-C]",
+						"sdi": "...",
+						"level": "07",
+						"capacity": "00",
+						"validation": {
+							"notes": "Do they have a based understanding of the WorldMobile project.",
+							"evidence": [
+								{
+									"description": "Can answer 5 basic questions.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

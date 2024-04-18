@@ -1,0 +1,98 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-template-default-0",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 MAR 2022",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://slfdrvn.io/templates"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation."
+			},
+			"usage": "Example learning template.",
+			"summary": "",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Community",
+				"sdi": ""
+			},
+			"validation": {
+				"by": [
+					{
+						"name": "{{orginator}}"
+					},
+					{
+						"name": "{{connected-learning-partners}}"
+					},
+					{
+						"name": "selfdriven Community",
+						"sdi": ""
+					}
+				],
+				"minimum-validations": 1,
+				"notes": "",
+				"links": [
+					{
+						"name": "validator-guides",
+						"caption": "Validator Guides",
+						"uri": [
+							"https",
+							"selfdriven.foundation/templates"
+						],
+						"format": "html"
+					}
+				]
+			},
+			"skills": {
+				"required": [
+					{
+						"uri": "01040000010601",
+						"name": "Biofuels [4-C]",
+						"sdi": "3011550e-4004-4176-be2b-91848a16b4a3",
+						"level": "06",
+						"capacity": "01",
+						"scope": {
+							"year": "9"
+						}
+					}
+				],
+				"gained": [
+					{
+						"uri": "01040000010601",
+						"name": "Biofuels [6-C]",
+						"sdi": "3011550e-4004-4176-be2b-91848a16b4a3",
+						"level": "06",
+						"capacity": "01",
+						"scope": {
+							"year": "9"
+						}
+					}
+				]
+			},
+			"references": [
+				{
+					"level": "06",
+					"name": "Level 6",
+					"sdi": "xxx",
+					"scope": {
+						"year": "9"
+					}
+				}
+			]
+		}
+	}
+}

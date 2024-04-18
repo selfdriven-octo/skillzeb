@@ -1,0 +1,246 @@
+{
+	"template": {
+		"definition": {
+			"type": "nextsteps",
+			"name": "nextsteps-starter",
+			"url": "https://skillzeb.io",
+			"urlCaption": "",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 FEB 2022",
+				"notes": ""
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation."
+			},
+			"usage": "Example template for a community/ecosystem next steps",
+			"summary": "xample template for a community/ecosystem next steps.",
+			"description": "",
+			"approved-by": [
+				{
+					"sdi": "39af079f-76c5-433a-9b57-9857a36b7903"
+				}
+			],
+			"sdt": "",
+			"notes": "",
+			"attributes": [
+				{
+					"name": "teamwork",
+					"caption": "Teamwork",
+					"notes": "Collaboration & Teamwork",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-teams"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "collaboration"
+								},
+								{
+									"name": "teamwork"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "20"
+					}
+				},
+				{
+					"name": "skillbuilding",
+					"caption": "Skill Building",
+					"notes": "Achievements / Skills",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-dashboard-achievements"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "creativity"
+								},
+								{
+									"name": "meaning"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "empathy",
+					"caption": "Empathy",
+					"notes": "Altruism & Empathy",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-projects"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "altruism"
+								},
+								{
+									"name": "empathy"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "community",
+					"caption": "Community Involvement",
+					"notes": "Endorsements & SDC tokens earned.",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-dashboard-endorsements"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "engagement"
+								}
+							]
+						},
+						"tokens": {
+							"name": "sdc",
+							"scope": "learner-next-tokens-community"
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "mentorship",
+					"caption": "Mentorship",
+					"notes": "Relationships as a mentor",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-dashboard-connections"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "influence"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "coaching",
+					"caption": "Coaching or Leading Teams",
+					"notes": "Teams coordinator role",
+					"source": {
+						"dashboard": {
+							"name": "learner-community-teams"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "collaboration"
+								},
+								{
+									"name": "communication"
+								},
+								{
+									"name": "creativity"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "determination",
+					"caption": "Determination",
+					"notes": "Perseverance.  Projects completed.",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-projects"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "perseverance"
+								},
+								{
+									"name": "grit"
+								},
+								{
+									"name": "thinkwhy"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "selfawareness",
+					"caption": "Self-Awareness",
+					"notes": "Critical Reflection.  Reflections.",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-dashboard-reflections"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "criticalreflection"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				},
+				{
+					"name": "identifyingskills",
+					"caption": "Understanding of Self",
+					"notes": "Identifying Skills, Strengths & Weaknesses.",
+					"source": {
+						"dashboard": {
+							"name": "learner-me-dashboard-reflections"
+						},
+						"profile": {
+							"attributes": [
+								{
+									"name": "criticalreflection"
+								}
+							]
+						}
+					},
+					"sdn": {
+						"tokens": "10"
+					}
+				}
+			]
+		}
+	}
+}

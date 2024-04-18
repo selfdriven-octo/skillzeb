@@ -1,0 +1,586 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-commonlands-app",
+			"title": "Commonlands Step by Step",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "14JAN2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to Commonlands.  Why? What? How?",
+			"description": "This learning template will step you through using the commonlands App.",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Understand of commonlands."
+				},
+				{
+					"by": "learner",
+					"description": "Create an account."
+				},
+				{
+					"by": "",
+					"description": "Create a Plot"
+				},
+				{
+					"by": "",
+					"description": "Connect to your Neighbors"
+				},
+				{
+					"by": "",
+					"description": "Accepting Neighbor Invites"
+				},
+				{
+					"by": "",
+					"description": "Certificate Verification & Sharing"
+				},
+				{
+					"by": "",
+					"description": "Creating & Managing Contracts"
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "Understanding Commonlands Video",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-understanding.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/Yg6pWNrOfE4"
+				},
+				{
+					"subject": "Create an Account",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-account.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/ytAIcx2AXFI"
+				},
+				{
+					"subject": "Create a Plot",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-plot.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/HAGnRw6c0ak"
+				},
+				{
+					"subject": "Connect to your Neighbors",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-connect.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/3YdK2Qthnsg"
+				},
+				{
+					"subject": "Accepting Neighbor Invites",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-accept.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/UnK2ViBiDpo"
+				},
+				{
+					"subject": "Certificate Verification & Sharing",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-verify.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/H03sfPpP6Is"
+				},
+				{
+					"subject": "Creating & Managing Contracts",
+					"description": [
+						""
+					],
+					"imageurl": "https://selfdriven.community/site/2186/commonlands-app-contracts.png",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://youtu.be/d5Cw3i5CWVA"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "Understanding Commonlands",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "1-1",
+							"subject": "What is the value of Commonlands?",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 7
+							},
+							"resources": [
+								{
+									"subject": "Understanding Commonlands Video",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "Describe why commonlands is needed?"
+								},
+								{
+									"by": "learner",
+									"method": "structured",
+									"type": "mandatory",
+									"description": "What is the primary purpose of creating community-verified land certificates?",
+									"hint": "",
+									"structure": {
+										"options": [
+											{
+												"name": "increase-property-taxes",
+												"sequence": 1,
+												"points": 0,
+												"caption": "Increase property taxes"
+											},
+											{
+												"name": "prove-land-ownership-access-credit",
+												"sequence": 2,
+												"points": 1,
+												"caption": "To make it easier for individuals to prove land ownership and access credit"
+											},
+											{
+												"name": "complicate-land-ownership",
+												"sequence": 3,
+												"points": 0,
+												"caption": "To complicate the land ownership process"
+											},
+											{
+												"name": "decrease-land-value",
+												"sequence": 4,
+												"points": 0,
+												"caption": "To decrease the value of land"
+											}
+										],
+										"controllers": [
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 1
+												},
+												"status": "complete"
+											},
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 0
+												},
+												"status": "in-progress"
+											}
+										]
+									}
+								},
+								{
+									"by": "learner",
+									"method": "structured",
+									"type": "mandatory",
+									"description": "How does the formation of a claim chain benefit the community and lenders?",
+									"hint": "",
+									"structure": {
+										"options": [
+											{
+												"name": "decrease-trust",
+												"sequence": 1,
+												"points": 0,
+												"caption": "By decreasing the trust between community members"
+											},
+											{
+												"name": "make-registry-expensive",
+												"sequence": 2,
+												"points": 0,
+												"caption": "By making the land registry process more expensive"
+											},
+											{
+												"name": "secure-tamper-proof-registry",
+												"sequence": 3,
+												"points": 1,
+												"caption": "By creating a secure and tamper-proof land registry, building trust"
+											},
+											{
+												"name": "eliminate-land-certificates",
+												"sequence": 4,
+												"points": 0,
+												"caption": "By eliminating the need for land certificates"
+											}
+										],
+										"controllers": [
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 1
+												},
+												"status": "complete"
+											},
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 0
+												},
+												"status": "in-progress"
+											}
+										]
+									}
+								},
+								{
+									"by": "learner",
+									"method": "structured",
+									"type": "mandatory",
+									"description": "What impact does Abby's trust score have on her ability to secure loans?",
+									"hint": "",
+									"structure": {
+										"options": [
+											{
+												"name": "no-difference",
+												"sequence": 1,
+												"points": 0,
+												"caption": "It makes no difference in her ability to secure loans"
+											},
+											{
+												"name": "decreases-chances",
+												"sequence": 2,
+												"points": 0,
+												"caption": "It decreases her chances of securing loans"
+											},
+											{
+												"name": "harder-to-use-land",
+												"sequence": 3,
+												"points": 0,
+												"caption": "It makes it harder for her to use her land as collateral"
+											},
+											{
+												"name": "easier-secure-loans",
+												"sequence": 4,
+												"points": 1,
+												"caption": "It makes it easier for her to secure loans using her land certificate as collateral"
+											}
+										],
+										"controllers": [
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 1
+												},
+												"status": "complete"
+											},
+											{
+												"type": "if",
+												"points": {
+													"comparison": "equal-to",
+													"value": 0
+												},
+												"status": "in-progress"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "Creating an Account & Plots",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "Create an account",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Creating a commonlands Account",
+									"url": "https://youtu.be/ytAIcx2AXFI"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you create an account?"
+								}
+							]
+						},
+						{
+							"reference": "2-2",
+							"subject": "Create a Plot",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Creating a commonlands Plot",
+									"url": "https://youtu.be/HAGnRw6c0ak"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you create a plot?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Connecting & Accepting",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "Connect to your Neighbors",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Connect to your Neighbors",
+									"url": "https://youtu.be/3YdK2Qthnsg"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you connect to your neighbor?"
+								}
+							]
+						},
+						{
+							"reference": "3-2",
+							"subject": "Accepting Neighbor Invites",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Accepting Neighbor Invites",
+									"url": "https://youtu.be/UnK2ViBiDpo"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you connect to accept an invite?"
+								}
+							]
+						}
+					]
+				},
+				{
+					"reference": "4",
+					"subject": "Certification & Contracts",
+					"description": "",
+					"durationdays": {
+						"minimum": 1,
+						"maximum": 10
+					},
+					"tasks": [
+						{
+							"reference": "4-1",
+							"subject": "Certificate Verification & Sharing",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Certificate Verification & Sharing",
+									"url": "https://youtu.be/H03sfPpP6Is"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you connect to verify and share your certificate?"
+								}
+							]
+						},
+						{
+							"reference": "4-2",
+							"subject": "Creating & Managing Contracts",
+							"description": "Watch video.",
+							"by": "individual",
+							"durationdays": {
+								"maximum": 2
+							},
+							"resources": [
+								{
+									"subject": "Creating & Managing Contracts",
+									"url": "https://youtu.be/d5Cw3i5CWVA"
+								}
+							],
+							"supportitems": [],
+							"percentagecomplete": "true",
+							"reflections": [
+								{
+									"by": "learner",
+									"method": "observation",
+									"type": "mandatory",
+									"description": "How do you connect to create & manage contracts?"
+								}
+							]
+						}
+					]
+				}
+			],
+			"skills": {
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"scope": {
+							"name": "Baby Octo; Curosity",
+							"contexts": [
+								"Baby Octo"
+							]
+						},
+						"uri": "090200000?0001",
+						"name": "commonlands [0-C]",
+						"sdi": "...",
+						"level": "07",
+						"capacity": "00",
+						"validation": {
+							"notes": "Do they have a based understanding of the commonlands project.",
+							"evidence": [
+								{
+									"description": "Can answer 5 basic questions.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

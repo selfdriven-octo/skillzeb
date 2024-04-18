@@ -1,0 +1,89 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-cardano-build-aiken",
+			"title": "Introduction to Aiken",
+			"reference": "cardano-build-001",
+			"url": "https://cardano.build/#aiken",
+			"urlCaption": "cardano.build",
+			"uri": "",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 MAR 2024",
+				"notes": ""
+			},
+			"issuer": "",
+			"usage": ".",
+			"description": ".",
+			"summary": ".",
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "XX."
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "",
+					"description": "",
+					"duration-days": {
+						"minimum": 1,
+						"maximum": 2
+					},
+					"tasks": [
+						{
+							"subject": "",
+							"by": "learner"
+						}
+					],
+					"support-items": [
+						{
+							"subject": ""
+						}
+					],
+					"notes": [
+						{
+							"subject": ""
+						}
+					]
+				}
+			],
+			"links": [
+				{
+					"url": "https://cardano.build/#aiken",
+					"description": ".",
+					"for": [
+						"learner",
+						"learning-partner"
+					]
+				}
+			],
+			"dependencies": {
+				"templates": [
+					{
+						"name": ""
+					}
+				]
+			},
+			"level": [
+				"00"
+			],
+			"skill-capacities": [
+				"*"
+			],
+			"skills": {
+				"gained": [
+					{
+						"name": "Cardano Aiken Intro",
+						"reference": "",
+						"sequence": "",
+						"sdi": ""
+					}
+				]
+			},
+			"license": "CC0-Public-Domain"
+		}
+	}
+}
