@@ -1,6 +1,15 @@
-# selfdriven Shared Universal Skills Set
+# skillzeb Universal Skill Set & Templates
 
 Open universal skills set as foundation for a learning ecosystem.
 
-https://selfdriven.foundation/skills
-https://skillzeb.io
+- https://skillzeb.io
+- https://skillzeb.io/about
+- https://skillzeb.io/integrate
+
+Facilitated By
+- https://selfdriven.foundation
+- https://selfdriven.foundation/connect
+
+Works With
+- https://selfdriven.foundation/skills
+
