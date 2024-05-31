@@ -1,0 +1,95 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-resources-cardano-aiken",
+			"title": "Cardano Aiken Learning Resources",
+			"summary": "Resources for learning Aiken coding or building a template.",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 JAN 2024",
+				"notes": "Initial set up"
+			},
+			"domains": [
+				"Education",
+				"Information Sciences",
+				"Project Based Learning",
+				"Information Technology",
+				"Computer Sciences",
+				"Building",
+				"Languages"
+			],
+			"usage": "Learning template resources for building a template on coding with Aiken on the Cardano blockchain.",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Octo",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "cardano.build/#aiken",
+					"description": "Aiken Resources",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://cardano.build/#aiken"
+				}
+			],
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Understanding of Aiken"
+				}
+			],
+			"skills": {
+				"required": [
+					{
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "00",
+						"capacity": "00",
+						"scope": {
+							"year": ""
+						}
+					}
+				],
+				"gained": [
+					{
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "0",
+						"capacity": "00",
+						"scope": {
+							"year": ""
+						}
+					}
+				]
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation/templates"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			}
+		}
+	}
+}

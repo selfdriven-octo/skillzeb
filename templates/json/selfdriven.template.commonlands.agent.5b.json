@@ -1,0 +1,988 @@
+{
+	"template": {
+		"definition": {
+			"name": "commonlands-agent1",
+			"title": "Commonlands Agent",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "01MAR2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands. Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Commonlands, including its core values, mission and guiding principles."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimchain™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimrank™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimlock™️."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "No GenAI Assistance",
+					"description": "This is about how well you will preform as an agent of commonlands - using GenAI to answer does help anyone."
+				}
+			],
+			"resources": [
+				{
+					"subject": "Claimchain",
+					"description": "Our permissionless product for NGOs, governments and development organizations to build foundational community-verified economic identities tied to land.",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://commonlands.org/claimchain"
+				},
+				{
+					"subject": "Claimrank",
+					"description": "Our trust metric / credit ranking system used by businesses and institutions for lending due diligence and risk analysis. Claimrank connects the community’s social capital and credit history into a product businesses and lenders can use to easily make decisions on where to invest and who to invest in",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimrank"
+				},
+				{
+					"subject": "Claimlock",
+					"description": "Our secure contract collateralization product for lenders, businesses & peer-to-peer contracting to secure agreements in informal markets with digital, tamperproof, community-verified Commonlands Certificates.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimlock"
+				},
+				{
+					"subject": "Commonlands Knowledge Base",
+					"description": "Advice and answers from from Commonlands HQ including App Tutorials and Frequently Asked Questions.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.zendesk.com/hc/en-us"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"description": "The first module describes the basics for working with and using Commonlands products.",
+					"tasks": [
+						{
+							"reference": "1.1",
+							"subject": "What is Commonlands?",
+							"description": "<p>Commonlands is building a new trust system. Built by neighbors. Backed by land. Our innovative system builds trust, with land.</p>\n<p>And our open land registry, Claimchain, uses the shared connections between neighbors as the basis for trust in our system.</p>\n<p>Then, our tamper-evident technology ensures the authenticity of claims, and provides a secure and transparent way to prove land ownership. In providing lenders with the tools they need to confidently enter challenging emerging and frontier markets, we&rsquo;re unlocking opportunities in the global impact investing market estimated to be worth over $2 trillion annually &ndash; with $700 billion targeting opportunities in emerging and frontier markets.</p>\n<p>Through breaking down barriers to investment, increasing community engagement, and providing land security for local landowners, we are on a mission to increase success rates and reduce defaults of loans in emerging and frontier markets, while equipping a new generation of credit-worthy individuals to enter the global market.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Commonlands",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542583577111-What-is-Commonlands"
+								},
+								{
+									"subject": "Video: Commonlands Explainer",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": "What Are Three Key Values of Commonlands"
+								},
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Commonlands Is Built By?",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "neighbours",
+												"caption": "Neighbours",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "government",
+												"caption": "Government",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": [
+								{
+									"for": "",
+									"description": ""
+								}
+							]
+						},
+						{
+							"reference": "1-1",
+							"subject": "What are the uses for Commonlands?",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": "What Are Two Use Cases of Commonlands"
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-2",
+							"subject": "What is a Commonlands Land Certificate?",
+							"description": "<p class=\"p1\">The Commonlands Land Certificate&nbsp;serves as a potent validation of your claim to your land and the rights associated with it.</p>\n<p>Owing to the strong foundation of cryptography and distributed ledger technology, this certificate provides a verifiable, globally recognized proof of your land ownership. Anyone across the globe can authenticate your certificate, which is backed by the collective trust and affirmation of your community.</p>\n<p>Whenever you are required to prove your status as a landowner, this certificate can be used as a reliable document for verification. Moreover, organizations that employ Commonlands technology can utilize your certificate to fortify agreements, contracts, and loans, using it as a secure form of collateral.</p>\n<p>In certain scenarios, your Land Certificate may even qualify you for rewards. Please consult your local community guidelines or representatives to understand if such benefits apply to your region.</p>\n<p>The acquisition of this certificate also enables you and your community to forge secure agreements and assess each other's credit histories. This fosters trust, transparency, and cooperation within your community, reinforcing its integrity.</p>\n<p>Furthermore, you can also combine your certificates with those of others to form lending circles. The robust infrastructure of Commonlands eliminates the need for traditional paper accounting, seamlessly tracking agreements and repayments. This innovative approach not only simplifies the process but also enhances security, making land ownership and related transactions more efficient and trustworthy.</p>\n<p>In conclusion, your Commonlands Land Certificate is more than just a document; it is a key that unlocks numerous opportunities and benefits, contributing towards a more secure and connected community.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Certificates Can Be Combined To",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "withothers",
+												"caption": "With Others To Form Lending Circles",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "byself",
+												"caption": "Used Only By Self",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-3",
+							"subject": "Types of Disputes",
+							"description": "<p class=\"p1\">In Commonlands, you may encounter two types of disputes.</p>\n<p class=\"p1\">Here's what they mean and their implications:</p>\n<p class=\"p1\"><span class=\"s1\"><strong>Ownership Disputes</strong></span></p>\n<p class=\"p1\">Ownership disputes arise when two or more individuals stake a claim on the same piece of land, and they don't recognize each other's claims, implying they don't link their plots together. In this case, each party needs to create their own&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_blank\" rel=\"noopener\"><span class=\"s1\">Claimchain</span></a>&nbsp;to qualify for a&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542623507863\" target=\"_blank\" rel=\"noopener\"><span class=\"s1\">Commonlands Certificate</span></a>. This type of dispute is considered more severe, as it directly questions the legitimacy of ownership.</p>\n<p class=\"p1\"><span class=\"s1\"><strong>Boundary Disputes</strong></span></p>\n<p class=\"p1\">Boundary disputes occur when neighbors recognize each other's presence (i.e., they've linked their plots) but can't agree on the&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542631790743\"><span class=\"s1\">precise demarcation of their shared boundary</span></a>. Since these neighbors acknowledge each other, this dispute doesn't disrupt a Claimchain, making it less severe. It's primarily about clarifying property lines rather than questioning ownership rights.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Commonlands Helps With Disputes About",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "any",
+												"caption": "Anything",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "ownershipboundary",
+												"caption": "Ownership & Boundary",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						}
+					],
+					"subject": "Getting Started"
+				},
+				{
+					"reference": "2",
+					"subject": "Commonlands App",
+					"description": "The second module gives an overview about how to use the Commonlands app.",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "Download",
+							"description": "<p>Downloading the app on one's device.</p>\n<p>As of now, Commonlands is only available for Android devices. We are actively working on developing an iOS version and will release it in the future.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Google Play",
+									"url": "https://play.google.com/store/apps/details?id=org.commonlands.mobile&pcampaignid=web_share&pli=1",
+									"description": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "What mobile operating systems is the app available on?",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "andriod",
+												"caption": "Android",
+												"points": "1",
+												"sequence": "1"
+											},
+											{
+												"name": "ios",
+												"caption": "Apple iOS",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "androidios",
+												"caption": "Android & iOS",
+												"points": "",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-2",
+							"subject": "Account",
+							"description": "<p>Creating an account.</p>\n<p>Take a clear phot of your face.</p>\n<p>Treat it like a passport, it can not be changed.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Tutorial - Create Your Identity",
+									"url": "https://youtu.be/ytAIcx2AXFI"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "The Identity Photo",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "canchange",
+												"caption": "Can Change",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "cannotbechange",
+												"caption": "Can Not Be Changed",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "Plot",
+							"description": "Creating a plot.\nTap, hold",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Tutorial Video - Plot Creation",
+									"url": "https://youtu.be/HAGnRw6c0ak",
+									"description": ""
+								}
+							],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-4",
+							"subject": "Connecting",
+							"description": "Connecting to one's neighbors.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-5",
+							"subject": "Invitations",
+							"description": "Accepting neighbor invitations.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-6",
+							"subject": "Verification",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-7",
+							"subject": "Sharing",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-8",
+							"subject": "Contracts",
+							"description": "Creating and managing contracts.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Commonlands Solutions",
+					"description": "The final module describes in-depth the Commonlands solutions",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "Claimrank",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-2",
+							"subject": "Claimlock",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-3",
+							"subject": "Use Cases",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "",
+									"type": "",
+									"description": ""
+								}
+							],
+							"supportitems": []
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"uri": "09680000400001",
+						"name": "Community Agent",
+						"sdi": "a3623815-cb75-4d75-acee-314f986051ca",
+						"level": "00",
+						"capacity": "01",
+						"validation": {
+							"notes": "Do they have an understanding of the Commonlands project and what it means to be an agent.",
+							"evidence": [
+								{
+									"description": "Answered all the task reflections correctly.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			},
+			"type": "learning",
+			"controller": "default"
+		},
+		"project": {
+			"name": "commonlands-agent1",
+			"title": "Commonlands Agent",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "01MAR2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands. Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Commonlands, including its core values, mission and guiding principles."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimchain™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimrank™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimlock™️."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "No GenAI Assistance",
+					"description": "This is about how well you will preform as an agent of commonlands - using GenAI to answer does help anyone."
+				}
+			],
+			"resources": [
+				{
+					"subject": "Claimchain",
+					"description": "Our permissionless product for NGOs, governments and development organizations to build foundational community-verified economic identities tied to land.",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://commonlands.org/claimchain"
+				},
+				{
+					"subject": "Claimrank",
+					"description": "Our trust metric / credit ranking system used by businesses and institutions for lending due diligence and risk analysis. Claimrank connects the community’s social capital and credit history into a product businesses and lenders can use to easily make decisions on where to invest and who to invest in",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimrank"
+				},
+				{
+					"subject": "Claimlock",
+					"description": "Our secure contract collateralization product for lenders, businesses & peer-to-peer contracting to secure agreements in informal markets with digital, tamperproof, community-verified Commonlands Certificates.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimlock"
+				},
+				{
+					"subject": "Commonlands Knowledge Base",
+					"description": "Advice and answers from from Commonlands HQ including App Tutorials and Frequently Asked Questions.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.zendesk.com/hc/en-us"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"description": "The first module describes the basics for working with and using Commonlands products.",
+					"tasks": [
+						{
+							"reference": "1.1",
+							"subject": "What is Commonlands?",
+							"description": "<p>Commonlands is building a new trust system. Built by neighbors. Backed by land. Our innovative system builds trust, with land.</p>\n<p>And our open land registry, Claimchain, uses the shared connections between neighbors as the basis for trust in our system.</p>\n<p>Then, our tamper-evident technology ensures the authenticity of claims, and provides a secure and transparent way to prove land ownership. In providing lenders with the tools they need to confidently enter challenging emerging and frontier markets, we&rsquo;re unlocking opportunities in the global impact investing market estimated to be worth over $2 trillion annually &ndash; with $700 billion targeting opportunities in emerging and frontier markets.</p>\n<p>Through breaking down barriers to investment, increasing community engagement, and providing land security for local landowners, we are on a mission to increase success rates and reduce defaults of loans in emerging and frontier markets, while equipping a new generation of credit-worthy individuals to enter the global market.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Commonlands",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542583577111-What-is-Commonlands"
+								},
+								{
+									"subject": "Video: Commonlands Explainer",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": "What Are Three Key Values of Commonlands"
+								},
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Commonlands Is Built By?",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "neighbours",
+												"caption": "Neighbours",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "government",
+												"caption": "Government",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": [
+								{
+									"for": "",
+									"description": ""
+								}
+							]
+						},
+						{
+							"reference": "1-1",
+							"subject": "What are the uses for Commonlands?",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": "What Are Two Use Cases of Commonlands"
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-2",
+							"subject": "What is a Commonlands Land Certificate?",
+							"description": "<p class=\"p1\">The Commonlands Land Certificate&nbsp;serves as a potent validation of your claim to your land and the rights associated with it.</p>\n<p>Owing to the strong foundation of cryptography and distributed ledger technology, this certificate provides a verifiable, globally recognized proof of your land ownership. Anyone across the globe can authenticate your certificate, which is backed by the collective trust and affirmation of your community.</p>\n<p>Whenever you are required to prove your status as a landowner, this certificate can be used as a reliable document for verification. Moreover, organizations that employ Commonlands technology can utilize your certificate to fortify agreements, contracts, and loans, using it as a secure form of collateral.</p>\n<p>In certain scenarios, your Land Certificate may even qualify you for rewards. Please consult your local community guidelines or representatives to understand if such benefits apply to your region.</p>\n<p>The acquisition of this certificate also enables you and your community to forge secure agreements and assess each other's credit histories. This fosters trust, transparency, and cooperation within your community, reinforcing its integrity.</p>\n<p>Furthermore, you can also combine your certificates with those of others to form lending circles. The robust infrastructure of Commonlands eliminates the need for traditional paper accounting, seamlessly tracking agreements and repayments. This innovative approach not only simplifies the process but also enhances security, making land ownership and related transactions more efficient and trustworthy.</p>\n<p>In conclusion, your Commonlands Land Certificate is more than just a document; it is a key that unlocks numerous opportunities and benefits, contributing towards a more secure and connected community.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Certificates Can Be Combined To",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "withothers",
+												"caption": "With Others To Form Lending Circles",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "byself",
+												"caption": "Used Only By Self",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-3",
+							"subject": "Types of Disputes",
+							"description": "<p class=\"p1\">In Commonlands, you may encounter two types of disputes.</p>\n<p class=\"p1\">Here's what they mean and their implications:</p>\n<p class=\"p1\"><span class=\"s1\"><strong>Ownership Disputes</strong></span></p>\n<p class=\"p1\">Ownership disputes arise when two or more individuals stake a claim on the same piece of land, and they don't recognize each other's claims, implying they don't link their plots together. In this case, each party needs to create their own&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_blank\" rel=\"noopener\"><span class=\"s1\">Claimchain</span></a>&nbsp;to qualify for a&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542623507863\" target=\"_blank\" rel=\"noopener\"><span class=\"s1\">Commonlands Certificate</span></a>. This type of dispute is considered more severe, as it directly questions the legitimacy of ownership.</p>\n<p class=\"p1\"><span class=\"s1\"><strong>Boundary Disputes</strong></span></p>\n<p class=\"p1\">Boundary disputes occur when neighbors recognize each other's presence (i.e., they've linked their plots) but can't agree on the&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542631790743\"><span class=\"s1\">precise demarcation of their shared boundary</span></a>. Since these neighbors acknowledge each other, this dispute doesn't disrupt a Claimchain, making it less severe. It's primarily about clarifying property lines rather than questioning ownership rights.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "Commonlands Helps With Disputes About",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "any",
+												"caption": "Anything",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "ownershipboundary",
+												"caption": "Ownership & Boundary",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						}
+					],
+					"subject": "Getting Started"
+				},
+				{
+					"reference": "2",
+					"subject": "Commonlands App",
+					"description": "The second module gives an overview about how to use the Commonlands app.",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "Download",
+							"description": "<p>Downloading the app on one's device.</p>\n<p>As of now, Commonlands is only available for Android devices. We are actively working on developing an iOS version and will release it in the future.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Google Play",
+									"url": "https://play.google.com/store/apps/details?id=org.commonlands.mobile&pcampaignid=web_share&pli=1",
+									"description": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "What mobile operating systems is the app available on?",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "andriod",
+												"caption": "Android",
+												"points": "1",
+												"sequence": "1"
+											},
+											{
+												"name": "ios",
+												"caption": "Apple iOS",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "androidios",
+												"caption": "Android & iOS",
+												"points": "",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-2",
+							"subject": "Account",
+							"description": "<p>Creating an account.</p>\n<p>Take a clear phot of your face.</p>\n<p>Treat it like a passport, it can not be changed.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Tutorial - Create Your Identity",
+									"url": "https://youtu.be/ytAIcx2AXFI"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "The Identity Photo",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "canchange",
+												"caption": "Can Change",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "cannotbechange",
+												"caption": "Can Not Be Changed",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "Plot",
+							"description": "Creating a plot.\nTap, hold",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Tutorial Video - Plot Creation",
+									"url": "https://youtu.be/HAGnRw6c0ak",
+									"description": ""
+								}
+							],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-4",
+							"subject": "Connecting",
+							"description": "Connecting to one's neighbors.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-5",
+							"subject": "Invitations",
+							"description": "Accepting neighbor invitations.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-6",
+							"subject": "Verification",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-7",
+							"subject": "Sharing",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "2-8",
+							"subject": "Contracts",
+							"description": "Creating and managing contracts.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Commonlands Solutions",
+					"description": "The final module describes in-depth the Commonlands solutions",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "Claimrank",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-2",
+							"subject": "Claimlock",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [],
+							"supportitems": []
+						},
+						{
+							"reference": "3-3",
+							"subject": "Use Cases",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "",
+									"type": "",
+									"description": ""
+								}
+							],
+							"supportitems": []
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"uri": "09680000400001",
+						"name": "Community Agent",
+						"sdi": "a3623815-cb75-4d75-acee-314f986051ca",
+						"level": "00",
+						"capacity": "01",
+						"validation": {
+							"notes": "Do they have an understanding of the Commonlands project and what it means to be an agent.",
+							"evidence": [
+								{
+									"description": "Answered all the task reflections correctly.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			},
+			"type": "learning",
+			"controller": "default"
+		}
+	}
+}

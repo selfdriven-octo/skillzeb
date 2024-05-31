@@ -31,7 +31,16 @@
 					"summary": "A starter for building your own learning template.",
 					"url": "/skillzeb.template.learning.starter.json",
 					"type": "learning",
-					"sdt": "a8594a70-7998-4bb7-a549-a1f6fd16fc3f"
+					"sdt": "a8594a70-7998-4bb7-a549-a1f6fd16fc3f",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "nextsteps-starter",
@@ -39,7 +48,16 @@
 					"summary": "A starter for building your own next steps template.",
 					"url": "/skillzeb.template.nextsteps.starter.json",
 					"type": "nextsteps",
-					"sdt": "0c7e9f9f-2e7a-4594-ac6d-023d5a6801df"
+					"sdt": "0c7e9f9f-2e7a-4594-ac6d-023d5a6801df",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "project-starter",
@@ -47,7 +65,16 @@
 					"summary": "A starter for building your own project template.",
 					"url": "/skillzeb.template.project.starter.json",
 					"type": "project",
-					"sdt": "4192e23a-e009-492e-aeca-d191862b7b08."
+					"sdt": "4192e23a-e009-492e-aeca-d191862b7b08",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "community-starter",
@@ -55,7 +82,16 @@
 					"summary": "A community template starter.",
 					"url": "/skillzeb.template.community.starter.json",
 					"type": "community",
-					"sdt": "4192e23a-e009-492e-aeca-d191862b7b08."
+					"sdt": "4192e23a-e009-492e-aeca-d191862b7b08",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "project-starter-science",
@@ -63,7 +99,16 @@
 					"summary": "A starter for building your own science project template.",
 					"url": "/skillzeb.template.project.starter-science.json",
 					"type": "project",
-					"sdt": "'a6b0c1c4-a928-4a54-99dc-c09600007445"
+					"sdt": "'a6b0c1c4-a928-4a54-99dc-c09600007445",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "project-duke-of-ed",
@@ -71,7 +116,16 @@
 					"summary": "Learning Template for Duke of Ed program. i.e. Skill levels etc",
 					"url": "/skillzeb.template.project.duke-of-ed.json",
 					"type": "project",
-					"sdt": "4fa5d38c-15ac-46ba-87c5-dd69eb288fef"
+					"sdt": "4fa5d38c-15ac-46ba-87c5-dd69eb288fef",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "learning-cardano-build-setting-up-a-stake-pool",
@@ -79,15 +133,33 @@
 					"summary": "At the end of this learning project, a learner will be able to set up a Cardano stake pool.",
 					"url": "/skillzeb.template.learning.cardano-build-setting-up-a-stake-pool.json",
 					"type": "project",
-					"sdt": "b18235de-6bec-4205-9614-70dab9d6adb8"
+					"sdt": "b18235de-6bec-4205-9614-70dab9d6adb8",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "learning-cardano-build-aiken",
 					"title": "Building on Cardano with Aiken",
 					"summary": "A project to learn how to develop validator contracts on Cardano using Aiken.",
-					"url": "/skillzeb.template.project.cardano-build-aiken.json",
+					"url": "/skillzeb.template.learning.cardano-build-aiken.json",
 					"type": "learning",
-					"sdt": "841eaadc-3973-456d-b7ba-f82d55cdce4f"
+					"sdt": "841eaadc-3973-456d-b7ba-f82d55cdce4f",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "project-industrial-arts",
@@ -95,7 +167,16 @@
 					"summary": "Identify and investigate a specific need. Then create a system / product / environment / service as a solution to that identified need.",
 					"url": "/skillzeb.template.project.industrial-arts.json",
 					"type": "project",
-					"sdt": "bb709235-5eff-4f94-9302-1e76b933bdaf"
+					"sdt": "bb709235-5eff-4f94-9302-1e76b933bdaf",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				},
 				{
 					"name": "project-pblworks-making-space-change",
@@ -103,7 +184,16 @@
 					"summary": "Students are charged with the task of creating an environmentally sustainable redesign for a community space, such as a park, library, public square, empty lot, or community center. Students visit the space; research the local context, needs, resources, and constraints; and investigate principles of environmentally sustainable design. They engage in critique and revision processes that involve local community members and then present their solutions to key stakeholders",
 					"url": "/skillzeb.template.project.pblworks-making-space-for-change.json",
 					"type": "project",
-					"sdt": "73bf826b-679e-45f6-93e0-0e1f541ce513"
+					"sdt": "73bf826b-679e-45f6-93e0-0e1f541ce513",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons BY-SA-NC",
+							"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License"
+						},
+						"name": "PBLworks",
+						"notes": "Thank you to John Derian for curriculum development on this project.",
+						"url": "https://my.pblworks.org/project/making-space-change"
+					}
 				},
 				{
 					"name": "project-pblworks-ultimate-design-challenge",
@@ -111,7 +201,16 @@
 					"summary": "Product packaging often uses materials and processes that negatively affect the Earth. In your role as design engineers, use the engineering-design process and geometric modeling to redesign a product's packaging to render it more sustainable. Explore volume, surface area, and dimensions of complex shapes to develop prototypes that meet the product's packaging design constraints while limiting the packaging material used and/or waste generated.",
 					"url": "/skillzeb.template.project.pblworks-ultimate-design-challenge.json",
 					"type": "project",
-					"sdt": "b61adb8d-a8fb-4b1e-9cf4-b522934102aa"
+					"sdt": "b61adb8d-a8fb-4b1e-9cf4-b522934102aa",
+							"source": {
+						"sharing": {
+							"type": "Creative Commons BY-SA-NC",
+							"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License"
+						},
+						"name": "PBLworks",
+						"notes": "Thank you to Telannia Norfar for curriculum development on this project.",
+						"url": "https://my.pblworks.org/project/ultimate-design-challenge"
+					}
 				},
 				{
 					"name": "learning-mav100-reseller",
@@ -119,7 +218,16 @@
 					"summary": "Theoretical, technical, and social dimensions of becoming a MAV100 reseller.",
 					"url": "/skillzeb.template.learning.mav100.reseller.json",
 					"type": "learning",
-					"sdt": ""
+					"sdt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "In collaboration with MAV100.org.",
+						"url": "https://selfdriven.foundation/templates"
+					}
 				}
 			]
 		}

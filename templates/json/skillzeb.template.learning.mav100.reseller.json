@@ -34,6 +34,17 @@
 					}
 				]
 			},
+			"domains": [
+					"Who Am I",
+					"Authentic Learning",
+					"Education",
+					"Project Based Learning",
+					"Business",
+					"Communications",
+					"Economics-Business",
+					"Community Services",
+					"Retail"
+				],
 			"usage": "Introduction to WorldMobile.  Why? What? How?",
 			"description": "Theoretical, technical, and social dimensions of becoming a MAV100 reseller.",
 			"summary": "A comprehensive guide on building a generation of young people that will lead the global society into a decentralized future.",

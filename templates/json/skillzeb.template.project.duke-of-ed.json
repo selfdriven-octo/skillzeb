@@ -10,6 +10,15 @@
 				"date": "01 MAR 2022",
 				"notes": "Initial set up"
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Health-Physical-Education",
+				"Project Based Learning",
+				"Human Sciences",
+				"Authentic Learning"
+			],
+			"usage": "",
 			"summary": "",
 			"description": "",
 			"orginator": {

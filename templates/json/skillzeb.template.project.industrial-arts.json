@@ -25,6 +25,16 @@
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
 				"notes": "Created by the selfdriven Foundation."
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Project Based Learning",
+				"Information Technology",
+				"Building",
+				"Design",
+				"Engineering",
+				"Construction"
+			],
 			"usage": "This is a template for completing a PBL major works project.",
 			"description": "Identify and investigate a specific need. Then create a system / product / environment / service as a solution to that identified need.",
 			"summary": "Your final product will contribute to the PBL Major Project Community Showcase Event as either an item for display, an item for sale, or there are specific opportunities to play a role in the overall administration and operation of the PBL community Event itself.",

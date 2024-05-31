@@ -24,8 +24,14 @@
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
 				"notes": "Created by the selfdriven Foundation."
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Governance",
+				"Next Steps"
+			],
 			"usage": "Example template for a community/ecosystem next steps",
-			"summary": "xample template for a community/ecosystem next steps.",
+			"summary": "Example template for a community/ecosystem next steps.",
 			"description": "",
 			"approved-by": [
 				{

@@ -25,6 +25,15 @@
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
 				"notes": "Created by the selfdriven Foundation."
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Information Sciences",
+				"Project Based Learning",
+				"Information Technology",
+				"Computer Sciences",
+				"Infrastructure"
+			],
 			"usage": "This is a template for setting up a stake pool.",
 			"description": "Set up a Cardano stake pool.",
 			"summary": "At the end of this learning project, you will be able to set up a Cardano stake pool.",

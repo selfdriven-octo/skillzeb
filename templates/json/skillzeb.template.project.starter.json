@@ -25,6 +25,12 @@
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
 				"notes": "Created by the selfdriven Foundation"
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Governance",
+				"Project Based Learning"
+			],
 			"usage": "",
 			"description": "",
 			"summary": "",

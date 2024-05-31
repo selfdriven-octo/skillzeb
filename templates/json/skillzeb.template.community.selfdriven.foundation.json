@@ -1,0 +1,179 @@
+{
+	"template": {
+		"definition": {
+			"type": "community",
+			"name": "community-selfdriven-governance-constitution",
+			"version": {
+				"number": "0.0.1",
+				"notes": ""
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation/governance"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation."
+			},
+			"usage": "Example template for a community/ecosystem",
+			"summary": "Example template for a community/ecosystem.  i.e. the Constitution.",
+			"description": "",
+			"approved-by": [
+				{
+					"sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+				}
+			],
+			"sdt": "4cd64490-9a50-4f3f-a593-1f36d38b3c00",
+			"notes": "",
+			"contracts": [
+				{
+					"type": "social",
+					"core": "true",
+					"description": "Be Curious, Be Caring"
+				}
+			],
+			"governance": {
+				"resources": [
+					{
+						"name": "overview",
+						"url": "https://selfdriven.foundation/governance"
+					},
+					{
+						"name": "team",
+						"url": "https://selfdriven.foundatio/team"
+					},
+					{
+						"type": "constitution-document",
+						"name": "selfdriven-foundation-gov-constitution-0.0.1.pdf",
+						"url": "ipfs://QmYZQbRczxNzgBm8aVSKZsHKsRp1YCJjBeGyoc2twvuoTa",
+						"hash": {
+							"type": "sha-256",
+							"value": "18e8cbd0a101734afc8fb5dad5585df8df00a9a36d4437737d770953e5d5a611"
+						},
+						"sdd": "ad12dec9-b7b9-4c27-833e-0dc797d0509e"
+					}
+				],
+				"rules": [
+					{
+						"actions": [
+							"change-this-template"
+						],
+						"token": {
+							"name": "x"
+						},
+						"minimum-percentage-of-total": "75",
+						"multiplier": "1",
+						"skills": [
+							{
+								"type": "must-have",
+								"sdi": "53809c58-8826-4c41-950a-ecb8ede2e810",
+								"name": "Community Foundation Member (Governance)",
+								"issued-by": {
+									"sdi": "",
+									"name": ""
+								}
+							}
+						]
+					}
+				],
+				"team": [
+					{
+						"role": "representative",
+						"entity-type": "machine",
+						"sdi": "ddea7071-c37b-4c3f-ab69-603870f5c9f6"
+					},
+					{
+						"role": "initiator",
+						"entity-type": "human",
+						"sdi": "39af079f-76c5-433a-9b57-9857a36b7903"
+					}
+				],
+				"tokenomics": [
+					{
+						"name": "sdf",
+						"total": "200000"
+					}
+				]
+			},
+			"tokenomics": [
+				{
+					"name": "x",
+					"total": "0"
+				}
+			],
+			"team": [
+				{
+					"role": "representative",
+					"entity-type": "machine",
+					"sdi": "ddea7071-c37b-4c3f-ab69-603870f5c9f6"
+				},
+				{
+					"role": "initiator",
+					"entity-type": "human",
+					"sdi": "39af079f-76c5-433a-9b57-9857a36b7903"
+				}
+			],
+			"entity-types": [
+				"human",
+				"machine"
+			],
+			"standards": [
+				"UNDHR",
+				"UNDR"
+			],
+			"growth": {
+				"rules":
+				[
+					{
+						"token": "sdc",
+						"controller": "#multiply",
+						"value": "1"
+					},
+					{
+						"token": "sdf",
+						"controller": "#multiply",
+						"value": "10"
+					}
+				],
+				"reflections": [
+					{
+						"name": "octo-level-1-8",
+						"sequence": "1",
+						"title": "selfdriven Community OctoLevel 1|8",
+						"value": "200",
+						"skills": {
+							"required": [],
+							"gained": [{"title": "selfdriven Community OctoLevel 1"}]
+						},
+						"tokens": {
+							"earned": {
+								"octos": "256"
+							}
+						}
+					},
+					{
+						"name": "octo-level-2-8",
+						"sequence": "1",
+						"title": "selfdriven Community OctoLevel 2|8",
+						"value": "2000",
+						"skills": {
+							"required": [],
+							"gained": [{"title": "selfdriven Community OctoLevel 2"}]
+						},
+						"tokens": {
+							"earned": {
+								"octos": "2048"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -2,7 +2,7 @@
 	"template": {
 		"definition": {
 			"type": "learning",
-			"name": "learning-template-default-0",
+			"name": "learning-starter",
 			"urlCaption": "....",
 			"version": {
 				"number": "0.0.1",
@@ -16,21 +16,35 @@
 				},
 				"name": "selfdriven Foundation",
 				"notes": "",
-				"url": "https://slfdrvn.io/templates"
+				"url": "https://selfdriven.foundation/templates"
 			},
 			"sharing": {
 				"type": "Creative Commons CC0",
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
-				"notes": "Created by the selfdriven Foundation."
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
 			},
-			"usage": "Example learning template.",
+			"domains": [
+				"*"
+			],
+			"usage": "Help set up a learning template.",
 			"summary": "",
 			"description": "",
 			"orginator": {
 				"name": "selfdriven Community",
 				"sdi": ""
 			},
-			"validation": {
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"verification": {
 				"by": [
 					{
 						"name": "{{orginator}}"
@@ -43,7 +57,7 @@
 						"sdi": ""
 					}
 				],
-				"minimum-validations": 1,
+				"minimum-verifications": 1,
 				"notes": "",
 				"links": [
 					{
@@ -51,48 +65,137 @@
 						"caption": "Validator Guides",
 						"uri": [
 							"https",
-							"selfdriven.foundation/templates"
+							"selfdriven.education"
 						],
 						"format": "html"
 					}
 				]
 			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": ""
+				},
+				{
+					"by": "learning-partner",
+					"description": ""
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "",
+					"description": ".",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": ""
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "",
+					"description": "",
+					"tasks": [
+						{
+							"reference": "1.1",
+							"subject": "",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "",
+									"url": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								},
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "",
+									"subject": "",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "opt1",
+												"caption": "Opt 1",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "opt2",
+												"caption": "Opt 2",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": [
+								{
+									"for": "",
+									"description": ""
+								}
+							]
+						}
+					]
+				}
+			],
 			"skills": {
 				"required": [
 					{
-						"uri": "01040000010601",
-						"name": "Biofuels [4-C]",
-						"sdi": "3011550e-4004-4176-be2b-91848a16b4a3",
-						"level": "06",
-						"capacity": "01",
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "00",
+						"capacity": "00",
 						"scope": {
-							"year": "9"
+							"year": ""
 						}
 					}
 				],
 				"gained": [
 					{
-						"uri": "01040000010601",
-						"name": "Biofuels [6-C]",
-						"sdi": "3011550e-4004-4176-be2b-91848a16b4a3",
-						"level": "06",
-						"capacity": "01",
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "0",
+						"capacity": "00",
 						"scope": {
-							"year": "9"
+							"year": ""
 						}
 					}
 				]
-			},
-			"references": [
-				{
-					"level": "06",
-					"name": "Level 6",
-					"sdi": "xxx",
-					"scope": {
-						"year": "9"
-					}
-				}
-			]
+			}
 		}
 	}
 }

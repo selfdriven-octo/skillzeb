@@ -25,6 +25,14 @@
 				"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License",
 				"notes": "Created by the selfdriven Foundation."
 			},
+			"domains": [
+					"Who Am I",
+					"Education",
+					"Project Based Learning",
+					"Environment",
+					"Architecture",
+					"Design"
+				],
 			"usage": "This is a template based on a PBLworks project.  To use this template, you must have first signed up with pblworks.org.",
 			"description": "How can we redesign a public space to make it more environmentally sustainable?",
 			"summary": "Create an environmentally sustainable redesign for a community space, such as a park, library, public square, empty lot, or community center. Students visit the space; research the local context, needs, resources, and constraints; and investigate principles of environmentally sustainable design. Engage in the critique and revision processes that involve local community members and then present your solutions to key stakeholders",

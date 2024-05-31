@@ -24,6 +24,13 @@
 				"type": "Creative Commons BY-SA-NC",
 				"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License"
 			},
+			"domains": [
+				"Who Am I",
+				"Education",
+				"Project Based Learning",
+				"Design",
+				"Game Play"
+			],
 			"usage": "This is a template based on a PBLworks project.  To use this template, you must have first signed up with pblworks.org.",
 			"description": "How can we redesign a product's packaging to make it more environmentally friendly?",
 			"summary": "Product packaging often uses materials and processes that negatively affect the Earth. In your role as design engineers, use the engineering-design process and geometric modeling to redesign a product's packaging to render it more sustainable. Explore volume, surface area, and dimensions of complex shapes to develop prototypes that meet the product's packaging design constraints while limiting the packaging material used and/or waste generated.",

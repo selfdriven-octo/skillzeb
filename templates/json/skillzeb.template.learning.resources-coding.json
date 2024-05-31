@@ -1,0 +1,104 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "learning-resources-coding",
+			"title": "Coding Learning Resources",
+			"summary": "Resources for building your own coding template.",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 JAN 2024",
+				"notes": "Initial set up"
+			},
+			"domains": [
+				"Education",
+				"Information Sciences",
+				"Project Based Learning",
+				"Information Technology",
+				"Computer Sciences",
+				"Building",
+				"Languages"
+			],
+			"usage": "Learning template resources for coding.",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Octo",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "freeCodeCamp",
+					"description": "Learn to code for free. Build projects.",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://www.freecodecamp.org"
+				},
+				{
+					"subject": "Giraffe Academy",
+					"description": "Giraffe Academy has one simple goal, to create the highest quality and entertaining educational content on the internet",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://www.giraffeacademy.com"
+				}
+			],
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": ""
+				}
+			],
+			"skills": {
+				"required": [
+					{
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "00",
+						"capacity": "00",
+						"scope": {
+							"year": ""
+						}
+					}
+				],
+				"gained": [
+					{
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "0",
+						"capacity": "00",
+						"scope": {
+							"year": ""
+						}
+					}
+				]
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation/templates"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			}
+		}
+	}
+}

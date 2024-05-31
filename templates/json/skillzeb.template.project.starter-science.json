@@ -24,6 +24,12 @@
 				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
 				"notes": "Created by the selfdriven Foundation."
 			},
+			"domains": [
+					"Who Am I",
+					"Education",
+					"Science",
+					"Project Based Learning"
+				],
 			"usage": "",
 			"summary": "A starter for building your own science project template.",
 			"milestones": [
