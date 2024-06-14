@@ -31,6 +31,106 @@
 		"templates": {
 			"set": [
 				{
+					"type": "resource",
+					"name": "resource-cardano-icc-ec-registers",
+					"title": "Cardano Interim Constitutional Committee - Eastern Council Registers",
+					"version": {
+						"number": "1.0.0",
+						"name": "jun-2024",
+						"notes": "Initial set up"
+					},
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "",
+						"notes": "",
+						"url": ""
+					},
+					"sharing": {
+						"type": "Creative Commons CC0",
+						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+						"notes": "Created by CICC EC.",
+						"url": "https://reativecommons.org/publicdomain/zero/1.0"
+					},
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"usage": "Registers and resources supporting the Eastern Council Governance Framework",
+					"summary": "Registers and resources supporting the Eastern Council Governance Framework",
+					"id": "98cfa30b-1219-4c9d-d314-08e29d7ce55a",
+					"url": "/skillzeb.template.resource.cardano-icc-ec-registers.json"
+				},
+				{
+					"type": "community",
+					"name": "community-cardano-icc-ec",
+					"title": "Cardano Interim Constitutional Committee - Eastern Council",
+					"version": {
+						"number": "1.0.0",
+						"name": "jun-2024",
+						"notes": "Initial set up"
+					},
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "",
+						"notes": "",
+						"url": ""
+					},
+					"sharing": {
+						"type": "Creative Commons CC0",
+						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+						"notes": "Created by CICC EC.",
+						"url": "https://creativecommons.org/publicdomain/zero/1.0"
+					},
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"usage": "A part of the Eastern Council Governance Framework",
+					"summary": "Cardano Interim Constitutional Committee, Eastern Council Governance Framework",
+					"id": "0a3e7796-114a-4bfb-f4f4-802753770294",
+					"url": "/skillzeb.template.community.cardano-icc-ec.json"
+				},
+				{
+					"type": "resource",
+					"name": "resources-dsociety-learn-ssi",
+					"title": "dSociety Learn SSI Resources",
+					"urlcaption": "dsociety.io/learn-ssi",
+					"summary": "Resources (links etc) for Self-Sovereign Identity.",
+					"url": "/skillzeb.template.resources.dsociety-learn-ssi.json",
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"id": "1ddc01f4-ba28-4efe-8c0c-95f6826b35cc",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation"
+					}
+				},
+				{
 					"name": "learning-starter",
 					"title": "Learning Starter",
 					"summary": "A starter for building your own learning template.",
@@ -374,6 +474,29 @@
 						"name": "IntersectMBO",
 						"notes": "",
 						"url": "http://sancho.network/drep-pioneer-program/drep-pp/lesson-plan"
+					}
+				},
+				{
+					"name": "cardano-build-research-resourse-kit",
+					"title": "Cardano Build Research Resource Kit",
+					"summary": "Links to Cardano research that can be used as the basis for learning / project templates etc",
+					"url": "/skillzeb.template.learning.cardano-build-research-resourse-kit.json",
+					"type": "learning",
+					"domains": [
+						"Science",
+						"Information Technology",
+						"Social Context",
+						"Technologies"
+					],
+					"sdt": "55e6a5c8-e80e-4c13-8582-8145a41964fe",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "Cardano.Build",
+						"notes": "",
+						"url": "https://cardano.build/#research"
 					}
 				}
 			]
