@@ -459,11 +459,13 @@ entityos._util.controller.add(
 
 						template._url = '/site/6b2beaea-f5ef-45f7-bec0-4c679d314d71/data' + template._url;
 					}
+
+                    template._filename = template.name + '.json';
 					
                     var htmlJSONLink = '<div class="text-muted small">File</div>' +
 						'<a class="text-dark" href="' + template._url + '" target="_blank"><i class="fe fe-external-link"></i></a>' + 
 						' <a class="entityos-click text-dark" data-url="' + template._url + '"' +
-						' data-filename="' + template.url + '"' +
+						' data-filename="' + template._filename + '"' +
 						' data-controller="explorer-template-download"><i class="fe fe-download-cloud text-dark"></i></a>';
 
 					htmlJSONLink += '<div class="text-muted small mt-2">Share</div>' +
