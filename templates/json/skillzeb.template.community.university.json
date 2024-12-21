@@ -1,0 +1,978 @@
+﻿{
+	"template": {
+		"definition": {
+			"type": "community",
+			"version": {
+				"number": "0.0.4",
+				"name": "university-community-passport",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "No Share",
+					"description": ""
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": ""
+			},
+			"sharing": {
+				"type": "No Share",
+				"description": "",
+				"notes": ""
+			},
+			"usage": "University community/ecosystem",
+			"summary": "",
+			"description": "",
+			"approvedby": [
+				{
+					"sdi": ""
+				}
+			],
+			"sdt": "",
+			"notes": "",
+			"contracts": [
+				{
+					"type": "social"
+				}
+			],
+			"resources": [
+				{
+					"url": "https://skillzeb.io"
+				}
+			],
+			"team": {
+				"roles": [
+					{
+						"name": "UOW Future Me Support",
+						"url": "#university-passport-staff",
+						"sdi": "5c968534-05c8-41b5-a3b6-17d2c1477703"
+					}
+				]
+			},
+			"support-items": [
+				{
+					"subject": "UOW Year 12 Programs Help Desk",
+					"urlCaption": "year12-programs@university.edu.au",
+					"url": "mailto:year12-programs@university.edu.au",
+					"type": "email"
+				},
+				{
+					"subject": "FAQs",
+					"url": "#faqs",
+					"type": "document"
+				}
+			],
+			"mappings": {
+				"applications": "opportunities",
+				"programs": "projects",
+				"baseurl": "/site/2190"
+			},
+			"spaces": [
+				{
+					"name": "university-wollongong",
+					"type": "physical",
+					"caption": "UOW Wollongong Campass"
+				},
+				{
+					"name": "university-bega",
+					"type": "physical",
+					"caption": "UOW Bega Campass"
+				},
+				{
+					"name": "university-eurobodalla",
+					"type": "physical",
+					"caption": "UOW Eurobodalla Campass"
+				},
+				{
+					"name": "university-oran-park",
+					"type": "physical",
+					"caption": "UOW Oran Park Campass"
+				},
+				{
+					"name": "university-shoalhaven",
+					"type": "physical",
+					"caption": "UOW Shoalhaven Campass"
+				},
+				{
+					"name": "university-southern-highlands",
+					"type": "physical",
+					"caption": "UOW Southern Highlands Campass"
+				},
+				{
+					"name": "university-sutherland",
+					"type": "physical",
+					"caption": "UOW Sutherland Campass"
+				},
+				{
+					"name": "cuc-broken-hill",
+					"type": "physical",
+					"caption": "CUC Broken Hill Campass"
+				},
+				{
+					"name": "cuc-clarence-valley",
+					"type": "physical",
+					"caption": "CUC Clarence Valley Campass"
+				},
+				{
+					"name": "cuc-cooma",
+					"type": "physical",
+					"caption": "CUC Cooma Campass"
+				},
+				{
+					"name": "cuc-goulburn",
+					"type": "physical",
+					"caption": "CUC Goulburn Campass"
+				},
+				{
+					"name": "cuc-jindabyne",
+					"type": "physical",
+					"caption": "CUC Jindabyne Library"
+				},
+				{
+					"name": "cuc-narrabri",
+					"type": "physical",
+					"caption": "CUC Narrabri Campass"
+				},
+				{
+					"name": "cuc-riverina",
+					"type": "physical",
+					"caption": "CUC Riverina Campass"
+				},
+				{
+					"name": "cuc-ulladulla",
+					"type": "physical",
+					"caption": "CUC Ulladulla Campass"
+				},
+				{
+					"name": "online",
+					"type": "virtual",
+					"caption": "Online"
+				}
+			],
+			"governance":
+			{
+				"rules": [
+					{
+						"reference": "1",
+						"description": "Join community (who are you?)",
+						"actions": [
+							{
+								"name": "1",
+								"description": "add-community-member"
+							}
+						],
+						"template": {
+							"name": "who-are-you",
+							"title": "Who Are You",
+							"url": "/site/f5f5d41f-5100-4eb8-a6b7-ef4513dd888f/templates/selfdriven.template.learning.university.passport.profile.who-0.1.2.json"
+						},
+						"skills": [
+							{
+								"type": "must-have",
+								"sdi": "",
+								"name": "University Passport App Who Are You?",
+								"issued-by": {
+									"sdi": "",
+									"name": "University Passport App"
+								}
+							}
+						]
+					}
+				]
+			},
+			"nextsteps": {
+				"skills": {
+					"required": {
+						"uris": [
+							{
+								"uri": "02100000020101",
+								"name": "English Standard"
+							},
+							{
+								"uri": "02100000020102",
+								"name": "English Advanced"
+							},
+							{
+								"uri": "02100000020103",
+								"name": "English as an Additional Language or Dialect"
+							}
+						],
+						"verification": {
+							"uris": {
+								"minimum": "1"
+							}
+						},
+						"verifications": [
+							{
+								"notes": "Certificate from Department of Education",
+								"reflection": {
+									"description": "PDF or Image",
+									"method": "document"
+								}
+							}
+						]
+					},
+					"optional": [
+						{
+							"uri": "02100000020104",
+							"name": "Mathematics Standard 2"
+						},
+						{
+							"uri": "02100000020105",
+							"name": "Mathematics Advanced"
+						},
+						{
+							"uri": "02100000020106",
+							"name": "Aboriginal Studies"
+						},
+						{
+							"uri": "02100000020107",
+							"name": "Agriculture"
+						},
+						{
+							"uri": "02100000020108",
+							"name": "Ancient History"
+						},
+						{
+							"uri": "02100000020110",
+							"name": "Biology"
+						},
+						{
+							"uri": "02100000020111",
+							"name": "Community and Family Studies "
+						},
+						{
+							"uri": "02100000020112",
+							"name": "Design and Technology "
+						},
+						{
+							"uri": "02100000020113",
+							"name": "Earth and Environmental Science"
+						},
+						{
+							"uri": "02100000020114",
+							"name": "Economics"
+						},
+						{
+							"uri": "02100000020115",
+							"name": "Engineering Studies"
+						},
+						{
+							"uri": "02100000020116",
+							"name": "Economics"
+						},
+						{
+							"uri": "02100000020117",
+							"name": "Food Technology"
+						},
+						{
+							"uri": "02100000020118",
+							"name": "Geography"
+						},
+						{
+							"uri": "02100000020119",
+							"name": "Industrial Technology"
+						},
+						{
+							"uri": "02100000020120",
+							"name": "Information Processes and Technology"
+						},
+						{
+							"uri": "02100000020121",
+							"name": "Innvestigating Science "
+						},
+						{
+							"uri": "02100000020122",
+							"name": "Legal Studies"
+						},
+						{
+							"uri": "02100000020123",
+							"name": "Modern History"
+						},
+						{
+							"uri": "02100000020124",
+							"name": "PDHPE"
+						},
+						{
+							"uri": "02100000020125",
+							"name": "Physics"
+						},
+						{
+							"uri": "02100000020126",
+							"name": "Science Extension"
+						},
+						{
+							"uri": "02100000020102",
+							"name": "Society and Culture"
+						},
+						{
+							"uri": "02100000020102",
+							"name": "Software Design and Development"
+						},
+						{
+							"uri": "02100000020102",
+							"name": "Textiles and Design"
+						},
+						{
+							"uri": "02100000020102",
+							"name": "Language (any) Beginners"
+						},
+						{
+							"uri": "02100000020102",
+							"name": "Language (any ) Continuers"
+						}
+					]
+				},
+				"reflections": [
+					{
+						"name": "subject-results",
+						"notes": "Certificate from Department of Education",
+						"description": "Subject Results from the Department of Education",
+						"methods": [
+							"attachment"
+						]
+					},
+					{
+						"name": "personal-profile",
+						"notes": "Personal Statement, Resume etc",
+						"description": "Personal Profile",
+						"methods": [
+							"attachment"
+						]
+					}
+				]
+			},
+			"templates": {
+				"projects": [
+					{
+						"name": "university-future-me",
+						"title": "University Future Me",
+						"summary": "Prepare for important decision-making ahead, explore your post-high school opportunities and improve your HSC study skills with our Year 12 Future Me program. This program allows you to experience a taste of UOW student life, connects you with UOW student mentors currently studying at UOW and helps you navigate UOW's Early Admission process.",
+						"url": "https://www.university.edu.au/engage/schools-parents/high-school/future-me",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "10",
+								"notes": "Year 12"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.project.university.passport.program.future.me-0.1.4.json",
+							"outcomes": [
+								{
+									"subject": "Outcome 1"
+								}
+							],
+							"team": {
+								"roles": [
+									{
+										"name": "UOW Future Me Support",
+										"url": "#university-passport-staff"
+									}
+								]
+							},
+							"rules": [
+								{
+									"subject": "Expectation 1"
+								}
+							],
+							"milestones": [
+								{
+									"reference": "1",
+									"subject": "Week 1",
+									"description": "Welcome + Introduction to the program",
+									"session":
+									{
+										"observations":
+										[
+											{
+												"by": "learning-partner",
+												"type": "who"
+											}
+										]
+									},
+									"tasks": [
+										{
+											"reference": "1",
+											"subject": "Goal Setting",
+											"reflections": [
+												{
+													"by": "leader",
+													"method": "observation",
+													"subject": "What are your goals?",
+													"description": ""
+												}
+											]
+										}
+									],
+									"support-items": [
+										{
+											"subject": "Lead Session 30min",
+											"description": "Welcome + Introduction to the program",
+											"notes": "Expectations of the program (attendance, engagement, email etiquette) What we want them to get out of it. What topics will be cover. What is the assessment task?"
+										},
+										{
+											"subject": "Mentor icebreaker 10min approx.",
+											"description": "Person bingo."
+										},
+										{
+											"subject": "Mentor Session Activity - Groups 30min approx.",
+											"description": "Campus Tour (Scav Hunt?) Campus tour for regionals. Uni jargon"
+										}
+									]
+								},
+								{
+									"reference": "2",
+									"subject": "Week 2",
+									"description": "How to Choose a Course",
+									"durationdays": {
+										"minimum": "2",
+										"maximum": "7"
+									},
+									"tasks": [
+										{
+											"reference": "2",
+											"subject": "Why are you interested in your chosen course? (Motivation)"
+										}
+									]
+								},
+								{
+									"reference": "3",
+									"subject": "Week 3",
+									"description": "21st Century Skills",
+									"durationdays": {
+										"minimum": "2",
+										"maximum": "7"
+									},
+									"tasks": [
+										{
+											"reference": "3",
+											"subject": "Tell us about one of the times you've successfully applied your skills."
+										}
+									]
+								},
+								{
+									"reference": "4",
+									"subject": "Week 4",
+									"description": "Study Skills",
+									"durationdays": {
+										"minimum": "2",
+										"maximum": "7"
+									},
+									"tasks": [
+										{
+											"reference": "4",
+											"subject": "What are your study goals for HSC and beyond? Strengths and weaknesses."
+										}
+									]
+								},
+								{
+									"reference": "5",
+									"subject": "Week 5",
+									"description": "Demystifying Uni",
+									"durationdays": {
+										"minimum": "2",
+										"maximum": "7"
+									},
+									"tasks": [
+										{
+											"reference": "5",
+											"subject": "Reflect on how you worked in a group - what did you like, what were the challenges, what did you achieve?"
+										}
+									]
+								},
+								{
+									"reference": "6",
+									"subject": "Week 6",
+									"description": "What's next?",
+									"durationdays": {
+										"minimum": "2",
+										"maximum": "7"
+									},
+									"tasks": [
+										{
+											"reference": "6",
+											"subject": "Reflect on the goals you set at the beginning of the course. Have they moved?"
+										}
+									]
+								}
+							],
+							"support-items": [
+								{
+									"subject": "Engagement item 1"
+								},
+								{
+									"subject": "Program Design",
+									"url": "https://docs.google.com/document/d/1juaH1d6I-AVtQ4QIC_yDEpP9KQbxoGDRNn5BdPdjJDo/edit"
+
+								}
+							],
+							"spaces": {
+								"virtual": {
+									"name": ""
+								}
+							}
+						}
+					}
+				],
+				"nextsteps": [
+					{
+						"name": "university-course-702",
+						"title": "Bachelor of Arts",
+						"reference": "702",
+						"summary": "The Bachelor of Arts will equip you for today’s rapidly changing world. You will develop skills and capacities necessary to understand how the world has come to be the way it is today. The disciplines housed in the Bachelor of Arts degree share a common interest in addressing the fundamental questions of human social life. What do we need to know to create a better future, and what are the best ways of finding out? You will see and appreciate the world afresh, developing the analytical and communicative abilities to enrich life and your community. Share in the rich and global dialogue on contemporary human cultures.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-of-arts",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "10",
+								"notes": "Year 12"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.1-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-bega-valley",
+										"caption": "Bega Valley"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Eurobodalla"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Liverpool"
+									},
+									{
+										"name": "university-space-campus-shoalhaven",
+										"caption": "Shoalhaven"
+									},
+									{
+										"name": "university-space-campus-southern-highlands",
+										"caption": "Southern Highlands"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-3212",
+						"title": "Bachelor of Nursing",
+						"reference": "3212",
+						"summary": "Registered nurses play an important role in the health care system and are involved in a range of activities that are designed to provide care for people with acute, chronic and complex health conditions. Registered nurses are integral in the treatment of people, families, communities, and populations. Throughout the Bachelor of Nursing, you will have opportunities to apply theory to practice. During 21-weeks of workplace experience undertaken in hospitals, aged care, and community facilities, you will be immersed in nursing practice, ensuring you are workplace ready.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-of-nursing",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-bega-valley",
+										"caption": "Bega Valley"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Eurobodalla"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Liverpool"
+									},
+									{
+										"name": "university-space-campus-shoalhaven",
+										"caption": "Shoalhaven"
+									},
+									{
+										"name": "university-space-campus-southern-highlands",
+										"caption": "Southern Highlands"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-3091",
+						"title": "Bachelor of Business Administration",
+						"reference": "3091",
+						"summary": "The business sector is one of the world's largest employers offering varying roles and careers. Business plays an important role in assisting the evolution of a complex global economy by providing solutions to problems in a sustainable and ethical way.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-of-business-administration",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-bega-valley",
+										"caption": "Bega Valley"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Eurobodalla"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Liverpool"
+									},
+									{
+										"name": "university-space-campus-shoalhaven",
+										"caption": "Shoalhaven"
+									},
+									{
+										"name": "university-space-campus-southern-highlands",
+										"caption": "Southern Highlands"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-344",
+						"title": "Bachelor of Social Science",
+						"reference": "344",
+						"summary": "Social Science looks at why and how we live the way we do. The social sciences look at society and social behaviour to understand, explain and change human behaviour to positively transform the lives of individuals, families and communities.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-social-science",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-shoalhaven",
+										"caption": "Shoalhaven"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-1817",
+						"title": "Bachelor of International Studies",
+						"reference": "1817",
+						"summary": "International Relations is a developing and dynamic field that aims to study and solve some of the world's major problems such as war, inequality, climate change, poverty, hunger. A Bachelor of International Studies (International Relations) focuses on understanding your place in the national and global political systems, as well as appreciating the historical evolution of global politics. Many graduates progress to careers in global organisations and businesses that are focused beyond Australia's borders.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-international-studies-international-relations",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Liverpool"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-766",
+						"title": "Bachelor of Computer Science",
+						"reference": "766",
+						"summary": "Computer scientists focus on the theoretical foundations and practical approaches to computation and its applications. They design methods and tools and write programs for computer applications. These applications can be in areas such as computer systems to control machinery, information management and big data, applications for mobile devices, stock market trend analysis, game design, visualisation of chemical reactions, neural network design, computational geometry for robot navigation, patient monitoring in hospitals, and much more.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-computer-science",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									},
+									{
+										"name": "university-space-campus-eurobodalla",
+										"caption": "Liverpool"
+									}
+								]
+							},
+							"skills": {
+								"required": [
+									{
+										"uri": "02100000020104",
+										"name": "Mathematics Standard 2"
+									},
+									{
+										"uri": "02100000020105",
+										"name": "Mathematics Advanced"
+									}
+								]
+							}
+						}
+					},
+					{
+						"name": "university-course-1706",
+						"title": "Bachelor of Communications & Media",
+						"reference": "1706",
+						"summary": "In our increasingly connected and digital world, communicators with broad skills are in real demand. The Bachelor of Communication and Media offers you a strong foundation in the national and international communication and media industry. With a focus on preparing you for global careers, the course places an emphasis on high-level skills in media production, communication research and independent project work.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-communication-media",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-840",
+						"title": "Bachelor of Creative Arts",
+						"reference": "840",
+						"summary": "A Bachelor of Creative Arts at UOW encourages you to immerse yourself creatively, critically and practically. The Creative Industries is one of the fastest-growing, most dynamic sectors in the world.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-creative-arts-creative-writing",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-1816",
+						"title": "Bachelor of Education - The Early Years",
+						"reference": "1816",
+						"summary": "Early Years education enriches learning in children from birth to five years by giving children the opportunity to maximise their potential and develop a foundation for lifelong learning. It focuses on the significance of early education to foster children's health, development and wellbeing.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-education-the-early-years",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-742",
+						"title": "Bachelor of Science",
+						"reference": "742",
+						"summary": "Studying science at UOW provides you with the opportunity to ask questions and make new discoveries to advance society and protect our natural world.",
+						"url": "https://www.university.edu.au/study/science/",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-3119",
+						"title": "Bachelor of Technology",
+						"reference": "3119",
+						"summary": "Cyber-physical systems, the Internet of Things (IoT), cloud computing and cognitive computing are changing how we manufacture and organise our work sites.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-technology",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": [
+									{
+										"uri": "02100000020104",
+										"name": "Mathematics Standard 2"
+									},
+									{
+										"uri": "02100000020105",
+										"name": "Mathematics Advanced"
+									}
+								]
+							}
+						}
+					},
+					{
+						"name": "university-course-3062",
+						"title": "Bachelor of Sport",
+						"reference": "3062",
+						"summary": "The Bachelor of Sport is designed for students who are passionate about sports and exercise, and explores the role that they play in teaching, coaching, and healthy lifestyles.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-sport",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					},
+					{
+						"name": "university-course-789",
+						"title": "Bachelor of Marine Science",
+						"reference": "789",
+						"summary": "Marine science is the study of oceanographic processes, marine life and governance in the ocean. Marine scientists investigate the physical and biological nature of oceans, their impact on human society, and their conservation and environmental management.",
+						"url": "https://coursefinder.university.edu.au/information/index.html?course=bachelor-marine-science",
+						"for": [
+							{
+								"type": "skillzeb",
+								"level": "09",
+								"notes": "Year 11"
+							}
+						],
+						"definition": {
+							"url": "{{baseurl}}/selfdriven.template.nextsteps.university.course.2-0.0.1.json",
+							"spaces": {
+								"physical": [
+									{
+										"name": "university-space-campus-wollongong",
+										"caption": "Wollongong"
+									}
+								]
+							},
+							"skills": {
+								"required": []
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

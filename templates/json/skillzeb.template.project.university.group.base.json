@@ -1,0 +1,31 @@
+﻿{
+	"template": {
+		"definition": {
+			"name": "university-future-me-group-wed-4pm-university-wollongong",
+			"type": "project",
+			"title": "University Future Me (Wednesday, 4PM, Wollongong, Campass)",
+			"summary": "Wed 4PM to 5:30PM Group University Wollongong Campass",
+			"team": {
+				"members": [
+					{
+						"role": "university-mentor",
+						"name": "Alice Smith",
+						"sdi": ""
+					}
+				]
+			},
+			"spaces": [
+				{
+					"name": "university-wollongong",
+					"milestone-reference": "*"
+				},
+				{
+					"reference": "zoom-1",
+					"type": "virtual",
+					"name": "Zoom",
+					"milestone-reference": "2"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,1000 @@
+{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "university-profile-who",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "20 JUL 2024",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation/templates"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			},
+			"domains": [
+				"*"
+			],
+			"languages": {
+				"human": [
+					"en"
+				],
+				"machine": []
+			},
+			"usage": "Help set up a learning template.",
+			"summary": "As a part of sign up data collection",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Community",
+				"sdi": ""
+			},
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"verification": {
+				"by": [
+					{
+						"name": "{{orginator}}"
+					},
+					{
+						"name": "{{connected-learning-partners}}"
+					},
+					{
+						"name": "selfdriven Community",
+						"sdi": ""
+					}
+				],
+				"minimum-verifications": 1,
+				"notes": "",
+				"links": [
+					{
+						"name": "validator-guides",
+						"caption": "Validator Guides",
+						"uri": [
+							"https",
+							"selfdriven.education"
+						],
+						"format": "html"
+					}
+				]
+			},
+			"outcomes": [
+				{
+					"by": "",
+					"description": "Data collected for a learner (student) for use with the Future Me Program"
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "Must be completed",
+					"description": ""
+				}
+			],
+			"resources": [
+				{
+					"subject": "About Future Me",
+					"description": "",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://www.university.edu.au/engage/schools-parents/high-school/future-me/"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "Personal Information",
+					"description": "",
+					"tasks": [
+						{
+							"reference": "1-1",
+							"subject": "Preferred Name",
+							"description": "What name would you like us to call you during the program?",
+							"reflections": [
+								{
+									"reference": "preferred-name",
+									"method": "observation",
+									"rules": []
+								}
+							]
+						},
+						{
+							"reference": "1-2",
+							"subject": "Gender",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"rules": [],
+										"options": [
+											{
+												"caption": "Female"
+											},
+											{
+												"caption": "Male"
+											},
+											{
+												"caption": "Non-Binary"
+											},
+											{
+												"caption": "Prefer Not To Say"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"reference": "1-3",
+							"subject": "Pronouns",
+							"description": "How would you like to be referred to during this program? E.g. He/His, She/They",
+							"reflections": [
+								{
+									"method": "observation",
+									"rules": [
+										"optional"
+									]
+								}
+							]
+						},
+						{
+							"reference": "1-4",
+							"subject": "Date of Birth",
+							"reflections": [
+								{
+									"method": "observation",
+									"rules": ["date"],
+									"format":
+									{
+										"mask": "d/m/yyyy"
+									}
+								}
+							]
+						},
+						{
+							"reference": "1-5",
+							"subject": "Home Street Address",
+							"reflections": [
+								{
+									"method": "observation"
+								}
+							]
+						},
+						{
+							"reference": "1-6",
+							"subject": "Home Suburb, Postcode & State",
+							"description": "Search for your suburb or postcode",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"rules": [],
+										"options":
+										{
+											"sourceObject": "core_address",
+											"sourceFields": "suburb,postcode,state",				
+											"notes": "gets from core_address"
+										} 
+									}
+								}
+							]
+						},
+						{
+							"reference": "1-8",
+							"subject": "Mobile Phone",
+							"reflections": [
+								{
+									"method": "observation"
+								}
+							]
+						},
+						{
+							"reference": "1-9",
+							"subject": "What language does your family primarily speak at home?",
+							"rules": [
+								"optional"
+							],
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "1-9-R-1",
+												"caption": "English",
+												"points": "1"
+											},
+											{
+												"name": "1-9-R-2",
+												"caption": "A different language (list below)",
+												"points": "0"
+											}
+										]
+									},
+									"controllers":
+									[
+										{
+											"default": true,
+											"context": "task",
+											"references": ["1-10"],
+											"set": {"class": "d-none"},
+											"remove": {"class": "d-block entityos-validate"},
+											"controller": "util-validate-check"
+										},
+										{
+											"points": "0",
+											"context": "task",
+											"references": ["1-10"],
+											"set": {"class": "d-block entityos-validate"},
+											"remove": {"class": "d-none"},
+											"controller": "util-validate-check"
+										}
+									]
+								}
+							]
+						},
+						{
+							"reference": "1-10",
+							"subject": "Language spoken at home",
+							"rules": [
+								"optional"
+							],
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"rules": [
+										"optional"
+									],
+									"method": "observation"
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-11",
+							"subject": "Are you a citizen or permanent resident of Australia?",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "1-11-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "1-11-R-2",
+												"caption": "No",
+												"points": "0"
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-12",
+							"subject": "Are you Aboriginal or Torres Strait Islander?",
+							"description": "",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "1-12-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "1-12-R-2",
+												"caption": "No",
+												"points": "0"
+											},
+											{
+												"name": "1-12-R-3",
+												"caption": "Prefer not Answer",
+												"points": "0"
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-13",
+							"subject": "Equity",
+							"description": "<div>Please note, some delivery locations and sessions will have capacity limits so student applications that meet any of the following criteria will be prioritised. Please select all that apply:</div>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"method": "structured",
+									"rules": [
+											"optional"
+										],
+									"structure": {
+										"rules": [
+											"many"
+										],
+										"options": [
+											{
+												"caption": "Completing high school in a regional/remote area"
+											},
+											{
+												"caption": "Experiencing Financial Hardship"
+											},
+											{
+												"caption": "Diagnosed Disability or Medical Condition (physical or mental health condition)"
+											},
+											{
+												"caption": "On a permanent humanitarian visa or have refugee status"
+											},
+											{
+												"caption": "Currently in or have been in out-of-home care"
+											},
+											{
+												"caption": "Carer responsibilities"
+											},
+											{
+												"caption": "Other (such as situational or social disadvantage)"
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-14",
+							"subject": "Documentation",
+							"description": "<p>Please upload documentation to support your application regarding your situational or social disadvantage</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"method": "attachment",
+									"rules": [
+										"many", "optional"
+									]
+								}
+							],
+							"supportitems": []
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "Education Information",
+					"description": "",
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "Goals",
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"rules": [
+										"many"
+									],
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							],
+							"description": "Briefly outline your post-high school study and career goals (minimum 50 words)"
+						},
+						{
+							"reference": "2-2",
+							"subject": "School",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"rules": [],
+										"options":
+										{
+											"sourceScope": "util-setup",
+											"sourceContext": "resource-schools",
+											"controller": "util-setup-get-schools",
+											"notes": "Gets schools from json file at URL using controller (pre-run in who init to get data), if scope/context not set"
+										} 
+									},
+									"controllers":
+									[
+										{
+											"points": "*",
+											"default": true,
+											"context": "task",
+											"references": ["2-2b"],
+											"set": {"class": "d-none"},
+											"remove": {"class": "d-block entityos-validate"},
+											"controller": "util-validate-check"
+										},
+										{
+											"points": "0",
+											"context": "task",
+											"references": ["2-2b"],
+											"set": {"class": "d-block entityos-validate"},
+											"remove": {"class": "d-none"},
+											"controller": "util-validate-check"
+										}
+									]
+								}
+							],
+							"description": "I am completing high school at"
+						},
+						{
+							"reference": "2-2b",
+							"subject": "What school do you attend",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"rules": [
+										"optional"
+									],
+									"method": "observation"
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "Year 12 Completion Year",
+							"description": "e.g. 2025",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-4",
+							"subject": "I am completing the following Year 12 credential",
+							"description": "",
+							"resources": [],
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"rules": [],
+										"options": [
+											{
+												"caption": "HSC",
+												"points": "1"
+											},
+											{
+												"caption": "International Bacclaureate (IB)",
+												"points": "1"
+											},
+											{
+												"caption": "Big Picture",
+												"points": "1"
+											},
+											{
+												"caption": "None of the above",
+												"points": "0"
+											}
+										]
+									},
+									"controllers":
+									[
+										{
+											"points": "1",
+											"context": "task",
+											"references": ["2-4b"],
+											"set": {"class": "d-none"},
+											"remove": {"class": "d-block entityos-validate"},
+											"controller": "util-validate-check"
+										},
+										{
+											"points": "0",
+											"context": "task",
+											"references": ["2-4b"],
+											"set": {"class": "d-block entityos-validate"},
+											"remove": {"class": "d-none"},
+											"controller": "util-validate-check"
+										}
+									]
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-4b",
+							"subject": "I am completing the following Year 12 credential",
+							"description": "<sup>*</sup> Required if you answered \"None of the above\"",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": "",
+									"rules": ["optional"]
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-5",
+							"subject": "Study Pattern for ATAR",
+							"description": "I am currently completing a study pattern that will make me eligible to receive an ATAR",
+							"resources": [],
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "2-5-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "2-5-R-2",
+												"caption": "No",
+												"points": "0"
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-6",
+							"subject": "NESA Student Number",
+							"description": "Ensure you are entering a correct NESA Number. If you are unsure, you can email us your correct NESA number if you are accepted into the program.",
+							"by": "",
+							"durationdays": {},
+							"resources": [],
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							],
+							"supportitems": []
+						}
+					]
+				},
+				{
+					"reference": 3,
+					"subject": "Parent/Carer Information & Consent",
+					"description": "",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "3-1",
+							"subject": "Parent/Carer First Name",
+							"description": "",
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							]
+						},
+						{
+							"reference": "3-2",
+							"subject": "Parent/Carer Last Name",
+							"description": "",
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							]
+						},
+						{
+							"reference": "3-3",
+							"subject": "Parent/Carer Mobile Number",
+							"description": "",
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							]
+						},
+						{
+							"reference": "3-4",
+							"subject": "Parent/Carer Email Address",
+							"description": "",
+							"reflections": [
+								{
+									"by": "",
+									"method": "observation",
+									"type": "",
+									"description": "",
+									"subject": ""
+								}
+							]
+						},
+						{
+							"reference": "3-5",
+							"subject": "Parent/Carer Agreement",
+							"description": "I (the parent/carer) have read, and agree to adhere to, the <a href=\"https://documents.university.edu.au/content/groups/public/@web/@dvce/@in2uni/documents/doc/university276270.pdf\" target=\"_blank\">Terms and Conditions</a> for the Future Me Program as outlined on the website.",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "3-5-R-1",
+												"caption": "Yes",
+												"points": "1"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"reference": "3-6",
+							"subject": "Receive Information (Opt-In)",
+							"description": "I would like to receive information from time to time about key UOW events, programs and/or parent &amp; carer opportunities",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "3-6-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "3-6-R-2",
+												"caption": "No",
+												"points": "0"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"reference": 4,
+					"subject": "Emergency & Medical Information",
+					"description": "",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "4-1",
+							"subject": "The parent/guardian listed before is my emergency contact",
+							"description": "",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "4-1-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "4-1-R-2",
+												"caption": "No",
+												"points": "0"
+											}
+										]
+									},
+									"controllers":
+									[
+										{
+											"points": "1",
+											"context": "task",
+											"references": ["4-2", "4-3", "4-4", "4-5", "4-6"],
+											"set": {"class": "d-none"},
+											"remove": {"class": "d-block entityos-validate"},
+											"controller": "util-validate-check"
+										},
+										{
+											"points": "0",
+											"context": "task",
+											"references": ["4-2", "4-3", "4-4", "4-5", "4-6"],
+											"set": {"class": "d-block entityos-validate"},
+											"remove": {"class": "d-none"},
+											"controller": "util-validate-check"
+										}
+									]
+								}									
+							]
+						},
+						{
+							"reference": "4-2",
+							"subject": "Emergency Contact's First Name",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"type": "",
+								"description": "",
+								"subject": ""
+							}]
+						},
+						{
+							"reference": "4-3",
+							"subject": "Emergency Contact's Last Name",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"type": "",
+								"description": "",
+								"subject": ""
+							}
+							]
+						},
+						{
+							"reference": "4-4",
+							"subject": "Emergency Contact's Mobile Number",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"type": "",
+								"description": "",
+								"subject": ""
+							}
+							]
+						},
+						{
+							"reference": "4-5",
+							"subject": "Emergency Contact's Email Address",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"type": "",
+								"description": "",
+								"subject": ""
+							}
+							]
+						},
+						{
+							"reference": "4-6",
+							"subject": "Relationship to student",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"type": "",
+								"description": "",
+								"subject": ""
+							}
+							]
+						},
+						{
+							"reference": "4-7",
+							"subject": "Do you have any medical conditions, learning needs or other additional needs?",
+							"description": "",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"rules": [
+										"many", "optional"
+									]
+							}
+							]
+						},
+						{
+							"reference": "4-8",
+							"subject": "Please outline any learning support you may require for the Future Me Program",
+							"reflections": [
+							{
+								"by": "",
+								"method": "observation",
+								"rules": [
+										"many", "optional"
+									]
+							}
+							]
+						}
+					]
+				},
+				{
+					"reference": 5,
+					"subject": "Program Consent",
+					"description": "",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "5-1",
+							"subject": "Authorise Parent/carer to receive information (Opt-In)",
+							"description": "I authorise the my parent/carer to receive information pertaining to my application and to make enquiries on my behalf.",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "3-6-R-1",
+												"caption": "Yes",
+												"points": "1"
+											},
+											{
+												"name": "3-6-R-2",
+												"caption": "No",
+												"points": "0"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"reference": "5-2",
+							"subject": "Sharing with your School",
+							"description": "I understand that by participating in this program my school may be advised of or discussions may be had with them in regards to my application and participation in the Future Me Program.",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "5-2-R-1",
+												"caption": "Yes",
+												"points": "1"
+											}
+										]
+									}
+								}
+							]
+						},
+						{
+							"reference": "5-4",
+							"subject": "Agree to Terms & Conditions",
+							"description": "I (the student) have read, and agree to adhere to, the <a href=\"https://documents.university.edu.au/content/groups/public/@web/@dvce/@in2uni/documents/doc/university276270.pdf\" target=\"_blank\">Terms and Conditions</a> for the Year 12 Future Me Program as outlined above",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"options": [
+											{
+												"name": "3-6-R-1",
+												"caption": "Yes",
+												"points": "1"
+											}
+										]
+									}
+								}
+							]
+						}
+						
+					]
+				},
+				{
+					"reference": 6,
+					"subject": "Choose Your Session",
+					"description": "",
+					"durationdays": {},
+					"tasks":
+					[
+						{
+							"reference": "6-1",
+							"subject": "Please Select Your Preferred Day, Time & Location",
+							"description": "Location can be on compass or online.",
+							"reflections": [
+								{
+									"method": "structured",
+									"structure": {
+										"rules": [],
+										"options":
+										{
+											"sourceScope": "util-setup",
+											"sourceContext": "resource-groups",
+											"controller": "util-setup-get-groups",
+											"notes": "Group project templates"
+										} 
+									}
+								}
+							]
+						}
+					]
+				}
+
+
+
+				
+			],
+			"skills": {
+				"required": [],
+				"gained": [
+					{
+						"uri": "00010000050101",
+						"name": "Self-Management 1-C",
+						"sdi": "b7a2f1f8-abc7-4fe1-b069-f8f63fab25ea",
+						"level": "1",
+						"capacity": "01"
+					}
+				]
+			},
+			"title": "University Profile Who",
+			"controller": "do:unordered"
+		}
+	}
+}

@@ -1,0 +1,548 @@
+{
+	"template": {
+		"definition": {
+			"type": "resource",
+			"name": "resource-university-pasport-schools",
+			"title": "Schools",
+			"version": {
+				"number": "1.0.0",
+				"name": "jun-2024",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "",
+				"notes": "",
+				"url": ""
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by CICC EC.",
+				"url": "https://creativecommons.org/publicdomain/zero/1.0"
+			},
+			"languages": {
+				"human": [
+					"en"
+				],
+				"machine": []
+			},
+			"orginator": {
+				"name": "UOW",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "Schools",
+					"name": "university-passport-schools",
+					"data": [
+						{
+							"reference": 0,
+							"name": "[Other - My school is not list]",
+							"points": "0"
+						},
+						{
+							"reference": 1,
+							"name": "Albion Park High School"
+						},
+						{
+							"reference": 2,
+							"name": "Albury High School"
+						},
+						{
+							"reference": 3,
+							"name": "Ambarvale High School"
+						},
+						{
+							"reference": 4,
+							"name": "Amity College, Illawarra"
+						},
+						{
+							"reference": 5,
+							"name": "Barellan Central School"
+						},
+						{
+							"reference": 6,
+							"name": "Batemans Bay High School"
+						},
+						{
+							"reference": 7,
+							"name": "Bega High School"
+						},
+						{
+							"reference": 8,
+							"name": "Bomaderry High School"
+						},
+						{
+							"reference": 9,
+							"name": "Bowral High School"
+						},
+						{
+							"reference": 10,
+							"name": "Braidwood Central School"
+						},
+						{
+							"reference": 11,
+							"name": "Broken Hill High School"
+						},
+						{
+							"reference": 12,
+							"name": "Broughton Anglican College"
+						},
+						{
+							"reference": 13,
+							"name": "Bulli High School"
+						},
+						{
+							"reference": 14,
+							"name": "Canberra College"
+						},
+						{
+							"reference": 15,
+							"name": "Canberra Grammar School"
+						},
+						{
+							"reference": 16,
+							"name": "Canowindra High School"
+						},
+						{
+							"reference": 17,
+							"name": "Caringbah Selective High School"
+						},
+						{
+							"reference": 18,
+							"name": "Carroll College Broulee"
+						},
+						{
+							"reference": 19,
+							"name": "Casula High School"
+						},
+						{
+							"reference": 20,
+							"name": "Cedars Christian College"
+						},
+						{
+							"reference": 21,
+							"name": "Chevalier College"
+						},
+						{
+							"reference": 22,
+							"name": "Clarence Valley Anglican School"
+						},
+						{
+							"reference": 23,
+							"name": "Corpus Christi Catholic High School"
+						},
+						{
+							"reference": 24,
+							"name": "Corrimal High School"
+						},
+						{
+							"reference": 25,
+							"name": "Crookwell High School"
+						},
+						{
+							"reference": 26,
+							"name": "Dapto High School"
+						},
+						{
+							"reference": 27,
+							"name": "De La Salle Catholic College Cronulla"
+						},
+						{
+							"reference": 28,
+							"name": "Eden Marine High School"
+						},
+						{
+							"reference": 29,
+							"name": "Edmund Rice College"
+						},
+						{
+							"reference": 30,
+							"name": "Elizabeth Macarthur High School"
+						},
+						{
+							"reference": 31,
+							"name": "Endeavour Sports High School"
+						},
+						{
+							"reference": 32,
+							"name": "Figtree High School"
+						},
+						{
+							"reference": 33,
+							"name": "Five Islands Secondary College"
+						},
+						{
+							"reference": 34,
+							"name": "Forbes High School"
+						},
+						{
+							"reference": 35,
+							"name": "Frenchs Forest High School"
+						},
+						{
+							"reference": 36,
+							"name": "Georges River College Oatley Senior Campus"
+						},
+						{
+							"reference": 37,
+							"name": "Girraween High School"
+						},
+						{
+							"reference": 38,
+							"name": "Glenwood High School"
+						},
+						{
+							"reference": 39,
+							"name": "Gorokan High School"
+						},
+						{
+							"reference": 40,
+							"name": "Gosford High School"
+						},
+						{
+							"reference": 41,
+							"name": "Goulburn High School"
+						},
+						{
+							"reference": 42,
+							"name": "Grafton High School"
+						},
+						{
+							"reference": 43,
+							"name": "Green Point Christian College"
+						},
+						{
+							"reference": 44,
+							"name": "Greystanes High School"
+						},
+						{
+							"reference": 45,
+							"name": "Hoxton Park High School"
+						},
+						{
+							"reference": 46,
+							"name": "Illawarra Christian School"
+						},
+						{
+							"reference": 47,
+							"name": "Illawarra Sports High School"
+						},
+						{
+							"reference": 48,
+							"name": "Ingleburn High School"
+						},
+						{
+							"reference": 49,
+							"name": "James Sheahan Catholic High School"
+						},
+						{
+							"reference": 50,
+							"name": "Jindabyne High School"
+						},
+						{
+							"reference": 51,
+							"name": "John Terry Catholic College"
+						},
+						{
+							"reference": 52,
+							"name": "Kanahooka High School"
+						},
+						{
+							"reference": 53,
+							"name": "Keira High School"
+						},
+						{
+							"reference": 54,
+							"name": "Kiama High School"
+						},
+						{
+							"reference": 55,
+							"name": "Kirrawee High School"
+						},
+						{
+							"reference": 56,
+							"name": "Lake Illawarra High School"
+						},
+						{
+							"reference": 57,
+							"name": "Leeton High School"
+						},
+						{
+							"reference": 58,
+							"name": "Liverpool Girls' High School"
+						},
+						{
+							"reference": 59,
+							"name": "Lucas Heights Community School"
+						},
+						{
+							"reference": 60,
+							"name": "Lumen Christi Catholic College"
+						},
+						{
+							"reference": 61,
+							"name": "Magdalene Catholic College"
+						},
+						{
+							"reference": 62,
+							"name": "Marian Catholic College"
+						},
+						{
+							"reference": 63,
+							"name": "McAuley Catholic College, Clarenza"
+						},
+						{
+							"reference": 64,
+							"name": "McCarthy Catholic College Tamworth"
+						},
+						{
+							"reference": 65,
+							"name": "Menai High School"
+						},
+						{
+							"reference": 66,
+							"name": "Miller Technology High School"
+						},
+						{
+							"reference": 67,
+							"name": "Molong Central School"
+						},
+						{
+							"reference": 68,
+							"name": "Monaro High School"
+						},
+						{
+							"reference": 69,
+							"name": "Moruya High School"
+						},
+						{
+							"reference": 70,
+							"name": "Moss Vale High School"
+						},
+						{
+							"reference": 71,
+							"name": "Mount Annan Christian College"
+						},
+						{
+							"reference": 72,
+							"name": "Mount Austin High School"
+						},
+						{
+							"reference": 73,
+							"name": "Mulwaree High School"
+						},
+						{
+							"reference": 74,
+							"name": "Murrumbidgee Regional High School - Griffith"
+						},
+						{
+							"reference": 75,
+							"name": "Murrumbidgee Regional High School - Wade"
+						},
+						{
+							"reference": 76,
+							"name": "Murrumburrah High School"
+						},
+						{
+							"reference": 77,
+							"name": "Narrabri High School"
+						},
+						{
+							"reference": 78,
+							"name": "Narrandera High School"
+						},
+						{
+							"reference": 79,
+							"name": "Newman Catholic College"
+						},
+						{
+							"reference": 80,
+							"name": "Northholm Grammar School"
+						},
+						{
+							"reference": 81,
+							"name": "North Sydney Girls' High School"
+						},
+						{
+							"reference": 82,
+							"name": "Nowra Anglican College"
+						},
+						{
+							"reference": 83,
+							"name": "Nowra High School"
+						},
+						{
+							"reference": 84,
+							"name": "Oak Flats High School"
+						},
+						{
+							"reference": 85,
+							"name": "Oran Park Anglican College"
+						},
+						{
+							"reference": 86,
+							"name": "Orange High School"
+						},
+						{
+							"reference": 87,
+							"name": "Oxley College"
+						},
+						{
+							"reference": 88,
+							"name": "Picton High School"
+						},
+						{
+							"reference": 89,
+							"name": "Presbyterian Ladies College, Armidale"
+						},
+						{
+							"reference": 90,
+							"name": "Robert Townson High School"
+						},
+						{
+							"reference": 91,
+							"name": "Sapphire Coast Anglican College"
+						},
+						{
+							"reference": 92,
+							"name": "Shellharbour Anglican College"
+						},
+						{
+							"reference": 93,
+							"name": "Shire Christian School"
+						},
+						{
+							"reference": 94,
+							"name": "Shoalhaven High School"
+						},
+						{
+							"reference": 95,
+							"name": "Smiths Hill High School"
+						},
+						{
+							"reference": 96,
+							"name": "Snowy Mountains Grammar School"
+						},
+						{
+							"reference": 97,
+							"name": "South Grafton High School"
+						},
+						{
+							"reference": 98,
+							"name": "St Benedict's Catholic College Oran Park"
+						},
+						{
+							"reference": 99,
+							"name": "St Columba's Catholic College Springwood"
+						},
+						{
+							"reference": 100,
+							"name": "St Francis De Sales Regional High School"
+						},
+						{
+							"reference": 101,
+							"name": "St Gregory's College Campbelltown"
+						},
+						{
+							"reference": 102,
+							"name": "St John the Evangelist Catholic High School Nowra"
+						},
+						{
+							"reference": 103,
+							"name": "St Joseph's Catholic High Albion Park Rail"
+						},
+						{
+							"reference": 104,
+							"name": "St Mary's Star Of The Sea College"
+						},
+						{
+							"reference": 105,
+							"name": "St Mary's College, Gunnedah"
+						},
+						{
+							"reference": 106,
+							"name": "St Patrick's College Campbelltown"
+						},
+						{
+							"reference": 107,
+							"name": "St Peter's Anglican College Broulee"
+						},
+						{
+							"reference": 108,
+							"name": "St Philip's Christian College"
+						},
+						{
+							"reference": 109,
+							"name": "The Illawarra Grammar School"
+						},
+						{
+							"reference": 110,
+							"name": "The Jannali High School"
+						},
+						{
+							"reference": 111,
+							"name": "The Riverina Anglican College"
+						},
+						{
+							"reference": 112,
+							"name": "Trinity Catholic College, Goulburn"
+						},
+						{
+							"reference": 113,
+							"name": "Tumut High School"
+						},
+						{
+							"reference": 114,
+							"name": "Ulladulla High School"
+						},
+						{
+							"reference": 115,
+							"name": "Vincentia High School"
+						},
+						{
+							"reference": 116,
+							"name": "Wade High School"
+						},
+						{
+							"reference": 117,
+							"name": "Wagga Wagga High School"
+						},
+						{
+							"reference": 118,
+							"name": "Warilla High School"
+						},
+						{
+							"reference": 119,
+							"name": "Warrawong High School"
+						},
+						{
+							"reference": 120,
+							"name": "Willyama High School"
+						},
+						{
+							"reference": 121,
+							"name": "Wollondilly Anglican College"
+						},
+						{
+							"reference": 122,
+							"name": "Wollongong High School of the Performing Arts"
+						},
+						{
+							"reference": 123,
+							"name": "Woonona High School"
+						},
+						{
+							"reference": 124,
+							"name": "Young High School"
+						}
+					]
+				}
+			]
+		}
+	}
+}

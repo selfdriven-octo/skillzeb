@@ -1,0 +1,864 @@
+{
+	"template": {
+		"definition": {
+			"name": "commonlands-quiz",
+			"title": "Commonlands Quiz",
+			"url": "https://commonlands.org",
+			"urlCaption": "commonlands.org",
+			"version": {
+				"number": "0.0.1",
+				"date": "01JUL2024",
+				"notes": "Initial Setup"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "Commonlands with the selfdriven Foundation",
+				"notes": "",
+				"url": "https://commonlands.org"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication)",
+				"notes": "Created by the selfdriven Foundation",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "https://commonlands.org",
+						"imageURL": "https://levelup.slfdrvn.app/site/2186/commonlands.in.the.fields.with.logo-1.0.0.png"
+					}
+				]
+			},
+			"usage": "Introduction to commonlands. Why? What? How?",
+			"description": "The first protocol for community credit",
+			"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+			"durationdays": {
+				"minimum": 0,
+				"maximum": 0
+			},
+			"outcomes": [
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Commonlands, including its core values, mission and guiding principles."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimchain™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimrank™️."
+				},
+				{
+					"by": "learner",
+					"description": "Agent/Ambassador understands Claimlock™️."
+				}
+			],
+			"team": {
+				"notes": "Teams or Pairs",
+				"roles": [
+					{
+						"name": "",
+						"notes": ""
+					}
+				]
+			},
+			"rules": [
+				{
+					"for": "learner",
+					"subject": "No GenAI Assistance",
+					"description": "This is about how well you will preform as an agent of commonlands - using GenAI to answer does help anyone."
+				}
+			],
+			"resources": [
+				{
+					"subject": "Claimchain",
+					"description": "Our permissionless product for NGOs, governments and development organizations to build foundational community-verified economic identities tied to land.",
+					"imageurl": "",
+					"for": [
+						"learner",
+						"learning-partner"
+					],
+					"url": "https://commonlands.org/claimchain"
+				},
+				{
+					"subject": "Claimrank",
+					"description": "Our trust metric / credit ranking system used by businesses and institutions for lending due diligence and risk analysis. Claimrank connects the community’s social capital and credit history into a product businesses and lenders can use to easily make decisions on where to invest and who to invest in",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimrank"
+				},
+				{
+					"subject": "Claimlock",
+					"description": "Our secure contract collateralization product for lenders, businesses & peer-to-peer contracting to secure agreements in informal markets with digital, tamperproof, community-verified Commonlands Certificates.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.org/claimlock"
+				},
+				{
+					"subject": "Commonlands Knowledge Base",
+					"description": "Advice and answers from from Commonlands HQ including App Tutorials and Frequently Asked Questions.",
+					"imageurl": "",
+					"for": "",
+					"url": "https://commonlands.zendesk.com/hc/en-us"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"description": "About Commonlands",
+					"tasks": [
+						{
+							"reference": "1-1",
+							"subject": "What is Commonlands?",
+							"description": "<p>Commonlands is building a new trust system. Built by neighbors. Backed by land. Our innovative system builds trust, with land.</p>\n<p>And our open land registry, Claimchain, uses the shared connections between neighbors as the basis for trust in our system.</p>\n<p>Then, our tamper-evident technology ensures the authenticity of claims, and provides a secure and transparent way to prove land ownership. In providing lenders with the tools they need to confidently enter challenging emerging and frontier markets, we&rsquo;re unlocking opportunities in the global impact investing market estimated to be worth over $2 trillion annually &ndash; with $700 billion targeting opportunities in emerging and frontier markets.</p>\n<p>Through breaking down barriers to investment, increasing community engagement, and providing land security for local landowners, we are on a mission to increase success rates and reduce defaults of loans in emerging and frontier markets, while equipping a new generation of credit-worthy individuals to enter the global market.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Commonlands",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542583577111-What-is-Commonlands"
+								},
+								{
+									"subject": "Video: Commonlands Explainer",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								},
+								{
+									"subject": "",
+									"url": "",
+									"imageurl": "",
+									"description": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "What is the primary purpose of Commonlands? Choose one.",
+									"subject": "Purpose of Commonlands.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "1-1-R-1",
+												"caption": "Build trust in undocumented last-mile communities.",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-1-R-2",
+												"caption": "Provide a linkage to credit for informal communities.",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-1-R-3",
+												"caption": "Document land rights in rural communities.",
+												"points": "0"
+											},
+											{
+												"name": "1-1-R-4",
+												"caption": "All of the choices mentioned are correct.",
+												"points": "1"
+											}
+										]
+									}
+								}
+							],
+							"supportitems": [
+								{
+									"for": "",
+									"description": ""
+								}
+							]
+						},
+						{
+							"reference": "1-1",
+							"subject": "Why should I use Commonlands?",
+							"description": "<h3><span class=\"sqsrte-text-color--white\">Commonlands gives communities and investors the building blocks to create impact, together:</span></h3>\n<ul data-rte-list=\"default\">\n<li>\n<p class=\"sqsrte-large\"><span class=\"sqsrte-text-color--white\">Reduce the time, cost, and uncertainty of entering new markets&nbsp;</span></p>\n</li>\n<li><span class=\"sqsrte-text-color--white\">Create trustworthy digital identities verified by your community</span></li>\n<li>\n<p class=\"sqsrte-large\"><span class=\"sqsrte-text-color--white\">Invest with full transparency&nbsp;</span></p>\n</li>\n<li><span class=\"sqsrte-text-color--white\">Document and prove your land ownership and improve your land security</span></li>\n<li>\n<p class=\"sqsrte-large\"><span class=\"sqsrte-text-color--white\">Shield yourself and others from default risks&nbsp;</span></p>\n</li>\n<li>\n<p class=\"sqsrte-large\"><span class=\"sqsrte-text-color--white\">Drive meaningful, specific, and secure returns</span></p>\n</li>\n</ul>\n<div class=\"fe-block fe-block-4ef0c6a6e7e0e833a4db\">\n<div id=\"block-4ef0c6a6e7e0e833a4db\" class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\">\n<div class=\"sqs-block-content\">\n<div class=\"sqs-html-content\">\n<h2><span class=\"sqsrte-text-highlight\" data-text-attribute-id=\"d32d4d40-9044-483f-8081-a1c327427bd0\">For Communities</span></h2>\n</div>\n<div class=\"TextShape-node\" data-text-attribute-id=\"d32d4d40-9044-483f-8081-a1c327427bd0\" data-shape=\"underlineCurve\" data-font-size=\"45\" data-is-front=\"false\" data-index=\"0\">&nbsp;</div>\n</div>\n</div>\n</div>\n<div class=\"fe-block fe-block-ee9ee8521ccc6d3d0ce1\">\n<div id=\"block-ee9ee8521ccc6d3d0ce1\" class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\">\n<div class=\"sqs-block-content\">\n<div class=\"sqs-html-content\">\n<h3>Commonlands is a community-verified trust system built by neighbors.&nbsp;</h3>\n<p class=\"sqsrte-large\">With a verified Commonlands land claim, you can prove creditworthiness, build trusting business relationships and open doors to new opportunities.&nbsp;</p>\n<ul data-rte-list=\"default\">\n<li>\n<p class=\"sqsrte-large\">Claim and verify your property with ease. No need to rely on banks or government agencies &mdash; do it digitally, with confidence.</p>\n</li>\n</ul>\n<ul data-rte-list=\"default\">\n<li>\n<p class=\"sqsrte-large\">Build your credit rating by connecting with your neighbors. Together, you create collective claim chains to achieve your personal or shared goals.</p>\n</li>\n</ul>\n<ul data-rte-list=\"default\">\n<li>\n<p class=\"sqsrte-large\">Show your creditworthiness in a range of activities &mdash; from business deals, to loan applications and collaborations on new projects &amp; investments</p>\n</li>\n</ul>\n<div class=\"fe-block fe-block-ee9ee8521ccc6d3d0ce1\">\n<div id=\"block-ee9ee8521ccc6d3d0ce1\" class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\">\n<div class=\"sqs-block-content\">\n<div class=\"sqs-html-content\">\n<p class=\"sqsrte-large\"><span style=\"font-size: 14pt; color: #3598db;\"><strong>How it works:</strong></span></p>\n<p class=\"sqsrte-large\"><strong>Place a pin</strong></p>\n<p class=\"sqsrte-large\">A Commonlands Claimchain starts when the first person drops a pin on the edge of their property line.</p>\n<p class=\"sqsrte-large\"><strong>Invite a neighbor</strong></p>\n<p class=\"sqsrte-large\">Our system makes it easy to send free invites to the next plot over - so neighbors can corroborate or dispute land borders.</p>\n<p class=\"sqsrte-large\"><strong>Secure your future</strong></p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"fe-block fe-block-02f6506b56561b6edf8e\">\n<div id=\"block-02f6506b56561b6edf8e\" class=\"sqs-block html-block sqs-block-html\" data-block-type=\"2\">\n<div class=\"sqs-block-content\">\n<div class=\"sqs-html-content\">\n<p class=\"\">When enough neighbors have verified their plots, land claims are automatically secured and generated: unlocking endless ways to transact, trade and build more credit in your community, and beyond.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Why should I use Commonlands?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542565763223-Why-should-I-use-Commonlands"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Why should you use Commonlands? Choose the best answer.",
+									"subject": "Uses for Commonlands.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "1-2-R-1",
+												"caption": "For communities and individuals to prove their trustworthiness to outside parties / businesses.",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "1-2-R-2",
+												"caption": "To provide land titles.",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-2-R-3",
+												"caption": "To map communities.",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-3",
+							"subject": "What can I do with my Commonlands Land Certificate?",
+							"description": "<h3><span style=\"font-size: 12pt;\">Congratulations on acquiring your Commonlands Land Certificate!</span></h3>\n<h3><span style=\"font-size: 12pt;\">This document serves as a potent validation of your claim to your land and the rights associated with it.</span></h3>\n<p>Owing to the strong foundation of cryptography and distributed ledger technology, this certificate provides a verifiable, globally recognized proof of your land ownership. Anyone across the globe can authenticate your certificate, which is backed by the collective trust and affirmation of your community.</p>\n<p>Whenever you are required to prove your status as a landowner, this certificate can be used as a reliable document for verification. Moreover, organizations that employ Commonlands technology can utilize your certificate to fortify agreements, contracts, and loans, using it as a secure form of collateral.</p>\n<p>In certain scenarios, your Land Certificate may even qualify you for rewards. Please consult your local community guidelines or representatives to understand if such benefits apply to your region.</p>\n<p>The acquisition of this certificate also enables you and your community to forge secure agreements and assess each other's credit histories. This fosters trust, transparency, and cooperation within your community, reinforcing its integrity.</p>\n<p>Furthermore, you can also combine your certificates with those of others to form lending circles. The robust infrastructure of Commonlands eliminates the need for traditional paper accounting, seamlessly tracking agreements and repayments. This innovative approach not only simplifies the process but also enhances security, making land ownership and related transactions more efficient and trustworthy.</p>\n<p>In conclusion, your Commonlands Land Certificate is more than just a document; it is a key that unlocks numerous opportunities and benefits, contributing towards a more secure and connected community.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What can I do with my Commonlands Land Certificate?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542623507863-What-can-I-do-with-my-Commonlands-Land-Certificates"
+								},
+								{
+									"subject": "Video: Commonlands Explainer",
+									"url": "https://youtu.be/Yg6pWNrOfE4"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "What is the use for a Commonlands' Certificate? Choose the best answer.",
+									"subject": "Commonlands Land Certificate.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "1-3-R-1",
+												"caption": "To prove who I am",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-3-R-2",
+												"caption": "To secure my land",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-3-R-3",
+												"caption": "To build my credit history",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-3-R-4",
+												"caption": "To secure contracts",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-3-R-5",
+												"caption": "All the choices mentioned are correct",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "1-4",
+							"subject": "Are Commonlands Land Certificates the same as a legal title?",
+							"description": "<p>Commonlands Land Certificates and legal land titles, while sharing some similarities, serve different functions depending on the jurisdiction in question. In nations like Uganda and Kenya where customary land arrangements are legally recognized, Commonlands indeed provides a clear pathway towards obtaining legal titles.</p>\n<p>In these countries, the Land Certificates serve as a bridge between traditional land ownership methods and formal legal recognition, thereby helping landowners to secure their rights in accordance with local and national laws.</p>\n<p>However, in regions where the legal system does not recognize or adequately support customary land arrangements, or where government land registries may be corrupt or inefficient, the role of Commonlands Land Certificates becomes somewhat different.</p>\n<p>In these scenarios, Commonlands functions as an extralegal framework. It provides a&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_self\">system for documenting, verifying, and managing land ownership that operates independently of the government.</a>&nbsp;While these certificates may not replace legal titles in these contexts, they do offer a level of security and certainty for landowners that might otherwise be unavailable.</p>\n<p>Additionally, these certificates can add value by providing a globally recognized proof of land ownership that can be used in a variety of contexts, from securing loans to entering into contracts or agreements. They also help to foster trust and cooperation within communities by providing a transparent and secure method for tracking land ownership and transactions.</p>\n<p>In conclusion, whether a Commonlands Land Certificate is equivalent to a legal title depends largely on the specific legal and cultural context of the region in question. In some cases, it can serve as a stepping stone towards a legal title, while in others, it acts as an effective and valuable alternative to traditional land ownership documents.</p>\n<p>&nbsp;</p>\n<p>For more information on how Commonlands Land Certificates are issued visit this article on --&gt;&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_self\">Claimchain</a>.&nbsp;</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Are Commonlands Land Certificates the same as a legal title?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542618399255-Are-Commonlands-Land-Certificates-the-same-as-a-legal-title"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Are Commonlands' Certificates the same as a legal title? Select the correct response.",
+									"subject": "Land Certificates as legal titles.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "1-4-R-1",
+												"caption": "Yes",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-4-R-2",
+												"caption": "No",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "1-4-R-3",
+												"caption": "No, but they can be",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "1-4-R-4",
+												"caption": "Yes, but with restrictions",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						}
+					],
+					"subject": "About Commonlands"
+				},
+				{
+					"reference": "2",
+					"subject": "FAQs",
+					"description": "Frequently asked questions.",
+					"durationdays": {},
+					"tasks": [
+						{
+							"reference": "2-1",
+							"subject": "I do not get cellular reception at my property, can I still use Commonlands?",
+							"description": "<p>Absolutely, you can still utilize Commonlands to document your plot even without an internet connection on your property.</p>\n<p>The Commonlands app is ingeniously designed to operate irrespective of your location, as long as you can access the internet at some point. This could be on your land, if connectivity is available, or at the nearest location with an internet connection, such as an internet cafe or a community center.</p>\n<p>The process doesn't require you to be on your property while creating your plot in the app. First, you would capture all necessary photographs that accurately represent your boundary markers while you're on your property. These photos can be saved on the Android device you'll use to interact with the Commonlands app.</p>\n<p>After you've gathered all the necessary documentation, you can then visit the closest location with internet access. Here, you can upload your documentation to the Commonlands platform. This flexibility ensures that you can effectively document your land and manage your ownership through Commonlands, regardless of the internet connectivity situation on your property.</p>\n<p>Remember, while the app does need internet access to upload information, the actual data collection can happen offline, at your convenience. This makes the Commonlands app a practical solution for landowners in areas with limited or intermittent internet access.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: I do not get cellular reception at my property, can I still use Commonlands?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542622851863-I-do-not-get-cellular-reception-at-my-property-can-I-still-use-Commonlands",
+									"description": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Do you need cellular reception to use Commonlands? Select the correct response.",
+									"subject": "Using Commonlands without cellular reception.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-1-R-1",
+												"caption": "Yes",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-1-R-2",
+												"caption": "No",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-1-R-3",
+												"caption": "Yes, but not while documenting my plot",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-2",
+							"subject": "What if I do not have a smartphone, how can I create a Commonlands plot?",
+							"description": "<p>ven if you don't personally own a smartphone, you can still create a Commonlands plot. The Commonlands app is designed with inclusivity in mind, understanding that not every individual might have access to a personal smartphone (or a phone at all!).&nbsp;</p>\n<p>This innovative design allows a single Android smartphone to be shared among an entire community so long as ever individual has their own SIM card. Each user can independently access their account through a unique one-time pin sent to their phone number each time they log in. This pin ensures security and privacy, even when multiple individuals are using the same device.</p>\n<p>You don't need to own a smartphone to benefit from Commonlands. You can borrow a community-shared Android device, sign into the Commonlands app using your one-time pin, and create your plot. After completing your tasks, simply sign out to ensure your data remains secure.</p>\n<p>This approach encourages community cooperation and shared resources, ensuring everyone, regardless of their personal technology access, can benefit from the Commonlands framework. It's a testament to Commonlands' commitment to accessibility and inclusivity in land documentation and ownership.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What if I do not have a smartphone, how can I create a Commonlands plot",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542659028247-What-if-I-do-not-have-a-smartphone-how-can-I-create-a-Commonlands-plot"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Do you need a smartphone to use Commonlands? Select the correct response.",
+									"subject": "Using Commonlands without a smartphone.",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-2-R-1",
+												"caption": "Yes",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-2-R-2",
+												"caption": "No",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-2-R-3",
+												"caption": "Yes, but you can borrow one",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-3",
+							"subject": "I am concerned about privacy. Who can see my personal information like phone number, profile picture, etc?",
+							"description": "<p>We deeply understand and respect your privacy concerns. At Commonlands, safeguarding your personally identifiable information is one of our topmost priorities.</p>\n<p>To ensure your privacy, all personally identifiable information such as your phone number, profile picture, and other personal details are kept hidden. They are only made visible to individuals you have directly connected with via the app.</p>\n<p>While Commonlands is built upon the principles of transparency and community trust, we also recognize the importance of individual privacy. Hence, transparency in this context does not equate to an open visibility of all information.</p>\n<p>The visible information primarily relates to land documentation such as your plot, plot markers, and survey information. This allows for communal verification and trust in land ownership while maintaining your personal anonymity.</p>\n<p>Your personal identity and related details are not disclosed, thereby striking a balanced approach between community transparency and individual privacy. Rest assured, we are committed to ensuring your information is handled with utmost care and discretion.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Tutorial Video - Plot Creation",
+									"url": "https://youtu.be/HAGnRw6c0ak",
+									"description": ""
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Is my information private? Choose the best answer",
+									"subject": "Is my information private? Choose the best answer",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-3-R-1",
+												"caption": "No, all your information is public",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-3-R-2",
+												"caption": "Yes, your information is never shared with anyone",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-3-R-3",
+												"caption": "Yes, but you choose who to share your information with",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-4",
+							"subject": "What is Claimchain?",
+							"description": "<h3><span style=\"font-size: 12pt;\">When neighbors recognize neighbors, magic happens.</span></h3>\n<p class=\"\">Claimchain is an open land registry where individuals create land claims and verify them with their neighbors.&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542631790743\" target=\"_self\">Community members place pins on a map to draw their plots.</a>&nbsp;As claims are added and neighbors confirm them,&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542620745367\" target=\"_self\">a web of interconnected claims is established, creating a Claimchain.</a>&nbsp;This process strengthens trust by involving the entire community in the verification process fostering engagement and collaboration.&nbsp;</p>\n<p class=\"\">The strength of Commonlands&rsquo; Claimchain is that it encourages consensus and a willingness to participate because claims are protected and dependent on all the other claims in the community&rsquo;s registry. The interconnectedness provides both security and credibility.&nbsp;</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Claimchain?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542584607255-What-is-Claimchain"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "What is a Claimchain? Choose the best answer",
+									"subject": "What is a Claimchain? Choose the best answer",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-4-R-1",
+												"caption": "A digital network of connected neighboring land plots ",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "2-4-R-2",
+												"caption": "A Blockchain system",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-4-R-3",
+												"caption": "Chain fences between properties in a community",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-5",
+							"subject": "Why does my community need to connect 150 plots to unlock our land certificates?",
+							"description": "<p>The requirement for a community to connect 150 plots before unlocking land certificates is part of Commonlands' fundamental trust-building process. It's based on the concept of collective verification and communal consensus, which are at the core of Commonlands' operations.</p>\n<p>In this system, each land claim is not just a solitary assertion but relies on the surrounding land claims for validation. By requiring 150 plots to be connected, it ensures that there is a robust network of verifiable claims, each reinforcing the others, before any single claim is formalized into a certificate.</p>\n<p>This not only enhances the security and trustworthiness of each individual land certificate but also reinforces the communal nature of land ownership and the shared responsibility for maintaining accurate land records.</p>\n<p>In essence, this system ensures that your land certificate is not just a piece of paper or a digital file but is backed by a community's worth of verification and agreement, making it much more resilient and trusted. It is through this collective effort that Commonlands is able to provide a reliable, secure, and community-driven approach to land documentation and ownership.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: Why does my community need to connect 150 plots to unlock our land certificates?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542620745367-Why-does-my-community-need-to-connect-150-plots-to-unlock-our-land-certificates"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "What is the purpose of building a Claimchain? Choose the best answer",
+									"subject": "What is the purpose of building a Claimchain? Choose the best answer",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-5-R-1",
+												"caption": "To provide a trusted, verifiable and consensus driven documentation system ",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "2-5-R-2",
+												"caption": "To collect information about a community",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-5-R-3",
+												"caption": "Chain fences between properties in a community",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-6",
+							"subject": "Can I invite other members of my community to join Commonlands?",
+							"description": "<p>Yes, you can invite others to join Commonlands by sharing an invitation link through email, messaging apps, or social media platforms or by typing in their phone number in the Commonlands app</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: Can I invite other members of my community to join Commonlands?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14051063518103-Can-I-invite-other-members-of-my-community-to-join-Commonlands"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Who can participate in Commonlands? ",
+									"subject": "Who can participate in Commonlands? ",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-6-R-1",
+												"caption": "Anyone, it is an open system",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "2-6-R-2",
+												"caption": "Only people that are invited",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-6-R-3",
+												"caption": "Only pre-approved individuals",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-7",
+							"subject": "What is Claimrank?",
+							"description": "<p>Claimrank is an innovative measure of trust employed within the Commonlands platform. It functions somewhat like a credit score but is specifically tied to your land claim, interactions within your community, and your transaction history on the Commonlands platform.</p>\n<p>At its core, Claimrank serves to authenticate your identity and the reliability of your land claim. It's a score that evaluates and represents the level of trust associated with your plot based on numerous factors. These factors include the strength and number of connections you've made within your community, the consistency of your land claim with those of your neighbors, your history of transactions or agreements on the Commonlands platform, and more.</p>\n<p>By consolidating all this information into a single metric, Claimrank provides an instant way for anyone, anywhere in the world, to verify your identity and assess the trustworthiness of your land claim. This can open up new opportunities, from securing loans to entering into contracts or agreements, as it provides a globally recognized proof of trust tied to your land.</p>\n<p>In essence, Claimrank is a powerful tool that harnesses the community-driven, transparent nature of Commonlands to enhance trust, facilitate transactions, and unlock new possibilities for landowners.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What is Claimrank?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542585032215-What-is-Claimrank"
+								},
+								{
+									"subject": "Image: App",
+									"url": "",
+									"imageurl": "https://commonlands.zendesk.com/hc/article_attachments/14559911652247"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Which of the following best describes Claimrank? ",
+									"subject": "Which of the following best describes Claimrank? ",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-7-R-1",
+												"caption": "Credit score",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-7-R-2",
+												"caption": "Title ranking system",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-7-R-3",
+												"caption": "Trust score",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-8",
+							"subject": "Why is my plot pending?",
+							"description": "<p>Your plot is currently labeled as \"pending\" because the&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_self\">Claimchain</a>&nbsp;associated with it is incomplete. In the Commonlands system, we require a minimum of&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542620745367\" target=\"_self\">150 connected plots</a>&nbsp;to issue&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542623507863\" target=\"_self\">land certificates</a>. This requirement forms an integral part of the Commonlands trust-building process.</p>\n<p>The principle of collective verification and communal consensus underlies this system. Each individual land claim relies on the surrounding land claims for validation. By requiring a network of 150 interconnected plots, it ensures a robust foundation of verifiable claims, each reinforcing the others, before any land certificate is issued.</p>\n<p>To expedite this process, we encourage you to invite other community members to join Commonlands, either via the app or through word of mouth. As more members of your community document their plots and connect them to yours, the Claimchain will grow and hasten the certification process.</p>\n<p>This not only strengthens the trustworthiness of each individual land certificate, but also helps secure your land rights as an owner. Through this collective effort, Commonlands provides a reliable, secure, and community-driven approach to land documentation and ownership. While your plot may be pending now, your active participation and community mobilization are crucial steps towards achieving a trusted and secure land certificate.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: Why is my plot pending?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542684695191-Why-is-my-plot-pending",
+									"description": ""
+								},
+								{
+									"subject": "Images: App",
+									"url": "",
+									"imageurl": "https://commonlands.zendesk.com/hc/article_attachments/14566606646167"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Why will a claim show up as pending on the Commonlands system? \n",
+									"subject": "Why will a claim show up as pending on the Commonlands system? ",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-8-R-1",
+												"caption": "Someone at Commonlands needs to approve it",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-8-R-2",
+												"caption": "Because 150 plots have not yet been connected",
+												"points": "1",
+												"sequence": ""
+											},
+											{
+												"name": "2-8-R-3",
+												"caption": "Because the internet connection is slow",
+												"points": "0",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-9",
+							"subject": "How does Commonlands protect against false claims?",
+							"description": "<p>Commonlands is an open platform that allows anyone to create land claims. While we don't directly prevent false claims from being made, we've implemented several measures to safeguard against them and maintain the integrity of our system.</p>\n<h3><a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_self\">Claimchain</a></h3>\n<p>Claimchain is a key feature of Commonlands. It allows communities to come together and build their own land registries, which strengthens trust within the community. By connecting their plots and validating boundaries and ownership, communities can ensure that the claims being made are accurate and legitimate. You can learn more about how Claimchain helps protect against false claims&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542620745367\" target=\"_self\" rel=\"undefined\">here</a>.</p>\n<p>&nbsp;</p>\n<h3><a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542664322327\" target=\"_self\">Documentation of Claims</a></h3>\n<p>We require all claims to be backed by evidence, such as&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542631790743\" target=\"_self\">photographic documentation of the plot</a>&nbsp;in question. False claims typically struggle to provide convincing evidence, and discrepancies in documentation serve as red flags for potential false claims.</p>\n<p>&nbsp;</p>\n<h3><a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14886949654935\" target=\"_self\">Map Moderators</a></h3>\n<p>We've introduced the concept of&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14886949654935\" target=\"_self\">Map Moderators</a>&nbsp;- think of them as the administrators of our system. Their job is to identify and flag claims that seem suspicious or are clearly false.</p>\n<p>When a claim is flagged, it doesn't disappear from the Commonlands system, but it is removed from public view and enters a review process. The claim must prove its validity before it is reinstated on the public system. During this period, flagged plots remain under the control of their creators, but they won't impact other people's claims on our system.</p>\n<p>This way, Commonlands helps to maintain a trustworthy system, offering protection against false claims while still ensuring everyone's right to create land claims.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: How does Commonlands protect against false claims?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542586852119-How-does-Commonlands-protect-against-false-claims"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Which of the following best describes how Commonlands protects against false claims? ",
+									"subject": "Which of the following best describes how Commonlands protects against false claims? ",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-9-R-1",
+												"caption": "By being open and transparent",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-9-R-2",
+												"caption": "By forcing communities to work together",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-9-R-3",
+												"caption": "By providing trust metrics",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-9-R-4",
+												"caption": "All of them",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						},
+						{
+							"reference": "2-10",
+							"subject": "What happens if a dispute remains unresolved?",
+							"description": "<p>Disputes in Commonlands aren't always a negative thing, they are sometimes just a part of owning and managing your land. However, there can be consequences depending on the type of dispute and circumstances.</p>\n<h3><a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14873532246167\" target=\"_self\">Ownership Disputes</a></h3>\n<p>An ownership dispute occurs when two or more people's land plots overlap and they haven't linked them together.</p>\n<ol>\n<li>\n<p>If you have a&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542623507863\" target=\"_self\">Commonlands Certificate</a>&nbsp;(meaning you're part of a complete&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542584607255\" target=\"_self\">Claimchain</a>), and the other person doesn't, your land ownership status isn't affected.</p>\n</li>\n<li>\n<p>If both of you have completed Claimchains and hold Commonlands Certificates, your reputations (<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542585032215\" target=\"_self\">Claimranks</a>) will drop to \"Very Poor\". This is to indicate that your claims might not be reliable. But don't worry, you can improve your Claimrank over time by making successful agreements using your Commonlands Certificates as security.</p>\n</li>\n</ol>\n<h3><a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14873560126871\" target=\"_self\">Boundary Disputes</a></h3>\n<p>Boundary disputes happen when two landowners agree that they're neighbors but disagree on the exact location of their shared border.</p>\n<ol>\n<li>\n<p>A single boundary dispute won't affect your&nbsp;<a href=\"https://commonlands.zendesk.com/hc/en-us/articles/14542585032215\" target=\"_self\">Claimrank</a>.</p>\n</li>\n<li>\n<p>However, if there are two or more boundary disputes for a single plot, your Claimrank will fall to \"Poor\". This suggests that your claims might not be entirely trustworthy. If you resolve these disputes, your Claimrank will improve.</p>\n</li>\n</ol>\n<p>Remember, these disputes are opportunities to clarify and solidify your land claims, and over time, you can improve your reputation in Commonlands.</p>",
+							"by": "",
+							"durationdays": {},
+							"resources": [
+								{
+									"subject": "Article: What happens if a dispute remains unresolved?",
+									"url": "https://commonlands.zendesk.com/hc/en-us/articles/14542430871447-What-happens-if-a-dispute-remains-unresolved"
+								},
+								{
+									"subject": "Image: Plot Status",
+									"url": "",
+									"description": "",
+									"imageurl": "https://commonlands.zendesk.com/hc/article_attachments/14886887960087"
+								}
+							],
+							"reflections": [
+								{
+									"by": "",
+									"method": "structured",
+									"type": "",
+									"description": "Is the goal to eliminate all disputes?",
+									"subject": "Is the goal to eliminate all disputes?",
+									"controller": "sort:randomise",
+									"structure": {
+										"options": [
+											{
+												"name": "2-10-R-1",
+												"caption": "Yes",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-10-R-2",
+												"caption": "No",
+												"points": "0",
+												"sequence": ""
+											},
+											{
+												"name": "2-10-R-3",
+												"caption": "Not necessarily, disputes are helpful in determining trustworthiness and can be resolved at any point in the future",
+												"points": "1",
+												"sequence": ""
+											}
+										]
+									}
+								}
+							],
+							"supportitems": []
+						}
+					]
+				}
+			],
+			"skills": {
+				"scope-contexts": [],
+				"learner-proposed": "true",
+				"based-on-uri": "https://skillzeb.io/explorer",
+				"gained": [
+					{
+						"uri": "09680000400001",
+						"name": "Community Agent",
+						"sdi": "a3623815-cb75-4d75-acee-314f986051ca",
+						"level": "00",
+						"capacity": "01",
+						"validation": {
+							"notes": "Do they have an understanding of the Commonlands project and what it means to be an agent.",
+							"evidence": [
+								{
+									"description": "Answered all the task reflections correctly.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					}
+				]
+			},
+			"type": "learning",
+			"controller": "do:ordered"
+		}
+	}
+}

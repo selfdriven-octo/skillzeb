@@ -1,0 +1,257 @@
+﻿{
+	"template": {
+		"definition": {
+			"name": "university-future-me",
+			"type": "project",
+			"title": "University Future Me",
+			"summary": "Prepare for important decision-making ahead, explore your post-high school opportunities and improve your HSC study skills with our Year 12 Future Me program. This program allows you to experience a taste of UOW student life, connects you with UOW student mentors currently studying at UOW and helps you navigate UOW's Early Admission process.",
+			"url": "https://www.university.edu.au/engage/schools-parents/high-school/future-me",
+			"for": [
+				{
+					"type": "skillzeb",
+					"level": "10",
+					"notes": "Year 12"
+				}
+			],
+			"outcomes": [
+				{
+					"description": "Outcome 1"
+				}
+			],
+			"team": {
+				"roles": [
+					{
+						"name": "university-mentor",
+						"caption": "University Mentor"
+					},
+					{
+						"name": "university-future-me-support",
+						"caption": "University Future Me Support",
+						"url": "#university-passport-staff"
+					}
+				]
+			},
+			"mappings": {
+				"baseurl": "/site/2190"
+			},
+			"rules": [
+				{
+					"subject": "Expectation 1"
+				}
+			],
+			"resources": [
+				{
+					"subject": "Engagement item 1"
+				},
+				{
+					"subject": "Program Design",
+					"url": "https://docs.google.com/document/d/1juaH1d6I-AVtQ4QIC_yDEpP9KQbxoGDRNn5BdPdjJDo/edit"
+				},
+				{
+					"subject": "Program Group Projects",
+					"type": "template",
+					"url": "{{baseurl}}/selfdriven.template.project.university.passport.group.future.me-0.1.4.json"
+				}
+			],
+			"spaces": [
+				{
+					"name": "university-wollongong",
+					"type": "physical",
+					"caption": "University Wollongong Campass"
+				},
+				{
+					"name": "university-bega",
+					"type": "physical",
+					"caption": "University Bega Campass"
+				},
+				{
+					"name": "university-eurobodalla",
+					"type": "physical",
+					"caption": "University Eurobodalla Campass"
+				},
+				{
+					"name": "university-oran-park",
+					"type": "physical",
+					"caption": "University Oran Park Campass"
+				},
+				{
+					"name": "university-shoalhaven",
+					"type": "physical",
+					"caption": "University Shoalhaven Campass"
+				},
+				{
+					"name": "university-southern-highlands",
+					"type": "physical",
+					"caption": "University Southern Highlands Campass"
+				},
+				{
+					"name": "university-sutherland",
+					"type": "physical",
+					"caption": "University Sutherland Campass"
+				},
+				{
+					"name": "cuc-broken-hill",
+					"type": "physical",
+					"caption": "CUC Broken Hill Campass"
+				},
+				{
+					"name": "cuc-clarence-valley",
+					"type": "physical",
+					"caption": "CUC Clarence Valley Campass"
+				},
+				{
+					"name": "cuc-cooma",
+					"type": "physical",
+					"caption": "CUC Cooma Campass"
+				},
+				{
+					"name": "cuc-goulburn",
+					"type": "physical",
+					"caption": "CUC Goulburn Campass"
+				},
+				{
+					"name": "cuc-jindabyne",
+					"type": "physical",
+					"caption": "CUC Jindabyne Library"
+				},
+				{
+					"name": "cuc-narrabri",
+					"type": "physical",
+					"caption": "CUC Narrabri Campass"
+				},
+				{
+					"name": "cuc-riverina",
+					"type": "physical",
+					"caption": "CUC Riverina Campass"
+				},
+				{
+					"name": "cuc-ulladulla",
+					"type": "physical",
+					"caption": "CUC Ulladulla Campass"
+				},
+				{
+					"name": "online",
+					"type": "virtual",
+					"caption": "Online"
+				}
+			],
+			"milestones": [
+				{
+					"reference": "1",
+					"subject": "Week 1 (W/C 4 Nov)",
+					"description": "Welcome + Introduction to the program",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"session": {
+						"observations": [
+							{
+								"by": "learning-partner",
+								"type": "who"
+							}
+						]
+					},
+					"tasks": [
+						{
+							"reference": "1",
+							"subject": "Goal Setting",
+							"reflections": [
+								{
+									"by": "leader",
+									"method": "observation",
+									"subject": "What are your goals?",
+									"description": ""
+								}
+							]
+						}
+					],
+					"support-items": [
+						{
+							"subject": "Lead Session 30min",
+							"description": "Welcome + Introduction to the program",
+							"notes": "Expectations of the program (attendance, engagement, email etiquette) What we want them to get out of it. What topics will be cover. What is the assessment task?"
+						},
+						{
+							"subject": "Mentor icebreaker 10min approx.",
+							"description": "Person bingo."
+						},
+						{
+							"subject": "Mentor Session Activity - Groups 30min approx.",
+							"description": "Campus Tour (Scav Hunt?) Campus tour for regionals. Uni jargon"
+						}
+					]
+				},
+				{
+					"reference": "2",
+					"subject": "Week 2 (W/C 11 Nov)",
+					"description": "How to Choose a Course",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"tasks": [
+						{
+							"reference": "2",
+							"subject": "Why are you interested in your chosen course? (Motivation)"
+						}
+					]
+				},
+				{
+					"reference": "3",
+					"subject": "Week 3 (W/C 18 Nov)",
+					"description": "21st Century Skills",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"tasks": [
+						{
+							"reference": "3",
+							"subject": "Tell us about one of the times you've successfully applied your skills."
+						}
+					]
+				},
+				{
+					"reference": "4",
+					"subject": "Week 4 (W/C 25 Nov)",
+					"description": "Study Skills",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"tasks": [
+						{
+							"reference": "4",
+							"subject": "What are your study goals for HSC and beyond? Strengths and weaknesses."
+						}
+					]
+				},
+				{
+					"reference": "5",
+					"subject": "Week 5 (W/C 2 Dec)",
+					"description": "Demystifying Uni",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"tasks": [
+						{
+							"reference": "5",
+							"subject": "Reflect on how you worked in a group - what did you like, what were the challenges, what did you achieve?"
+						}
+					]
+				},
+				{
+					"reference": "6",
+					"subject": "Week 6 (W/C 9 Dec)",
+					"description": "What's next?",
+					"durationdays": {
+						"scheduled": "7"
+					},
+					"tasks": [
+						{
+							"reference": "6",
+							"subject": "Reflect on the goals you set at the beginning of the course. Have they moved?"
+						}
+					]
+				}
+			]
+		}
+	}
+}
