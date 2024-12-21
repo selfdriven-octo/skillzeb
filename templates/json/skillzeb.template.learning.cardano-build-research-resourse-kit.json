@@ -1,0 +1,94 @@
+﻿{
+	"template": {
+		"definition": {
+			"type": "learning",
+			"name": "cardano-build-research-resourse-kit",
+			"title": "Cardano Build Research Resource Kit",
+			"url": "https://cardano.build/#research",
+			"urlcaption": "cardano.build/#research",
+			"controller": "default",
+			"version": {
+				"number": "1.0.0",
+				"date": "01 JUN 2024",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation/templates"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			},
+			"domains": [
+				"*"
+			],
+			"languages": {
+				"human": [
+					"en"
+				],
+				"machine": []
+			},
+			"usage": "Help set up a learning template.",
+			"summary": "Links to Cardano research",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Community",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "IOG | Research",
+					"url": "https://iohk.io/research/"
+				},
+				{
+					"subject": "IOG | Research Papers Library",
+					"url": "https://iohk.io/en/research/library/"
+				},
+				{
+					"subject": "How IOG's research spans the academic world",
+					"url": "https://iohk.io/en/blog/posts/2022/10/25/how-iog-s-research-spans-the-academic-world/"
+				},
+				{
+					"subject": "IOG | Introducing The Edinburgh Decentralization Index (EDI)",
+					"url": "https://iohk.io/en/blog/posts/2022/11/18/the-university-of-edinburgh-and-iog-introduce-the-edinburgh-decentralization-index/"
+				},
+				{
+					"subject": "IOG | Scaling blockchain protocols: a research-based approach",
+					"url": "https://www.youtube.com/watch?v=Czmg9WmSCcI"
+				},
+				{
+					"subject": "'IOG | Near optimal throughput': A deep dive into Ouroboros Leios",
+					"url": "https://www.youtube.com/watch?v=YEcYVygdhzU"
+				}
+			],
+			"skills": {
+				"gained": [
+					{
+						"uri": "",
+						"name": "",
+						"sdi": "",
+						"level": "0",
+						"capacity": "00",
+						"scope": {
+							"year": ""
+						}
+					}
+				]
+			}
+		}
+	}
+}
