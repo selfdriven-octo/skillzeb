@@ -271,7 +271,7 @@
 					"name": "resource-cardano-aiken",
 					"title": "Cardano Aiken Coding Resources",
 					"summary": "Resources Aiken coding or building an Aiken coding template.",
-					"url": "/skillzeb.template.resource.cardano-aiken.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/templates/json/skillzeb.template.resource.cardano-aiken.json",
 					"type": "resource",
 					"domains": [
 						"Who Am I",

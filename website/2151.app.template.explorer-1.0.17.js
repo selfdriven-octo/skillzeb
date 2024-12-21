@@ -282,10 +282,11 @@ entityos._util.controller.add(
         {
             app.show('#explorer-templates-search-view', '<h3 class="text-muted text-center mt-6">Initialising templates set ...</h3>');
 
+            //  url: '/site/6b2beaea-f5ef-45f7-bec0-4c679d314d71/data/skillzeb.templates.index-1.0.5.json',
             $.ajax(
             {
                 type: 'GET',
-                url: '/site/6b2beaea-f5ef-45f7-bec0-4c679d314d71/data/skillzeb.templates.index-1.0.5.json',
+                url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/indexes/skillzeb.templates.index-1.0.5.json',
 				cors: false,
 				cache: false,
                 dataType: 'json',
