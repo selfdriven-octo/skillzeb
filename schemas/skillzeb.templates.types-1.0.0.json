@@ -10,20 +10,24 @@
         "templates": {
             "types": [
                 {
-                    "name": "Learning",
+                    "name": "Community",
+                    "code": "community"
+                },
+                {
+                    "name": "Resource",
+                    "code": "resource"
+                },
+				{
+                    "name": "Project",
+                    "code": "project"
+                },
+                {
+                    "name": "Learning Quizzes",
                     "code": "learning"
                 },
                 {
                     "name": "Next Steps",
                     "code": "next-steps"
-                },
-                {
-                    "name": "Project",
-                    "code": "project"
-                },
-                {
-                    "name": "Community",
-                    "code": "community"
                 }
             ]
         }
