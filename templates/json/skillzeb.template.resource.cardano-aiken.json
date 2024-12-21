@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-resources-cardano-aiken",
+			"type": "resournce",
+			"name": "resource-cardano-aiken",
 			"title": "Cardano Aiken Learning Resources",
 			"summary": "Resources for learning Aiken coding or building a template.",
 			"urlCaption": "....",
@@ -37,38 +37,6 @@
 					"url": "https://cardano.build/#aiken"
 				}
 			],
-			"outcomes": [
-				{
-					"by": "learner",
-					"description": "Understanding of Aiken"
-				}
-			],
-			"skills": {
-				"required": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "00",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				],
-				"gained": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "0",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				]
-			},
 			"source": {
 				"sharing": {
 					"type": "Creative Commons CC0",

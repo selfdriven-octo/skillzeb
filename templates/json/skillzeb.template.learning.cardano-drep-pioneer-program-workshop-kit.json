@@ -1,4 +1,4 @@
-{
+﻿{
 	"template": {
 		"definition": {
 			"type": "learning",
@@ -334,33 +334,7 @@
 						}
 					]
 				}
-			],
-			"skills": {
-				"required": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "00",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				],
-				"gained": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "0",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				]
-			}
+			]
 		}
 	}
 }

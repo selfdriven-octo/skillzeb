@@ -1,7 +1,6 @@
 # skillzeb Universal Skill Set & Templates
 
 Open universal skills set as foundation for a learning ecosystem.
-
 - https://skillzeb.io
 - https://skillzeb.io/about
 - https://skillzeb.io/integrate

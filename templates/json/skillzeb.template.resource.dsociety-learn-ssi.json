@@ -1,0 +1,71 @@
+﻿{
+	"template": {
+		"definition": {
+			"type": "resource",
+			"name": "resources-dsociety-learn-ssi",
+			"title": "dSociety Learn SSI Resources",
+			"summary": "Resources (links etc) for Self-Sovereign Identity.",
+			"url": "https://dsociety.io/learn-ssi",
+			"urlcaption": "dsociety.io/learn-ssi",
+			"controller": "default",
+			"version": {
+				"number": "1.0.0",
+				"date": "01 JUN 2024",
+				"notes": "Initial set up"
+			},
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "selfdriven Foundation",
+				"notes": "",
+				"url": "https://selfdriven.foundation"
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by the selfdriven Foundation.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			},
+			"domains": [
+				"Civics-Citizenship",
+				"Governance",
+				"Information Sciences",
+				"Information Technology",
+				"Infrastructure",
+				"Society & Culture"
+			],
+			"languages": {
+				"human": [
+					"en"
+				],
+				"machine": []
+			},
+			"orginator": {
+				"name": "selfdriven Octo",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "DID Creation Example",
+					"url": "https://dsociety.io/learn-ssi"
+				},
+				{
+					"subject": "Self- Sovereign Identity Book",
+					"url": "https://www.manning.com/books/self-sovereign-identity"
+				},
+				{
+					"subject": "Identus (Atala Prism)",
+					"url": "https://www.hyperledger.org/projects/identus"
+				}
+			]
+		}
+	}
+}

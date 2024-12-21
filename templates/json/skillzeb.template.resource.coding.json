@@ -1,9 +1,9 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-resources-coding",
-			"title": "Coding Learning Resources",
+			"type": "resource",
+			"name": "resource-coding",
+			"title": "Coding Resources",
 			"summary": "Resources for building your own coding template.",
 			"urlCaption": "....",
 			"version": {
@@ -20,7 +20,7 @@
 				"Building",
 				"Languages"
 			],
-			"usage": "Learning template resources for coding.",
+			"usage": "Resource template for building coding templates.",
 			"description": "",
 			"orginator": {
 				"name": "selfdriven Octo",
@@ -46,38 +46,6 @@
 					"url": "https://www.giraffeacademy.com"
 				}
 			],
-			"outcomes": [
-				{
-					"by": "learner",
-					"description": ""
-				}
-			],
-			"skills": {
-				"required": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "00",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				],
-				"gained": [
-					{
-						"uri": "",
-						"name": "",
-						"sdi": "",
-						"level": "0",
-						"capacity": "00",
-						"scope": {
-							"year": ""
-						}
-					}
-				]
-			},
 			"source": {
 				"sharing": {
 					"type": "Creative Commons CC0",
