@@ -9,9 +9,10 @@
 		"version": "1.0.3",
 		"types": [
 			"learning",
-			"nextsteps",
+			"nextstep",
 			"project",
-			"community"
+			"community",
+			"resource"
 		],
 		"schemas": {
 			"domains": {
@@ -154,7 +155,7 @@
 					"name": "nextstep-starter",
 					"title": "Next Steps Starter",
 					"summary": "A starter for building your own next steps template.",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.nextsteps.starter.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.nextstep.starter.json",
 					"type": "nextstep",
 					"domains": [
 						"Who Am I",
