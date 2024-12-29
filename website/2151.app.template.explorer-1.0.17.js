@@ -40,7 +40,6 @@ entityos._util.controller.add(
                 if (_.contains(uriContextData, 'type:'))
                 {
                     var searchTypeName = _.replace(uriContextData, 'type:', '');
-                    searchTypeName = _.replaceAll(searchDomainName, '-', ' ');
                     app.set({scope: 'explorer-templates', context: 'type', value: searchTypeName});
                     app.set({scope: 'explorer-templates', context: '_type', value: searchTypeName});
                 }
@@ -460,7 +459,7 @@ entityos._util.controller.add(
 						template._url = '/site/6b2beaea-f5ef-45f7-bec0-4c679d314d71/data' + template._url;
 					}
 
-                    template._filename = template.name + '.json';
+                    template._filename = template.name + '.template.json';
 					
                     var htmlJSONLink = '<div class="text-muted small">File</div>' +
 						'<a class="text-dark" href="' + template._url + '" target="_blank"><i class="fe fe-external-link"></i></a>' + 
