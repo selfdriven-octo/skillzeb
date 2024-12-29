@@ -151,11 +151,11 @@
 					}
 				},
 				{
-					"name": "nextsteps-starter",
+					"name": "nextstep-starter",
 					"title": "Next Steps Starter",
 					"summary": "A starter for building your own next steps template.",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.nextsteps.starter.json",
-					"type": "nextsteps",
+					"type": "nextstep",
 					"domains": [
 						"Who Am I",
 						"Education",
@@ -242,7 +242,7 @@
 					}
 				},
 				{
-					"name": "learning-cardano-build-setting-up-a-stake-pool",
+					"name": "project-cardano-build-setting-up-a-stake-pool",
 					"title": "Setting Up a Cardano Stake Pool",
 					"summary": "At the end of this learning project, a learner will be able to set up a Cardano stake pool.",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.learning.cardano-build-setting-up-a-stake-pool.json",
@@ -403,7 +403,7 @@
 					"title": "Coding Project Resources",
 					"summary": "Resources for building your own coding project template.",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.coding.json",
-					"type": "learning",
+					"type": "resource",
 					"domains": [
 						"Who Am I",
 						"Project Based Learning",
@@ -424,7 +424,7 @@
 					}
 				},
 				{
-					"name": "cardano-drep-pioneer-program-workshop-kit",
+					"name": "learning-cardano-drep-pioneer-program-workshop-kit",
 					"title": "Cardano DRep Pioneer Program Workshop Kit",
 					"summary": "Cardano DRep Pioneer Program Workshop Kit based on the IntersectMBO Lesson Program.",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.learning.cardano-drep-pioneer-program-workshop-kit.json",
@@ -452,11 +452,11 @@
 					}
 				},
 				{
-					"name": "cardano-build-research-resourse-kit",
+					"name": "resourse-cardano-build-research-kit",
 					"title": "Cardano Build Research Resource Kit",
 					"summary": "Links to Cardano research that can be used as the basis for learning / project templates etc",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.learning.cardano-build-research-resourse-kit.json",
-					"type": "learning",
+					"type": "resource",
 					"domains": [
 						"Science",
 						"Information Technology",

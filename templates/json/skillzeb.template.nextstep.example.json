@@ -1,8 +1,8 @@
 {
 	"template": {
 		"defintion": {
-			"type": "nextsteps",
-			"name": "nextsteps-example",
+			"type": "nextstep",
+			"name": "nextstep-example",
 			"url": "https://slfdrvn.io/next-steps",
 			"urlCaption": "Example next-steps template prescribed skills",
 			"version": {

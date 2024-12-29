@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "nextsteps",
-			"name": "nextsteps-required-skills",
+			"type": "nextstep",
+			"name": "nextstep-required-skills",
 			"url": "https://selfdriven.foundation/next-steps",
 			"urlCaption": "Example next-steps template required skills",
 			"version": {

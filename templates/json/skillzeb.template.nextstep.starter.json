@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "nextsteps",
-			"name": "nextsteps-starter",
+			"type": "nextstep",
+			"name": "nextstep-starter",
 			"url": "https://skillzeb.io",
 			"urlCaption": "",
 			"version": {
