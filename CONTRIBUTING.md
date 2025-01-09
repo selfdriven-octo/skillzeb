@@ -1,6 +1,6 @@
 # Contributing to [Project Name]
 
-Thank you for considering contributing to Cardano.build! We welcome all contributions—whether it's information errors, feature suggestions, bug reports, or documentation improvements.
+Thank you for considering contributing to skillzeb! We welcome all contributions—whether it's information errors, feature suggestions, bug reports, or documentation improvements.
 
 Please take a moment to review this document before submitting any contributions.
 
