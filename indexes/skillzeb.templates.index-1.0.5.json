@@ -474,7 +474,31 @@
 						"notes": "",
 						"url": "https://cardano.build/#research"
 					}
-				}
+				},
+				{
+					"name": "learning-commonlands-quiz",
+					"title": "Commonlands Quiz",
+					"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.learning.commonlands-quiz.json",
+					"type": "learning",
+					"domains": [
+						"Business",
+						"Communications",
+						"Economics-Business",
+						"Community Services",
+						"Property"
+					],
+					"sdt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "Commonlands.org",
+						"notes": "In collaboration with selfdriven Foundation",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
 			]
 		}
 	}
