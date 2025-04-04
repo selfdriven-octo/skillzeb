@@ -33,7 +33,7 @@
 			"set": [
 				{
 					"type": "resource",
-					"name": "resource-cardano-icc-ec-registers",
+					"name": "resource-cardano-ecc-registers",
 					"title": "Cardano Interim Constitutional Committee - Eastern Council Registers",
 					"version": {
 						"number": "1.0.0",
@@ -52,7 +52,7 @@
 					"sharing": {
 						"type": "Creative Commons CC0",
 						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
-						"notes": "Created by CICC EC.",
+						"notes": "Created by Cardano EEC.",
 						"url": "https://creativecommons.org/publicdomain/zero/1.0"
 					},
 					"domains": [
@@ -66,11 +66,11 @@
 					"usage": "Registers and resources supporting the Eastern Council Governance Framework",
 					"summary": "Registers and resources supporting the Eastern Council Governance Framework",
 					"id": "98cfa30b-1219-4c9d-d314-08e29d7ce55a",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-icc-ec-registers.json"
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-ecc-registers.json"
 				},
 				{
 					"type": "community",
-					"name": "community-cardano-icc-ec",
+					"name": "community-cardano-ecc",
 					"title": "Cardano Interim Constitutional Committee - Eastern Council",
 					"version": {
 						"number": "1.0.0",
@@ -89,7 +89,7 @@
 					"sharing": {
 						"type": "Creative Commons CC0",
 						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
-						"notes": "Created by CICC EC.",
+						"notes": "Created by Cardano ECC.",
 						"url": "https://creativecommons.org/publicdomain/zero/1.0"
 					},
 					"domains": [
@@ -103,7 +103,7 @@
 					"usage": "A part of the Eastern Council Governance Framework",
 					"summary": "Cardano Interim Constitutional Committee, Eastern Cardano Governance Framework",
 					"id": "0a3e7796-114a-4bfb-f4f4-802753770294",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.community.cardano-icc-ec.json"
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.community.cardano-ecc.json"
 				},
 				{
 					"type": "resource",
