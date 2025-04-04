@@ -34,7 +34,7 @@
 				{
 					"type": "resource",
 					"name": "resource-cardano-ecc-registers",
-					"title": "Cardano Interim Constitutional Committee - Eastern Council Registers",
+					"title": "Cardano Constitutional Committee - Eastern Council Registers",
 					"version": {
 						"number": "1.0.0",
 						"name": "jun-2024",
@@ -71,7 +71,7 @@
 				{
 					"type": "community",
 					"name": "community-cardano-ecc",
-					"title": "Cardano Interim Constitutional Committee - Eastern Council",
+					"title": "Cardano Constitutional Committee - Eastern Council",
 					"version": {
 						"number": "1.0.0",
 						"name": "jun-2024",
@@ -101,7 +101,7 @@
 						"Society & Culture"
 					],
 					"usage": "A part of the Eastern Council Governance Framework",
-					"summary": "Cardano Interim Constitutional Committee, Eastern Cardano Governance Framework",
+					"summary": "Cardano Constitutional Committee, Eastern Cardano Governance Framework",
 					"id": "0a3e7796-114a-4bfb-f4f4-802753770294",
 					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.community.cardano-ecc.json"
 				},
