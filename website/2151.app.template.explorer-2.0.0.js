@@ -285,7 +285,7 @@ entityos._util.controller.add(
             $.ajax(
             {
                 type: 'GET',
-                url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/indexes/skillzeb.templates.index-2.0.0.json',
+                url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/indexes/skillzeb.templates.index-latest.json',
 				cors: false,
 				cache: false,
                 dataType: 'json',
