@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-commonlands-getting-started",
+			"type": "verification",
+			"name": "verification-commonlands-getting-started",
 			"title": "Commonlands Getting Started",
 			"url": "https://commonlands.org",
 			"urlCaption": "commonlands.org",

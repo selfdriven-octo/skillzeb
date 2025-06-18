@@ -1,7 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"name": "project-starter-science",
+			"type": "project",
+			"name": "project-learning-starter-science",
 			"title": "Science Project Starter",
 			"url": "",
 			"urlCaption": "Starter Project",

@@ -1,8 +1,8 @@
 ﻿{
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "cardano-build-research-resourse-kit",
+			"type": "resource",
+			"name": "resource-build-research-kit",
 			"title": "Cardano Build Research Resource Kit",
 			"url": "https://cardano.build/#research",
 			"urlcaption": "cardano.build/#research",

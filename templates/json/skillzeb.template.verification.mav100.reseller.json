@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-mav100-reseller",
+			"type": "verification",
+			"name": "verification-mav100-reseller",
 			"title": "MAV100 Reseller",
 			"url": "https://mav100.org",
 			"urlCaption": "MAV100.org",

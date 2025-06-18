@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-commonlands-app",
+			"type": "verification",
+			"name": "verification-commonlands-app",
 			"title": "Commonlands Step by Step",
 			"url": "https://commonlands.org",
 			"urlCaption": "commonlands.org",

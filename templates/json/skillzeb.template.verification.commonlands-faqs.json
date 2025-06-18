@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-commonlands-fags",
+			"type": "verification",
+			"name": "verification-commonlands-fags",
 			"title": "Commonlands FAQs",
 			"url": "https://commonlands.org",
 			"urlCaption": "commonlands.org",

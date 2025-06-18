@@ -2,23 +2,23 @@
 	"template": {
 		"definition": {
 			"type": "project",
-			"name": "project-industrial-arts",
-			"title": "PBL; Major Project for Industrial Arts",
-			"url": "",
-			"urlCaption": "",
+			"name": "project-learning-cardano-build-setting-up-a-stake-pool",
+			"title": "Cardano Build; Setting Up a Stake Pool",
+			"url": "https://selfdriven.foundation/templates",
+			"urlCaption": "About selfdriven Templates",
 			"version": {
 				"number": "1.0.0",
-				"date": "01 AUG 2022",
-				"notes": "Initial set up"
+				"date": "16 AUG 2023",
+				"notes": "Initial template creation"
 			},
 			"source": {
 				"sharing": {
 					"type": "Creative Commons CC0",
 					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
 				},
-				"name": "selfdriven Foundation",
-				"notes": "Template developed by THS in collaboration with selfdriven Labs.",
-				"url": "https://selfdriven.foundation/improvement-cycle"
+				"name": "selfdriven Foundation & MAV100",
+				"notes": "Template developed by MAV100 in collaboration with selfdriven & ChatGPT.",
+				"url": "https://chat.openai.com/share/cbbf4851-41c2-4249-bec9-988f92d09b12"
 			},
 			"sharing": {
 				"type": "Creative Commons CC0",
@@ -28,16 +28,15 @@
 			"domains": [
 				"Who Am I",
 				"Education",
+				"Information Sciences",
 				"Project Based Learning",
 				"Information Technology",
-				"Building",
-				"Design",
-				"Engineering",
-				"Construction"
+				"Computer Sciences",
+				"Infrastructure"
 			],
-			"usage": "This is a template for completing a PBL major works project.",
-			"description": "Identify and investigate a specific need. Then create a system / product / environment / service as a solution to that identified need.",
-			"summary": "Your final product will contribute to the PBL Major Project Community Showcase Event as either an item for display, an item for sale, or there are specific opportunities to play a role in the overall administration and operation of the PBL community Event itself.",
+			"usage": "This is a template for setting up a stake pool.",
+			"description": "Set up a Cardano stake pool.",
+			"summary": "At the end of this learning project, you will be able to set up a Cardano stake pool.",
 			"duration-days": {
 				"minimum": 80,
 				"maximum": 90
@@ -45,31 +44,27 @@
 			"outcomes": [
 				{
 					"by": "learner",
-					"description": "Identify a need and create a suitable solution that utilises a design process."
+					"description": "Know what a Cardano stake pool is and how it helps secure the Cardano network."
 				},
 				{
 					"by": "learner",
-					"description": "Engage and collaborate with appropriate learning partners and stakeholders."
+					"description": "How to build a stake pool."
 				},
 				{
 					"by": "learner",
-					"description": "Develop the ability to exhibit their learning process."
+					"description": "How to operate a stake pool."
 				}
 			],
 			"team": {
 				"notes": "Teams or Pairs",
 				"roles": [
 					{
-						"name": "Designer / Creator",
-						"notes": "Product/system/environment/service"
+						"name": "Researcher",
+						"notes": "Research stake pools"
 					},
 					{
-						"name": "Exhibitor / Manufacturer",
-						"notes": "Exhibitor - design, manufacture, sell products at showcase"
-					},
-					{
-						"name": "Operator",
-						"notes": "Limited places available. Create, organise, implement events/activities at showcase. Showcase management and organisation, e.g. Catering, Entertainment, HR, Administration, PR/Marketing, Documentary (film/capture projects development)"
+						"name": "IT",
+						"notes": "Stake pool builder"
 					}
 				]
 			},
@@ -94,30 +89,8 @@
 					"subject": "Not Negotiables",
 					"description": [
 						"<ul>",
-						"<li>Must address a need/opportunity/problem.</li>",
-						"<li>Must be guided by a driving question.</li>",
+						"<li>Must build from first-principles.</li>",
 						"<li>Must involve depth and inquiry.</li>",
-						"</ul>"
-					]
-				},
-				{
-					"by": "learner",
-					"subject": "Project Options",
-					"description": [
-						"<ul>",
-						"<li>Option A1: Designer / Creator (Product/system/environment/service).</li>",
-						"<li>Option A2: Exhibitor / Manufacturer (Exhibitor - design, manufacture, sell products at showcase).</li>",
-						"<li>Option B: Designer / Operator (Operator - create, organise, implement events/activities at showcase)</li>",
-						"<li>Showcase management and organisation, e.g:",
-						"<ul>",
-						"<li>Catering.</li>",
-						"<li>Entertainment.</li>",
-						"<li>HR.</li>",
-						"<li>Administration.</li>",
-						"<li>PR/Marketing.</li>",
-						"<li>Documentary (film/capture projects development).</li>",
-						"</ul>",
-						"</li>",
 						"</ul>"
 					]
 				},
@@ -126,7 +99,7 @@
 					"subject": "Documentation Requirements",
 					"description": [
 						"<ul>",
-						"<li>Completion process diary.</li>",
+						"<li>Completion process diary (tasks within selfdriven).</li>",
 						"<li>Optional: 3 minutes of multimedia support.</li>",
 						"</ul>"
 					]
@@ -134,38 +107,18 @@
 			],
 			"resources": [
 				{
-					"subject": "Cascading Diagram",
-					"image-url": "/site/2136/pbl-4Cs-Cascade.jpg",
+					"subject": "Building On Cardano",
+					"url": "https://buildingoncardano.dev/#infrastructure",
+					"description": "buildingoncardano.dev/#infrastructure",
 					"for": [
 						"learner",
 						"learning-partner"
 					]
 				},
 				{
-					"subject": "Project Path",
-					"image-url": "/site/2136/pbl-project-path.png",
-					"for": [
-						"learner",
-						"learning-partner"
-					]
-				},
-				{
-					"subject": "Identification of Project Needs",
-					"description": [
-						"<p>The first step in the project life cycle involves determining the needs of the project.</p>",
-						"<p>What is the problem that we are trying to resolve? Why are we starting this project?</p>",
-						"<p>The need could be identified as a result of a problem or an opportunity to improve.</p>",
-						"<p>The overall goal of the project will always be to improve or take advantage of a particular situation.</p>"
-					],
-					"image-url": "/site/2136/pbl-maslows-hierachy-of-needs.png",
-					"for": [
-						"learner",
-						"learning-partner"
-					]
-				},
-				{
-					"subject": "Learning Dispositions Wheel",
-					"image-url": "/site/2136/pbl-dispositions-wheel.png",
+					"subject": "Setting up a Stake Pool",
+					"url": "https://developers.cardano.org/docs/operate-a-stake-pool/",
+					"description": "developers.cardano.org/docs/operate-a-stake-pool/",
 					"for": [
 						"learner",
 						"learning-partner"
@@ -175,16 +128,16 @@
 			"milestones": [
 				{
 					"reference": "1",
-					"subject": "Noticing",
-					"description": "What needs/problems/opportunities am I interested in exploring or addressing for my major project?",
+					"subject": "Understanding Cardano and Staking",
+					"description": "What is a stake pool",
 					"duration-days": {
 						"minimum": 1,
 						"maximum": 2
 					},
 					"tasks": [
 						{
-							"subject": "Document Interest Areas",
-							"description": "Document four interest areas and why they are of interest to you.",
+							"subject": "Research Cardano Basics",
+							"description": "Learn about Cardano blockchain and staking concepts.",
 							"by": "team",
 							"type": "listening"
 						}
@@ -192,179 +145,84 @@
 				},
 				{
 					"reference": "2",
-					"subject": "Asking Why? Really Why?",
-					"description": "Why, who, what, how?",
+					"subject": "Technical Requirements and Setup",
+					"description": "Setting up nodes and understanding requirements.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 14,
+						"maximum": 15
 					},
 					"tasks": [
 						{
-							"subject": "Document Driving Question",
+							"subject": "Setup Relay Node",
+							"description": "Configure and set up a relay node.",
 							"by": "team",
-							"type": "interpret"
-						}
-					],
-					"support-items": [
-						{
-							"subject": "What is the problem, need or opportunity?"
-						},
-						{
-							"subject": "Who are the students involved in exploring/addressing this problem, need or opportunity?"
-						},
-						{
-							"subject": "Why is this problem, need or opportunity significant to you?"
-						},
-						{
-							"subject": "Who will benefit from this project?"
-						},
-						{
-							"subject": "How will you achieve your purpose/ intended outcome of the project?"
-						}
-					],
-					"resources": [
-						{
-							"subject": "What is a driving question?",
-							"description": "A driving question (DQ) is a PBL must-have! It is an open-ended inquiry that guides students' thinking and learning. This is what students should be working to answer or explore during PBL. Every project differs, so there is no perfect formula for creating a DQ. The DQ should provide clarity around the project's purpose, audience, and product.",
-							"image-url": "/site/2136/pbl-driving-questions-should.png"
-						},
-						{
-							"subject": "Driving questions should",
-							"description": "Connect with learning goals"
-						},
-						{
-							"subject": "Why do we need a driving question?",
-							"description": "A thought-provoking DQ is the catalyst for any PBL experience. This open-ended question should relate to a real-world problem or phenomena that students find interesting and important. Students will sustain inquiry as they strive to uncover topics and generate solutions. A well-written DQ will inspire students to seek information, solve problems, and pursue passions. Put students' new understandings to work with a compelling DQ."
-						},
-						{
-							"subject": "How do I create a powerful driving question?",
-							"description": "To help you construct a meaningful DQ, you can use the formula to get you started. The formula prompts you to include key elements of PBL. It is perfectly okay if your DQ is structured differently than the one below. What matters most is that you have brainstormed and identified the topic, purpose, audience, and product.",
-							"image-url": "/site/2136/pbl-driving-question-formula.png"
+							"type": "implement"
 						}
 					]
 				},
 				{
 					"reference": "3",
-					"subject": "Playing with Possibilities",
-					"description": "Delve deeper into your project and the possibilities that you could explore!",
+					"subject": "Security Considerations",
+					"description": "Learn best practices for securing a stake pool.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 2,
+						"maximum": 3
 					},
 					"tasks": [
 						{
-							"subject": "Document Possibilities for enquiry",
+							"subject": "Key Management",
+							"description": "Understand key management and secure key storage.",
 							"by": "team",
 							"type": "interpret"
-						}
-					],
-					"support-items": [
-						{
-							"subject": "Play with possibilities to start mapping out and planning your project!"
-						},
-						{
-							"subject": "Key word is 'Playing' rather than 'developing' or 'building' or 'designing'."
-						},
-						{
-							"subject": "'Possibility' and 'Play' are critical to creativity, as new ideas can be generated."
-						},
-						{
-							"subject": "Q: What is 'playing with possibilities'?",
-							"description": "A: It is actively experimenting with a range of different styles, techniques, forms and innovations. It is experimenting for the sake and joy of experimenting. Playing with possibilities leads to a final outcome, but it does not answer it. It is a moment of freedom in which you let go of assumption or anxiety about what it is you're trying to create, and instead, simply work on being creative."
-						},
-						{
-							"subject": "Q: What is the iterative process model?",
-							"description": "A: The iterative process works by using cycles of feedback and improvements to create quality products and improve operational processes."
-						}
-					],
-					"resources": [
-						{
-							"subject": "Saxon's Huskee Cup Example",
-							"image-url": "/site/2136/pbl-saxons-huskee-cup.png"
 						}
 					]
 				},
 				{
 					"reference": "4",
-					"subject": "Establish Success Criteria",
-					"description": "Now that you have created a Driving Question and have explored it by Playing with Possibilities you now need to determine what success in your project will look like.",
+					"subject": "Stake Pool Registration and Configuration",
+					"description": "Registering and configuring the stake pool.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 7,
+						"maximum": 8
 					},
 					"tasks": [
 						{
-							"subject": "Create a series of statements that you can evaluate your project against later.",
+							"subject": "Register Stake Pool",
+							"description": "Register the stake pool on the Cardano network.",
 							"by": "team",
-							"type": "interpret"
-						}
-					],
-					"support-items": [
-						{
-							"subject": "These statements need to be framed around <em>Must Should Could</em> statements for example;",
-							"description": [
-								"<p>If your driving question is “How can I develop a paper plane glider” the success criteria could look like this:</p>",
-								"<p>1/ In order for my project to be successful it must be a paper plane that glides for 30 seconds,</p>",
-								"<p>2/ In order for my project to be successful the glider should follow a spiral flight path,</p>",
-								"<p>3/ In order for my project to be successful the glider could be painted to match my favourite plane.</p>"
-							]
-						},
-						{
-							"subject": "There should be at least 3 statements from each of <em>Must Should Could</em> criteria."
-						}
-					],
-					"resources": [
-						{
-							"subject": "Success Criteria Template",
-							"image-url": "/site/2136/pbl-establish-success-criteria.png"
+							"type": "implement"
 						}
 					]
 				},
 				{
 					"reference": "5",
-					"subject": "Selecting & Evaluating Responses",
-					"description": "Project Design: Overview & Planning.",
+					"subject": "Monitoring and Maintenance",
+					"description": "Ongoing monitoring and updates.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 7,
+						"maximum": 14
 					},
 					"tasks": [
 						{
-							"subject": "Document Project Design / Overview & Planning",
+							"subject": "Performance Monitoring",
+							"description": "Use tools to monitor stake pool performance.",
 							"by": "team",
 							"type": "implement"
-						}
-					],
-					"support-items": [
-						{
-							"subject": "Project Summary (include student role, issue, problem or challenge, action taken, and purpose/beneficiary)."
-						},
-						{
-							"subject": "What is the driving question?"
-						},
-						{
-							"subject": "What is the outcome you are intending to achieve by the end of the project? - Products - Process - System."
-						}
-					],
-					"resources": [
-						{
-							"subject": "Project Design / Overview & Planning Template",
-							"description": "Create a copy of this template and then link it you project.",
-							"url": "https://docs.google.com/document/d/1HSpM_hP-ACiYXwTpvmY2Qqs4SEqZno38aPtiw20Ci6o"
 						}
 					]
 				},
 				{
 					"reference": "6",
-					"subject": "Build / Execute",
-					"description": "This the part where you get to build your design!",
+					"subject": "Community Engagement and Marketing",
+					"description": "Engaging with the community and marketing the pool.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 7,
+						"maximum": 14
 					},
 					"tasks": [
 						{
-							"subject": "Create project build task",
+							"subject": "Social Media Presence",
+							"description": "Create and maintain social media channels for the stake pool.",
 							"by": "team",
 							"type": "implement"
 						}
@@ -372,17 +230,18 @@
 				},
 				{
 					"reference": "7",
-					"subject": "Present & Review",
-					"description": "Present your outcome at the showcase.",
+					"subject": "Compliance and Regulation",
+					"description": "Understanding legal and regulatory requirements.",
 					"duration-days": {
-						"minimum": 1,
-						"maximum": 2
+						"minimum": 3,
+						"maximum": 5
 					},
 					"tasks": [
 						{
-							"subject": "Plan for the showcase.",
+							"subject": "Legal Research",
+							"description": "Research legal considerations for running a stake pool.",
 							"by": "team",
-							"type": "implement"
+							"type": "listening"
 						}
 					]
 				}
@@ -433,13 +292,13 @@
 					}
 				],
 				"learner-proposed": "true",
-				"based-on-uri": "https://www.selfdriven.foundation/explorer",
+				"based-on-uri": "https://slfdrvn.information/explorer",
 				"gained": [
 					{
 						"scope": {
 							"name": "Baby Octo; Curosity",
 							"contexts": [
-								"Baby Octo"
+								"Level 0 (Baby Octo)"
 							]
 						},
 						"uri": "00010000070700",
@@ -584,6 +443,30 @@
 								},
 								{
 									"description": "General awareness of resources that exist but requires teacher encouragement to generate agency access to them.",
+									"methods": [
+										"observation"
+									]
+								}
+							]
+						}
+					},
+					{
+						"scope": {
+							"name": "Cycling Octo",
+							"contexts": [
+								"Capacity C (Cycling Octo)"
+							]
+						},
+						"uri": "00480004490001",
+						"name": "Blockchain Stake Pool Operator [0-C]",
+						"sdi": "5f9e0505-78de-4981-8b4f-34e248539dd0",
+						"level": "00",
+						"capacity": "00",
+						"validation": {
+							"notes": "Does the stake pool operate?",
+							"evidence": [
+								{
+									"description": "Can delegate to the pool.",
 									"methods": [
 										"observation"
 									]

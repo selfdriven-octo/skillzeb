@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-commonlands-agent",
+			"type": "verification",
+			"name": "verification-commonlands-agent",
 			"title": "Commonlands Agent",
 			"url": "https://commonlands.org",
 			"urlCaption": "commonlands.org",

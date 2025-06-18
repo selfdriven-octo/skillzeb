@@ -1,6 +1,7 @@
 {
 	"template": {
 		"definition": {
+			"type": "verification",
 			"name": "commonlands-quiz",
 			"title": "Commonlands Quiz",
 			"url": "https://commonlands.org",
@@ -38,6 +39,7 @@
 				"minimum": 0,
 				"maximum": 0
 			},
+			"controller": "do:ordered",
 			"outcomes": [
 				{
 					"by": "learner",
@@ -856,9 +858,7 @@
 						}
 					}
 				]
-			},
-			"type": "learning",
-			"controller": "do:ordered"
+			}
 		}
 	}
 }

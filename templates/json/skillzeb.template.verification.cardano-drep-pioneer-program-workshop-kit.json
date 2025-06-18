@@ -1,8 +1,8 @@
 ﻿{
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "cardano-drep-pioneer-program-workshop-kit",
+			"type": "verification",
+			"name": "verification-cardano-drep-pioneer-program-workshop-kit",
 			"url": "http://sancho.network/drep-pioneer-program/drep-pp/lesson-plan/",
 			"urlcaption": "sancho.network Lesson Plan (Source)",
 			"controller": "do:ordered",

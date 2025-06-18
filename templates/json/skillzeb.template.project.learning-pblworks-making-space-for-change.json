@@ -2,8 +2,8 @@
 	"template": {
 		"definition": {
 			"type": "project",
-			"name": "project-pblworks-making-space-change",
-			"title": "PBLworks; Making Space for Change",
+			"name": "project-learning-pblworks-making-space-change",
+			"title": "Learning Project Making Space for Change (PBLWorks)",
 			"url": "https://my.pblworks.org/project/making-space-change",
 			"urlCaption": "Making Space for Change",
 			"version": {

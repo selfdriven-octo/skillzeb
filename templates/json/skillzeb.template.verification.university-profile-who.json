@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "university-profile-who",
+			"type": "verification",
+			"name": "verification-university-profile-who",
 			"urlCaption": "....",
 			"version": {
 				"number": "0.0.1",

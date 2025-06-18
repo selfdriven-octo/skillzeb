@@ -2,8 +2,8 @@
 	"template": {
 		"definition": {
 			"type": "project",
-			"name": "project-starter",
-			"title": "Project Starter",
+			"name": "project-lerning-starter",
+			"title": "Learning Project Starter",
 			"url": "",
 			"urlCaption": "",
 			"version": {

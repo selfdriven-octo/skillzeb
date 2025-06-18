@@ -1,0 +1,505 @@
+{
+	"skillzeb": {
+		"url": "https://skillzeb.io",
+		"originator": {
+			"name": "selfdriven Foundation",
+			"sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+		},
+		"licence": "CC0 1.0 Universal; Public Domain Dedication",
+		"version": "1.0.3",
+		"types": [
+			"community",
+			"resource",
+			"project",
+			"verification",
+			"nextstep"
+		],
+		"schemas": {
+			"domains": {
+				"url": "https://github.com/selfdriven-foundation/skillzeb/blob/main/skillzeb.domains-1.0.1.json"
+			}
+		},
+		"mappings": {
+			"sdi": [
+				"szi",
+				"did:selfdriven"
+			],
+			"szt": [
+				"szt",
+				"did:skillzeb"
+			]
+		},
+		"templates": {
+			"set": [
+				{
+					"type": "resource",
+					"name": "resource-cardano-ecc-registers",
+					"title": "Cardano Constitutional Committee - Eastern Council Registers",
+					"version": {
+						"number": "1.0.0",
+						"name": "jun-2024",
+						"notes": "Initial set up"
+					},
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "",
+						"notes": "",
+						"url": ""
+					},
+					"sharing": {
+						"type": "Creative Commons CC0",
+						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+						"notes": "Created by Cardano EEC.",
+						"url": "https://creativecommons.org/publicdomain/zero/1.0"
+					},
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"usage": "Registers and resources supporting the Eastern Council Governance Framework",
+					"summary": "Registers and resources supporting the Eastern Council Governance Framework",
+					"id": "98cfa30b-1219-4c9d-d314-08e29d7ce55a",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-ecc-registers.json"
+				},
+				{
+					"type": "community",
+					"name": "community-cardano-ecc",
+					"title": "Cardano Constitutional Committee - Eastern Council",
+					"version": {
+						"number": "1.0.0",
+						"name": "jun-2024",
+						"notes": "Initial set up"
+					},
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "",
+						"notes": "",
+						"url": ""
+					},
+					"sharing": {
+						"type": "Creative Commons CC0",
+						"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+						"notes": "Created by Cardano ECC.",
+						"url": "https://creativecommons.org/publicdomain/zero/1.0"
+					},
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"usage": "A part of the Eastern Council Governance Framework",
+					"summary": "Cardano Constitutional Committee, Eastern Cardano Governance Framework",
+					"id": "0a3e7796-114a-4bfb-f4f4-802753770294",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.community.cardano-ecc.json"
+				},
+				{
+					"type": "resource",
+					"name": "resource-dsociety-learn-ssi",
+					"title": "dSociety Learn SSI Resources",
+					"urlcaption": "dsociety.io/learn-ssi",
+					"summary": "Resources (links etc) for Self-Sovereign Identity.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.dsociety-learn-ssi.json",
+					"domains": [
+						"Civics-Citizenship",
+						"Governance",
+						"Information Sciences",
+						"Information Technology",
+						"Infrastructure",
+						"Society & Culture"
+					],
+					"id": "1ddc01f4-ba28-4efe-8c0c-95f6826b35cc",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation"
+					}
+				},
+				{
+					"type": "verification",
+					"name": "verification-starter",
+					"title": "Verification Starter",
+					"summary": "A starter for building your own learning template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.verification.starter.json",
+					"domains": [
+						"*"
+					],
+					"szt": "a8594a70-7998-4bb7-a549-a1f6fd16fc3f",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"type": "nextstep",
+					"name": "nextstep-starter",
+					"title": "Next Steps Starter",
+					"summary": "A starter for building your own next steps template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.nextstep.starter.json",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Governance",
+						"Next Steps"
+					],
+					"szt": "0c7e9f9f-2e7a-4594-ac6d-023d5a6801df",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"type": "project",
+					"name": "project-learning-starter",
+					"title": "Learning Project Starter",
+					"summary": "A starter for building your own project template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.starter.json",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Governance",
+						"Project Based Learning"
+					],
+					"szt": "4192e23a-e009-492e-aeca-d191862b7b08",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "community-starter",
+					"title": "Community Starter",
+					"summary": "A community template starter.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.community.starter.json",
+					"type": "community",
+					"domains": [
+						"Governance",
+						"Economics",
+						"Environment"
+					],
+					"szt": "4192e23a-e009-492e-aeca-d191862b7b08",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "project-learning-starter-science",
+					"title": "Science Learning Project Starter",
+					"summary": "A starter for building your own science project template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.starter-science.json",
+					"type": "project",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Science",
+						"Project Based Learning"
+					],
+					"szt": "'a6b0c1c4-a928-4a54-99dc-c09600007445",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "project-learning-cardano-build-setting-up-a-stake-pool",
+					"title": "Setting Up a Cardano Stake Pool",
+					"summary": "At the end of this learning project, a learner will be able to set up a Cardano stake pool.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.cardano-build-setting-up-a-stake-pool.json",
+					"type": "project",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Information Sciences",
+						"Project Based Learning",
+						"Information Technology",
+						"Computer Sciences",
+						"Infrastructure"
+					],
+					"szt": "b18235de-6bec-4205-9614-70dab9d6adb8",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "resource-cardano-aiken",
+					"title": "Cardano Aiken Coding Resources",
+					"summary": "Resources Aiken coding or building an Aiken coding template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-aiken.json",
+					"type": "resource",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Information Sciences",
+						"Project Based Learning",
+						"Information Technology",
+						"Computer Sciences",
+						"Building",
+						"Languages"
+					],
+					"szt": "841eaadc-3973-456d-b7ba-f82d55cdce4f",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "project-learning-industrial-arts",
+					"title": "Major Learning Project for Industrial Arts",
+					"summary": "Identify and investigate a specific need. Then create a system / product / environment / service as a solution to that identified need.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.industrial-arts.json",
+					"type": "project",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Project Based Learning",
+						"Information Technology",
+						"Building",
+						"Design",
+						"Engineering",
+						"Construction"
+					],
+					"szt": "bb709235-5eff-4f94-9302-1e76b933bdaf",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "project-learning-pblworks-making-space-change",
+					"title": "Learning Project Making Space for Change (PBLWorks)",
+					"summary": "Students are charged with the task of creating an environmentally sustainable redesign for a community space, such as a park, library, public square, empty lot, or community center. Students visit the space; research the local context, needs, resources, and constraints; and investigate principles of environmentally sustainable design. They engage in critique and revision processes that involve local community members and then present their solutions to key stakeholders",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.pblworks-making-space-for-change.json",
+					"type": "project",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Project Based Learning",
+						"Environment",
+						"Architecture",
+						"Design"
+					],
+					"szt": "73bf826b-679e-45f6-93e0-0e1f541ce513",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons BY-SA-NC",
+							"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License"
+						},
+						"name": "PBLworks",
+						"notes": "Thank you to John Derian for curriculum development on this project.",
+						"url": "https://my.pblworks.org/project/making-space-change"
+					}
+				},
+				{
+					"name": "project-pblworks-ultimate-design-challenge",
+					"title": "PBLworks Ultimate Design Challenge",
+					"summary": "Product packaging often uses materials and processes that negatively affect the Earth. In your role as design engineers, use the engineering-design process and geometric modeling to redesign a product's packaging to render it more sustainable. Explore volume, surface area, and dimensions of complex shapes to develop prototypes that meet the product's packaging design constraints while limiting the packaging material used and/or waste generated.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.pblworks-ultimate-design-challenge.json",
+					"type": "project",
+					"domains": [
+						"Who Am I",
+						"Education",
+						"Project Based Learning",
+						"Design",
+						"Game Play"
+					],
+					"szt": "b61adb8d-a8fb-4b1e-9cf4-b522934102aa",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons BY-SA-NC",
+							"description": "Creative Commons Attribution-NonCommercial- ShareAlike 4.0 International License"
+						},
+						"name": "PBLworks",
+						"notes": "Thank you to Telannia Norfar for curriculum development on this project.",
+						"url": "https://my.pblworks.org/project/ultimate-design-challenge"
+					}
+				},
+				{
+					"name": "verification-mav100-reseller",
+					"title": "MAV100 Reseller",
+					"summary": "Theoretical, technical, and social dimensions of becoming a MAV100 reseller.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.verification.mav100.reseller.json",
+					"type": "verification",
+					"domains": [
+						"Who Am I",
+						"Authentic Learning",
+						"Education",
+						"Project Based Learning",
+						"Business",
+						"Communications",
+						"Economics-Business",
+						"Community Services",
+						"Retail"
+					],
+					"szt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "In collaboration with MAV100.org.",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "resource-coding",
+					"title": "Coding Project Resources",
+					"summary": "Resources for building your own coding project template.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.coding.json",
+					"type": "resource",
+					"domains": [
+						"Who Am I",
+						"Project Based Learning",
+						"Computer Sciences",
+						"Computing Technologies",
+						"Information Sciences",
+						"Information Technology"
+					],
+					"szt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "selfdriven Foundation",
+						"notes": "",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				},
+				{
+					"name": "verification-cardano-drep-pioneer-program-workshop-kit",
+					"title": "Cardano DRep Pioneer Program Workshop Kit",
+					"summary": "Cardano DRep Pioneer Program Workshop Kit based on the IntersectMBO Lesson Program.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.verification.cardano-drep-pioneer-program-workshop-kit.json",
+					"type": "verification",
+					"domains": [
+						"Governance",
+						"Economics",
+						"Environment",
+						"Civics-Citizenship",
+						"Community Services",
+						"Education",
+						"Information Technology",
+						"Social Context",
+						"Technologies"
+					],
+					"szt": "0aba8587-d338-4cac-b1c4-1d0fad066ec6",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "IntersectMBO",
+						"notes": "",
+						"url": "http://sancho.network/drep-pioneer-program/drep-pp/lesson-plan"
+					}
+				},
+				{
+					"name": "resourse-cardano-build-research-kit",
+					"title": "Cardano Build Research Resource Kit",
+					"summary": "Links to Cardano research that can be used as the basis for learning / project templates etc",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-build-research-kit.json",
+					"type": "resource",
+					"domains": [
+						"Science",
+						"Information Technology",
+						"Social Context",
+						"Technologies"
+					],
+					"szt": "55e6a5c8-e80e-4c13-8582-8145a41964fe",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "Cardano.Build",
+						"notes": "",
+						"url": "https://cardano.build/#research"
+					}
+				},
+				{
+					"name": "verification-commonlands-quiz",
+					"title": "Commonlands Quiz",
+					"summary": "Commonlands' empowers communities everywhere to create secure, tamperproof digital identities and community-verified land certificates which will be used to secure credit.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.verification.commonlands-quiz.json",
+					"type": "verification",
+					"domains": [
+						"Business",
+						"Communications",
+						"Economics-Business",
+						"Community Services",
+						"Property"
+					],
+					"szt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "Commonlands.org",
+						"notes": "In collaboration with selfdriven Foundation",
+						"url": "https://selfdriven.foundation/templates"
+					}
+				}
+			]
+		}
+	}
+}

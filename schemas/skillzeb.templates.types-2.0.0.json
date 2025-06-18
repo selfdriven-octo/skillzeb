@@ -1,0 +1,35 @@
+{
+    "skillzeb": {
+        "url": "https://slfdrvn.io",
+        "originator": {
+            "name": "selfdriven Foundation",
+            "sdi": "9efb26dc-d247-4ad7-a8c0-b3f4782338f7"
+        },
+        "licence": "CC0 1.0 Universal; Public Domain Dedication",
+        "version": "1.0.0",
+        "templates": {
+            "types": [
+                {
+                    "name": "Community",
+                    "code": "community"
+                },
+                {
+                    "name": "Resource",
+                    "code": "resource"
+                },
+				{
+                    "name": "Project (Learning)",
+                    "code": "project"
+                },
+                {
+                    "name": "Verification",
+                    "code": "verification"
+                },
+                {
+                    "name": "Next Step",
+                    "code": "nextstep"
+                }
+            ]
+        }
+    }
+}

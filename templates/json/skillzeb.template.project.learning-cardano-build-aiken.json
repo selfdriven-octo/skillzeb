@@ -1,8 +1,8 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-cardano-build-aiken",
+			"type": "project",
+			"name": "project-learning-cardano-build-aiken",
 			"title": "Introduction to Aiken",
 			"reference": "cardano-build-001",
 			"url": "https://cardano.build/#aiken",

@@ -1,10 +1,10 @@
 {
 	"template": {
 		"definition": {
-			"type": "learning",
-			"name": "learning-kit-starter",
+			"type": "project",
+			"name": "project-learning-kit-starter",
 			"url": "",
-			"urlCaption": "Learning Kit Starter",
+			"urlCaption": "Learning Project Kit Starter",
 			"version": {
 				"number": "0.0.1",
 				"date": "01 JAN 1970",
