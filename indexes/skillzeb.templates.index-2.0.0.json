@@ -179,7 +179,7 @@
 					"name": "project-learning-starter",
 					"title": "Learning Project Starter",
 					"summary": "A starter for building your own project template.",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.starter.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.learning-starter.json",
 					"domains": [
 						"Who Am I",
 						"Education",
@@ -223,7 +223,7 @@
 					"name": "project-learning-starter-science",
 					"title": "Science Learning Project Starter",
 					"summary": "A starter for building your own science project template.",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.starter-science.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.learning-starter-science.json",
 					"type": "project",
 					"domains": [
 						"Who Am I",
@@ -246,7 +246,7 @@
 					"name": "project-learning-cardano-build-setting-up-a-stake-pool",
 					"title": "Setting Up a Cardano Stake Pool",
 					"summary": "At the end of this learning project, a learner will be able to set up a Cardano stake pool.",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.cardano-build-setting-up-a-stake-pool.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.learning-cardano-build-setting-up-a-stake-pool.json",
 					"type": "project",
 					"domains": [
 						"Who Am I",
@@ -326,7 +326,7 @@
 					"name": "project-learning-pblworks-making-space-change",
 					"title": "Learning Project Making Space for Change (PBLWorks)",
 					"summary": "Students are charged with the task of creating an environmentally sustainable redesign for a community space, such as a park, library, public square, empty lot, or community center. Students visit the space; research the local context, needs, resources, and constraints; and investigate principles of environmentally sustainable design. They engage in critique and revision processes that involve local community members and then present their solutions to key stakeholders",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project-learning.pblworks-making-space-for-change.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.project.learning-pblworks-making-space-for-change.json",
 					"type": "project",
 					"domains": [
 						"Who Am I",
