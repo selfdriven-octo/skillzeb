@@ -499,29 +499,30 @@
 						"url": "https://selfdriven.foundation/templates"
 					}
 				},
-                {
-                    "name": "resource-compose-rooftop-pool",
-                    "title": "Compose Rooftop Pool Resource",
-                    "type": "resource",
-                    "summary": "Resources for composing a scene - from storytelling to reality-composing.  Blurring the boundary between simulation and existance.",
-                     "domains": [
-                        "Being Human",
-                        "Who Am I",
-                        "Languages",
-                        "Environment",
-                        "Creative & Performing Arts"
-                    ],
-                    "szt": "",
-                    "source": {
-                            "sharing": {
-                                "type": "Creative Commons CC0",
-                                "description": "Creative Commons CC0 Universal (Public Domain Dedication)."
-                            },
-                            "name": "@IamEmily2050",
-                            "notes": "",
-                            "url": "https://x.com/@IamEmily2050"
-                        }
-                }
+				{
+					"name": "resource-compose-rooftop-pool",
+					"title": "Compose Rooftop Pool Resource",
+					"type": "resource",
+					"summary": "Resources for composing a scene - from storytelling to reality-composing.  Blurring the boundary between simulation and existance.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.compose.rooftop-pool.json",
+					"domains": [
+						"Being Human",
+						"Who Am I",
+						"Languages",
+						"Environment",
+						"Creative & Performing Arts"
+					],
+					"szt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "@IamEmily2050",
+						"notes": "",
+						"url": "https://x.com/@IamEmily2050"
+					}
+				}
 			]
 		}
 	}
