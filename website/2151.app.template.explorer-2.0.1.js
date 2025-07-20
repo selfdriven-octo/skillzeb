@@ -801,7 +801,7 @@ entityos._util.controller.add(
 								'<div class="card-body">',
 									'<h3 class="fw-bold mb-0">', space.caption, ' (Composed)</h3>',
 									'<div class="text-secondary">', space.name, '</div>',
-                                    (space.url==undefined?'':'<a href="' + space.url + '" target="_blank">View <i class="class="fe fe-external-link"></i>"'),
+                                    (space.url==undefined?'':'<a href="' + space.url + '" target="_blank">View <i class="fe fe-external-link"></i>'),
 								'</div>',
 							'</div>'
 						]);
