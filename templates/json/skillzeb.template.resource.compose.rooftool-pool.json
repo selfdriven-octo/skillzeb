@@ -2,7 +2,6 @@
     "template": {
         "definition": {
             "type": "resource",
-            "subtype": "compose",
             "name": "resource-compose-rooftop-pool",
             "title": "Compose Rooftop Pool Resource",
             "summary": "Resources for composing a scene - from storytelling to reality-composing.  Blurring the boundary between simulation and existance.",
