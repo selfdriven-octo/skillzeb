@@ -1,0 +1,135 @@
+{
+    "template": {
+        "definition": {
+            "type": "resource",
+            "subtype": "compose",
+            "name": "resource-compose-rooftop-pool",
+            "title": "Compose Rooftop Pool Resource",
+            "summary": "Resources for composing a scene - from storytelling to reality-composing.  Blurring the boundary between simulation and existance.",
+            "urlCaption": "....",
+            "version": {
+                "number": "0.0.1",
+                "date": "01 JUL 2025",
+                "notes": "Initial set up"
+            },
+            "domains": [
+                "Being Human",
+                "Who Am I",
+                "Languages",
+                "Environment",
+                "Creative & Performing Arts"
+            ],
+            "usage": "Pre-Singularity: Helps us compose narritives, interfaces.  Post-Singularity: Compose environments, perceptions, identities. Composing reality.",
+            "description": "",
+            "orginator": {
+                "name": "selfdriven Octo",
+                "sdi": ""
+            },
+            "resources": [
+                {
+                    "subject": "Veo3",
+                    "description": "",
+                    "for": [
+                        "learner",
+                        "learning-partner",
+                        "members",
+                        "facilitators",
+                        "managers"
+                    ],
+                    "url": "https://gemini.google/overview/video-generation"
+                }
+            ],
+            "spaces": [
+                {
+                    "name": "rooftop-pool",
+                    "type": "composed",
+                    "action": "observe",
+                    "caption": "",
+                    "definition": {
+                        "standard": "veo3",
+                        "meta": {
+                            "clip_id": "rooftop_pool_take02",
+                            "duration_sec": 8,
+                            "aspect_ratio": "16:9",
+                            "resolution": "1280x720",
+                            "fps": 24
+                        },
+                        "shot": {
+                            "composition": "Medium-wide locked-off 35 mm spherical",
+                            "camera_motion": "static (no dolly)",
+                            "frame_rate": "24 fps",
+                            "film_grain": "subtle Kodak 500T grain, 15 % opacity"
+                        },
+                        "subject": {
+                            "description": "Young woman, mid-20s, wavy dark-brown hair floating in turquoise water, almond hazel eyes, lightly tanned skin",
+                            "wardrobe": "glossy black neoprene crop-top with neon-green piping, matching high-waist shorts",
+                            "mic_position": "waterproof lav-mic clipped above waterline"
+                        },
+                        "scene": {
+                            "location": "rooftop infinity pool at night, edge-lit by continuous hot-pink (#FF007F) and neon-green (#39FF14) LED strips",
+                            "environment": "still water (#00E5FF) with rolling caustics, light surface mist, three slow-drifting RGB orbs"
+                        },
+                        "visual_details": {
+                            "action": "For the full 8 seconds she faces camera, upper torso above water, singing confidently with natural head bob and gentle hip sway; no other gestures."
+                        },
+                        "cinematography": {
+                            "lighting": "neon rim-light only (pink 560 nm & green 520 nm), no strobes, no fill",
+                            "tone": "playful, high-energy"
+                        },
+                        "audio": {
+                            "ambient": "soft water lapping, distant city reverb",
+                            "voice": {
+                                "tone": "confident, teasing",
+                                "style": "130 BPM trap-pop rap, dry vocal + 250 ms aquatic reverb"
+                            },
+                            "lyrics": "Female rapper sings: Step up with that stage glow? Honey, please. You’re a neon joke, bringin’ me to my knees— from laughter!"
+                        },
+                        "color_palette": [
+                            "#00E5FF",
+                            "#39FF14",
+                            "#FF007F",
+                            "#000000"
+                        ],
+                        "visual_rules": {
+                            "prohibited_elements": [
+                                "subtitles",
+                                "captions",
+                                "text overlays",
+                                "lower thirds",
+                                "watermarks"
+                            ]
+                        },
+                        "negative_prompt": [
+                            "silent lip-sync",
+                            "robotic or jerky movement",
+                            "limb distortion",
+                            "body glitches",
+                            "anamorphic gate text"
+                        ]
+                    }
+                }
+            ],
+            "source": {
+                "sharing": {
+                    "type": "Creative Commons CC0",
+                    "description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+                },
+                "name": "selfdriven Foundation",
+                "notes": "",
+                "url": "https://selfdriven.fyi/templates"
+            },
+            "sharing": {
+                "type": "Creative Commons CC0",
+                "description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+                "notes": "Created by the selfdriven Foundation.",
+                "resources": [
+                    {
+                        "type": "image-thumbnail",
+                        "url": "",
+                        "imageURL": ""
+                    }
+                ]
+            }
+        }
+    }
+}
