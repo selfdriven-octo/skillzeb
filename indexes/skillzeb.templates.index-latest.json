@@ -500,11 +500,11 @@
 					}
 				},
 				{
-					"name": "resource-compose-rooftop-pool",
-					"title": "Compose Rooftop Pool Resource",
+					"name": "resource-composed-rooftop-pool",
+					"title": "Composed Rooftop Pool Resource",
 					"type": "resource",
 					"summary": "Resources for composing a scene - from storytelling to reality-composing.  Blurring the boundary between simulation and existance.",
-					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.compose.rooftop-pool.json",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.composed.rooftop-pool.json",
 					"domains": [
 						"Being Human",
 						"Who Am I",
