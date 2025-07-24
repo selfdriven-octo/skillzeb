@@ -1,0 +1,100 @@
+﻿{
+	"template": {
+		"definition": {
+			"type": "resource",
+			"name": "resource-transformer-starter",
+			"title": "Transformers Starter",
+			"summary": "eg for use with GenAI to transform design inputs (community worksheet) to processes based on 5W1H.",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 JUL 2025",
+				"notes": "Initial set up"
+			},
+			"domains": [
+				"Being Human",
+				"Who Am I"
+			],
+			"usage": "For use with GenAI to transform design inputs (community worksheet) to processes based on 5W1H",
+			"when": [
+				"pre-singularity",
+				"post-singularity"
+			],
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Octo",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "selfdriven On-Boarding",
+					"description": "selfdriven Progressive Self-Actuation Framework",
+					"for": [
+						"learner",
+						"learning-partner",
+						"members",
+						"facilitators",
+						"managers"
+					],
+					"url": "https://docs.selfdriven.foundation/on-boarding/"
+				}
+			],
+			"transformers": [
+				{
+					"when": "pre-singularity",
+					"usage": "For use with GenAI to transform design inputs (community worksheet) to processes based on 5W1H",
+					"inputs":
+					[
+						"community-worksheet"
+					],
+					"instructions":
+					[
+						"Seek out and create flow diagrams of the key sustainable processes and activities for the BioHub — in this case, the BioChar business — highlighting the key stages and the inputs/outputs of each stage."
+					],
+					"focus":
+					{
+						"be-curious-about": [
+							"Emerging practices in community-led biochar initiatives",
+							"Unusual input/output relationships in microhub systems"
+						],
+						"care-about": [
+							"Accurate mapping of process stages",
+							"Clear articulation of value flows (input/output)",
+							"Alignment with sustainability principles"
+						]
+					},
+					"outputs": 
+					[
+						"Flow diagram",
+						"Key stages and the inputs/outputs of each stage. "
+					]
+				},
+				{
+					"when": "post-singularity",
+					"usage": "For use with GenAI to transform design inputs (community worksheet) to compose environments, perceptions, identities -- reality."
+				}
+			],
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "",
+				"notes": "",
+				"url": ""
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by @IamEmily2050.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			}
+		}
+	}
+}
