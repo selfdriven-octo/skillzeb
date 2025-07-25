@@ -1,0 +1,89 @@
+﻿{
+	"template": {
+		"definition": {
+			"type": "resource",
+			"name": "resource-validator-starter",
+			"title": "Validator Starter",
+			"summary": "Cardano Network. Helios Language.",
+			"urlCaption": "....",
+			"version": {
+				"number": "0.0.1",
+				"date": "01 JUL 2025",
+				"notes": "Initial set up"
+			},
+			"domains": [
+				"Information Technology",
+				"Society & Culture"
+			],
+			"usage": "For use with Cardano via the Helios compiler (transformer)",
+			"description": "",
+			"orginator": {
+				"name": "selfdriven Octo",
+				"sdi": ""
+			},
+			"resources": [
+				{
+					"subject": "Helios",
+					"description": "Cardano Helios",
+					"for": [
+						"facilitators",
+						"managers"
+					],
+					"url": "https://helios-lang.io"
+				},
+				{
+					"subject": "selfdriven Network",
+					"description": "On-Chain Interface",
+					"for": [
+						"facilitators",
+						"managers"
+					],
+					"url": "https://selfdriven.network"
+				}
+			],
+			"validators": [
+				{
+					"name": "always-true",
+					"network": "cardano",
+					"language": {"name": "helios", "version": "2"},
+					"code": [
+						"spending always_true",
+						"func main(_, _) -> Bool {true}"
+					]
+				},
+				{
+					"name": "datum_equal_redeemer",
+					"network": "cardano",
+					"language": {"name": "helios", "version": "2"},
+					"code": [
+						"spending datum_equal_redeemer",
+						"func main(datum: Data, redeemer: Data) -> Bool {",
+						"    datum == redeemer",
+						"}"
+					]
+				}
+			],
+			"source": {
+				"sharing": {
+					"type": "Creative Commons CC0",
+					"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+				},
+				"name": "",
+				"notes": "",
+				"url": ""
+			},
+			"sharing": {
+				"type": "Creative Commons CC0",
+				"description": "Creative Commons CC0 Universal (Public Domain Dedication).",
+				"notes": "Created by @IamEmily2050.",
+				"resources": [
+					{
+						"type": "image-thumbnail",
+						"url": "",
+						"imageURL": ""
+					}
+				]
+			}
+		}
+	}
+}
