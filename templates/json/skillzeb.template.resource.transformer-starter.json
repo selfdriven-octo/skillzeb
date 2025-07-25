@@ -4,7 +4,7 @@
 			"type": "resource",
 			"name": "resource-transformer-starter",
 			"title": "Transformers Starter",
-			"summary": "eg for use with GenAI to transform design inputs (community worksheet) to processes based on 5W1H.",
+			"summary": "For use with GenAI to transform design inputs (community worksheet) to processes based on 5W1H.",
 			"urlCaption": "....",
 			"version": {
 				"number": "0.0.1",
@@ -51,18 +51,15 @@
 					[
 						"Seek out and create flow diagrams of the key sustainable processes and activities for the BioHub — in this case, the BioChar business — highlighting the key stages and the inputs/outputs of each stage."
 					],
-					"focus":
-					{
-						"be-curious-about": [
-							"Emerging practices in community-led biochar initiatives",
-							"Unusual input/output relationships in microhub systems"
-						],
-						"care-about": [
-							"Accurate mapping of process stages",
-							"Clear articulation of value flows (input/output)",
-							"Alignment with sustainability principles"
-						]
-					},
+					"be-curious-about": [
+						"Emerging practices in community-led biochar initiatives",
+						"Unusual input/output relationships in microhub systems"
+					],
+					"care-about": [
+						"Accurate mapping of process stages",
+						"Clear articulation of value flows (input/output)",
+						"Alignment with sustainability principles"
+					],
 					"outputs": 
 					[
 						"Flow diagram",
