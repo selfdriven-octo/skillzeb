@@ -544,6 +544,27 @@
 						"notes": "",
 						"url": ""
 					}
+				},
+                {
+					"name": "resource-transformer-starter",
+					"title": "Validator Starter",
+					"type": "resource",
+					"summary": "Cardano Network. Helios Language.",
+					"url": "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.validator-starter.json",
+					"domains": [
+						"Information Technology",
+				        "Society & Culture"
+					],
+					"szt": "",
+					"source": {
+						"sharing": {
+							"type": "Creative Commons CC0",
+							"description": "Creative Commons CC0 Universal (Public Domain Dedication)."
+						},
+						"name": "",
+						"notes": "",
+						"url": ""
+					}
 				}
 			]
 		}
