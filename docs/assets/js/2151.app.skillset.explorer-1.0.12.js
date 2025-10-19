@@ -24,7 +24,7 @@ entityos._util.controller.add(
     {
        var uriContext = window.location.pathname;
 
-       if (uriContext != '/skillset-explorer')
+       if (uriContext == '/skillset-explorer')
        {
             var uriContextData = _.replace(uriContext, '/skillset-explorer/', '');
 
@@ -59,7 +59,7 @@ entityos._util.controller.add(
         $.ajax(
         {
             type: 'GET',
-            url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.domains-1.0.1.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.domains-1.0.1.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
@@ -105,8 +105,8 @@ entityos._util.controller.add(
 									'Wabi-Sabi (&#20328;&#23475)',
                                 '</div>',
                                 '<div class="pt-1 pb-0">',
-                                    '<a href="/site/2098/selfdriven-skills-uniquely-human-dark.png" target="_blank">',
-                                        '<img src="/site/2098/selfdriven-skills-uniquely-human-dark.png"',
+                                    '<a href="/assets/img/selfdriven-skills-uniquely-human-dark.png" target="_blank">',
+                                        '<img src="/assets/img/selfdriven-skills-uniquely-human-dark.png"',
                                         ' class="border rounded img-responsive w-100 mx-auto"></a>',
                                 '</div>',
                                 '<div class="pt-1 pb-2">',
@@ -154,7 +154,7 @@ entityos._util.controller.add(
         $.ajax(
         {
             type: 'GET',
-            url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.sources-1.0.1.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.sources-1.0.1.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
@@ -188,7 +188,7 @@ entityos._util.controller.add(
         $.ajax(
         {
             type: 'GET',
-            url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.levels-1.0.0.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.levels-1.0.0.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
@@ -234,7 +234,7 @@ entityos._util.controller.add(
         $.ajax(
         {
             type: 'GET',
-            url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.capacities-1.0.0.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.capacities-1.0.0.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
@@ -292,7 +292,7 @@ entityos._util.controller.add(
             $.ajax(
             {
                 type: 'GET',
-                url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.skills.set-1.0.0.json',
+                url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.skills.set-1.0.0.json',
 				cors: false,
 				cache: false,
                 dataType: 'json',
