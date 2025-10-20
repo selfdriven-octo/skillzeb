@@ -1,0 +1,114 @@
+<script>
+/**
+ * Convert a Skillzeb JSON template into a SKILL.md file (browser version)
+ * Usage: just paste into console or include in a <script> tag.
+ */
+
+async function convertSkillzebToSkillMd(
+  url = "https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/main/templates/json/skillzeb.template.resource.cardano-aiken.json"
+) {
+  // Fetch JSON
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Failed to fetch: ${res.status}`);
+  const json = await res.json();
+  const def = json?.template?.definition;
+  if (!def) throw new Error("Invalid Skillzeb template format");
+
+  // Simple helpers
+  const esc = (s) => String(s ?? "").replace(/\r?\n+/g, " ").trim();
+  const coalesce = (...args) =>
+    args.find((v) => v != null && String(v).trim() !== "") || "";
+  const yamlEscape = (s) => {
+    const str = String(s ?? "");
+    return /[:\-\?\[\]\{\}\n\r#,&*!|>'"%@`]/.test(str)
+      ? JSON.stringify(str)
+      : str;
+  };
+  const isoDate = new Date().toISOString().slice(0, 10);
+
+  // Extract fields
+  const title = coalesce(def.title, def.name, "Skill");
+  const summary = coalesce(def.summary, def.usage, def.description);
+  const versionNum = def.version?.number || "";
+  const versionDate = def.version?.date || "";
+  const sourceUrl = def.source?.url || "";
+  const license =
+    def.source?.sharing?.type ||
+    def.sharing?.type ||
+    def.source?.license ||
+    "";
+  const domains = Array.isArray(def.domains) ? def.domains : [];
+  const resources = Array.isArray(def.resources) ? def.resources : [];
+  const sharing = def.sharing || {};
+
+  // YAML front matter
+  let front =
+    `---\n` +
+    `name: ${yamlEscape(title)}\n` +
+    `description: ${yamlEscape(esc(summary))}\n` +
+    (versionNum || versionDate
+      ? `version: ${yamlEscape(
+          versionNum + (versionDate ? " (" + versionDate + ")" : "")
+        )}\n`
+      : "") +
+    (sourceUrl ? `source: ${yamlEscape(sourceUrl)}\n` : "") +
+    (license ? `license: ${yamlEscape(license)}\n` : "") +
+    `---\n\n`;
+
+  // Markdown body
+  let md = `# ${title}\n\n`;
+  if (summary) md += `**TL;DR:** ${esc(summary)}\n\n`;
+
+  if (def.usage) md += `## Usage\n\n${def.usage}\n\n`;
+  if (def.description) md += `## Description\n\n${def.description}\n\n`;
+
+  if (domains.length) {
+    md += `## Domains\n\n${domains.map((d) => "- " + esc(d)).join("\n")}\n\n`;
+  }
+
+  if (resources.length) {
+    md += `## Resources\n\n| Subject | For | URL |\n|---|---|---|\n`;
+    resources.forEach((r) => {
+      const subj = esc(r.subject);
+      const forList = Array.isArray(r.for) ? r.for.join(", ") : esc(r.for);
+      const url = esc(r.url);
+      md += `| ${subj} | ${forList} | ${url} |\n`;
+    });
+    md += `\n`;
+  }
+
+  const shareType = sharing.type || "";
+  const shareDesc = sharing.description || "";
+  if (shareType || shareDesc || (sharing.resources?.length ?? 0) > 0) {
+    md += `## Sharing & Attribution\n\n`;
+    if (shareType) md += `- **Type:** ${esc(shareType)}\n`;
+    if (shareDesc) md += `- **Description:** ${esc(shareDesc)}\n`;
+    if (sharing.resources?.length) {
+      md += `- **Assets:**\n`;
+      sharing.resources.forEach((x) => {
+        const t = esc(x.type || "resource");
+        const u = esc(x.url || x.imageURL || "");
+        if (u) md += `  - ${t}: ${u}\n`;
+      });
+    }
+    md += `\n`;
+  }
+
+  md += `---\nUpdated: ${isoDate}\n`;
+
+  const finalText = front + md;
+
+  // Download as SKILL.md
+  const blob = new Blob([finalText], { type: "text/markdown" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "SKILL.md";
+  a.click();
+
+  console.log("✅ SKILL.md generated and downloaded.");
+  console.log(finalText);
+}
+
+// Run it
+convertSkillzebToSkillMd();
+</script>
