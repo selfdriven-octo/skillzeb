@@ -16,3 +16,6 @@
 ### Research
 - [anthropic.com/news/skills](https://www.anthropic.com/news/skills)
 
+### Resources
+- [SKILL.md Security Scanner by CISCO](https://github.com/cisco-ai-defense/skill-scanner)
+

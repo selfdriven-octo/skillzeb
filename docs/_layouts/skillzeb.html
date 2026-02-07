@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    
+    <!-- Google Fonts: Inter is a great match for Skillzeb's modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-blue: #0066cc;
+            --text-main: #2d3748;
+            --text-muted: #718096;
+            --bg-light: #f7fafc;
+            --white: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text-main);
+            background-color: var(--white);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header & Navigation */
+        header {
+            border-bottom: 1px solid var(--border-color);
+            background-color: var(--white);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover { color: var(--primary-blue); }
+
+        /* Main Content Area */
+        main {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            width: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-light);
+            border-top: 1px solid var(--border-color);
+            padding: 4rem 2rem 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-col h4 {
+            color: var(--text-main);
+            margin-bottom: 1.2rem;
+            font-size: 1rem;
+        }
+
+        .footer-col ul { list-style: none; }
+        .footer-col ul li { margin-bottom: 0.5rem; }
+        .footer-col a { color: inherit; text-decoration: none; }
+        .footer-col a:hover { color: var(--primary-blue); text-decoration: underline; }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .cc-badge {
+            display: inline-block;
+            margin-top: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links { display: none; } /* Add a hamburger menu here if needed */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                skillzeb
+            </a>
+            <ul class="nav-links">
+                <li><a href="/explorer">Explorer</a></li>
+                <li><a href="/templates">Templates</a></li>
+                <li><a href="/integrate">Integrate</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="/explorer">Skill Explorer</a></li>
+                    <li><a href="/templates">Template Explorer</a></li>
+                    <li><a href="/api">API Reference</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Community</h4>
+                <ul>
+                    <li><a href="https://discord.com/invite/skillzeb" target="_blank">Discord</a></li>
+                    <li><a href="https://github.com/skillzeb" target="_blank">GitHub</a></li>
+                    <li><a href="https://selfdriven.io" target="_blank">selfdriven.io</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="/litepaper">Litepaper</a></li>
+                    <li><a href="/foundation">Foundation</a></li>
+                    <li><a href="/blog">Latest Updates</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {{ "now" | date: "%Y" }} Skillzeb. Powered by <strong>Cardano</strong> & <strong>selfdriven</strong>.</p>
+            <div class="cc-badge">Creative Commons CC0 Public Domain</div>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem;">A universal skills set for everyone and everything.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
