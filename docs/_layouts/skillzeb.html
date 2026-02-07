@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/assets/img/skillzeb-icon.png" type="image/png" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     
     <!-- Google Fonts: Inter is a great match for Skillzeb's modern look -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="/assets/css/landkit.libs.bundle.css" />
+	<link rel="stylesheet" href="/assets/css/landkit.theme.bundle.css" />
+	<link rel="stylesheet" href="/assets/css/2032.style-1.0.0.css" />
+
     <style>
         :root {
             --primary-blue: #0066cc;
@@ -136,7 +140,7 @@
     <header>
         <nav class="nav-container">
             <a href="{{ '/' | relative_url }}" class="logo">
-                skillzeb
+                <img src="/assets/img/skillzeb-logo.png" class="img-responsive display-1">
             </a>
             <ul class="nav-links">
                 <li><a href="/explorer">Explorer</a></li>
