@@ -298,7 +298,7 @@ Authenticated: `GET /accounts`, `/accounts/:id`, `/accounts/:id/balance`, `/acco
 
 ### Mock Data
 
-BSB 802-985 | Everyday 4471 8823 $12,847.63 | Bills 4471 8831 $3,240 | Savings 4471 8847 $45,620.18 (5.25%) | Offset 4471 8855 $28,500 | Loan $487,240 (6.19%) | Visa 4823****7741 | MC 5412****3309 ($15k) | AID: EKE4g_0hDGBOqDLKzNBT3kFOPxoP7wXkqt | PayID: octo@selfdriven.foundation
+BSB 802-985 | Everyday 4471 8823 $12,847.63 | Bills 4471 8831 $3,240 | Savings 4471 8847 $45,620.18 (5.25%) | Offset 4471 8855 $28,500 | Loan $487,240 (6.19%) | Visa 4823****7741 | MC 5412****3309 ($15k) | AID: EKE4g_0hDGBOqDLKzNBT3kFOPxoP7wXkqt | PayID: mark@selfdriven.foundation
 
 ### Payments
 
