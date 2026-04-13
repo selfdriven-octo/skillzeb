@@ -179,7 +179,7 @@ entityos._util.controller.add(
             {
                 var templatesDomainsView = app.vq.init({queue: 'templates-domains-view'});
 
-                var domains = data.selfdriven.skills.domains;
+                var domains = data.skillzeb.skills.domains;
                 domains = _.sortBy(domains, 'name');
 
                 app.set({scope: 'explorer-templates', context: 'templates-domains', value: domains});
