@@ -215,7 +215,7 @@ entityos._util.controller.add(
                                 '<div>Uniquely Human Skills</div>',
                                 '<div class="pt-1 pb-0">',
                                     '<a href="/assets/img/selfdriven-skills-uniquely-human-dark.png" target="_blank">',
-                                        '<img src="/site/2098/selfdriven-skills-uniquely-human-dark.png"',
+                                        '<img src="/assets/img/selfdriven-skills-uniquely-human-dark.png"',
                                         ' class="border rounded img-responsive w-100 mx-auto"></a>',
                                 '</div>',
                                 '<div class="pt-1 pb-2">',
