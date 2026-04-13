@@ -2181,7 +2181,7 @@ entityos._util.controller.add(
     code: function (param)
     {
 		const name = _.get(param, 'dataContext.name');
-		const shareLink = 'https://skillzeb.io/template-explorer/' + name;
+		const shareLink = 'https://skillzeb.io/template-explorer/#' + name;
 
 		navigator.clipboard.writeText(shareLink)
         .then(() => {
