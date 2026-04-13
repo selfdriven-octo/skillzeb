@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>skillzeb — redirecting…</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #0f1117;
+      --surface: #1a1d27;
+      --border:  rgba(255,255,255,0.07);
+      --accent:  #6c63ff;
+      --accent2: #a78bfa;
+      --text:    #e2e8f0;
+      --muted:   #64748b;
+      --mono:    'JetBrains Mono', 'Fira Code', monospace;
+      --sans:    'Inter', system-ui, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* ── spinner ── */
+    .spinner {
+      width: 48px; height: 48px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+      margin: 0 auto 2rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── card ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem 3rem;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    .card h1 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .card p {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .context-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(108,99,255,0.12);
+      border: 1px solid rgba(108,99,255,0.3);
+      border-radius: 8px;
+      padding: 0.45rem 0.9rem;
+      font-family: var(--mono);
+      font-size: 0.82rem;
+      color: var(--accent2);
+      margin-bottom: 1.75rem;
+      word-break: break-all;
+    }
+
+    .context-pill svg {
+      flex-shrink: 0;
+      width: 14px; height: 14px;
+      stroke: var(--accent2);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ── progress bar ── */
+    .progress-track {
+      background: var(--border);
+      border-radius: 4px;
+      height: 4px;
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+    }
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 4px;
+      transition: width 0.05s linear;
+    }
+
+    .status-text {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-family: var(--mono);
+    }
+
+    /* ── fallback (shown if no context matched) ── */
+    .fallback {
+      display: none;
+    }
+    .fallback h1 { color: var(--text); margin-bottom: 0.5rem; }
+    .fallback p  { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.5rem; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 0.6rem 1.25rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: opacity 0.15s;
+    }
+    .btn:hover { opacity: 0.85; }
+
+    .btn svg {
+      width: 15px; height: 15px;
+      stroke: #fff; fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .home-link {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .home-link a { color: var(--muted); text-decoration: underline; }
+    .home-link a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+
+  <!-- ── redirect card (default state) ── -->
+  <div class="card" id="redirect-card">
+    <div class="spinner" id="spinner"></div>
+    <h1>Loading template explorer…</h1>
+    <p>Routing you to the right context.</p>
+
+    <div class="context-pill" id="context-pill">
+      <!-- tag icon -->
+      <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+      <span id="context-label">detecting…</span>
+    </div>
+
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="status-text" id="status-text">parsing path…</div>
+  </div>
+
+  <!-- ── fallback card (shown if path doesn't match) ── -->
+  <div class="card fallback" id="fallback-card">
+    <h1>Page not found</h1>
+    <p>The path <code id="fallback-path" style="font-family:var(--mono);color:var(--accent2);font-size:0.82rem;"></code> doesn't match any known route.</p>
+    <a href="/template-explorer/" class="btn">
+      <!-- arrow-right icon -->
+      <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      Open Template Explorer
+    </a>
+  </div>
+
+  <p class="home-link"><a href="/">← skillzeb.io home</a></p>
+
+  <script>
+    (function () {
+
+      // ── CONFIG ──────────────────────────────────────────────────────────────
+      // The base route to intercept. Trailing slash optional.
+      var EXPLORER_BASE = '/template-explorer';
+
+      // Redirect delay in ms (gives the progress bar time to animate)
+      var REDIRECT_DELAY = 1400;
+      // ────────────────────────────────────────────────────────────────────────
+
+      var path      = window.location.pathname;        // e.g. /template-explorer/resource-cardano-ecc-registers
+      var label     = document.getElementById('context-label');
+      var status    = document.getElementById('status-text');
+      var fill      = document.getElementById('progress-fill');
+
+      // Normalise: strip trailing slash, lowercase
+      var normPath = path.replace(/\/+$/, '').toLowerCase();
+      var normBase = EXPLORER_BASE.replace(/\/+$/, '').toLowerCase();
+
+      // Check if this path starts with the explorer base
+      var isExplorerPath = normPath === normBase || normPath.indexOf(normBase + '/') === 0;
+
+      if (!isExplorerPath) {
+        // ── Not an explorer path — show fallback ──
+        document.getElementById('redirect-card').style.display = 'none';
+        document.getElementById('fallback-card').style.display = 'block';
+        document.getElementById('fallback-path').textContent = path;
+        return;
+      }
+
+      // ── Extract context slug ──────────────────────────────────────────────
+      // Everything after /template-explorer/
+      var contextSlug = normPath.slice(normBase.length).replace(/^\/+/, '') || '';
+
+      label.textContent = contextSlug || '(root)';
+      status.textContent = 'context detected';
+
+      // ── Animate progress ──────────────────────────────────────────────────
+      var startTime = null;
+      function animateProgress(ts) {
+        if (!startTime) startTime = ts;
+        var pct = Math.min(((ts - startTime) / REDIRECT_DELAY) * 100, 100);
+        fill.style.width = pct + '%';
+        if (pct < 100) {
+          requestAnimationFrame(animateProgress);
+        }
+      }
+      requestAnimationFrame(animateProgress);
+
+      // ── Build destination URL ─────────────────────────────────────────────
+      // Always redirects to /template-explorer/ — with ?context=<slug>
+      // If slug is empty, just go to the explorer root.
+      setTimeout(function () {
+        var dest;
+        if (contextSlug) {
+          dest = EXPLORER_BASE + '/?context=' + encodeURIComponent(contextSlug);
+        } else {
+          dest = EXPLORER_BASE + '/';
+        }
+
+        status.textContent = 'redirecting…';
+
+        // Preserve any hash from original URL
+        if (window.location.hash) {
+          dest += window.location.hash;
+        }
+
+        window.location.replace(dest);
+      }, REDIRECT_DELAY);
+
+    })();
+  </script>
+
+</body>
+</html>
