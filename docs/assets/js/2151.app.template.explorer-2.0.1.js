@@ -170,7 +170,7 @@ entityos._util.controller.add(
 		$.ajax(
         {
             type: 'GET',
-            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/selfdriven-skills-domains.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/selfdriven-skills-domains-1.0.1.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
