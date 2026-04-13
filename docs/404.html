@@ -249,7 +249,7 @@
       setTimeout(function () {
         var dest;
         if (contextSlug) {
-          dest = EXPLORER_BASE + '/?context=' + encodeURIComponent(contextSlug);
+          dest = EXPLORER_BASE + '/#' + encodeURIComponent(contextSlug);
         } else {
           dest = EXPLORER_BASE + '/';
         }
@@ -258,7 +258,7 @@
 
         // Preserve any hash from original URL
         if (window.location.hash) {
-          dest += window.location.hash;
+          dest += window.location.hash.replace('#', '/');
         }
 
         window.location.replace(dest);

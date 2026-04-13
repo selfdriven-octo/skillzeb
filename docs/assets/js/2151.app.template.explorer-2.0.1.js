@@ -120,7 +120,7 @@ entityos._util.controller.add(
 		$.ajax(
         {
             type: 'GET',
-            url: '/site/1401d861-0e78-4f33-b507-16e0aff64d32/data/skillzeb.levels-1.0.0.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/skillzeb.levels-1.0.0.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
@@ -170,7 +170,7 @@ entityos._util.controller.add(
 		$.ajax(
         {
             type: 'GET',
-            url: '/site/2098/selfdriven-skills-domains.json',
+            url: 'https://raw.githubusercontent.com/selfdriven-foundation/skillzeb/refs/heads/main/schemas/selfdriven-skills-domains.json',
 			cors: false,
 			cache: false,
             dataType: 'json',
